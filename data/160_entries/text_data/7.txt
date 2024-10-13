@@ -1,0 +1,1706 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Upcoming Events and Tickets for Pittsburgh Symphony Orchestra</title>
+    <author>Pittsburgh Symphony Orchestra</author>
+    <description>Official Pittsburgh Symphony Orchestra Pittsburgh site to buy tickets. Pittsburgh Symphony Orchestra seating chart and directions</description>
+    <link>https://www.pittsburghsymphony.org/</link>
+    <language>en</language>
+    <item>
+      <title>Speakers Series: Liz Cheney</title>
+      <presenter>Pittsburgh Symphony Orchestra</presenter>
+      <genre/>
+      <image>
+        <url>https://culturaldistrict-prod.s3.amazonaws.com/0pcw68mdukl3xqz8lzwcet1kacjm</url>
+        <title>Speakers Series: Liz Cheney</title>
+        <link>https://www.pittsburghsymphony.org/production/94254/speakers-series-liz-cheney</link>
+      </image>
+      <link>https://www.pittsburghsymphony.org/production/94254/speakers-series-liz-cheney</link>
+      <pubDate>2024-03-19 13:18:28 -0400</pubDate>
+      <date>Wed, Oct 16, 2024</date>
+      <time>8:00PM</time>
+      <datetime>Wed, Oct 16, 2024, 8:00PM</datetime>
+      <venue>Heinz Hall</venue>
+    </item>
+    <item>
+      <title>Ravel’s Piano Concerto</title>
+      <presenter>Pittsburgh Symphony Orchestra</presenter>
+      <genre></genre>
+      <image>
+        <url>https://culturaldistrict-prod.s3.amazonaws.com/snymn5uilge8f6zexo4rtdb5ha5h</url>
+        <title>Ravel’s Piano Concerto</title>
+        <link>https://www.pittsburghsymphony.org/production/92946/ravels-piano-concerto</link>
+      </image>
+      <link>https://www.pittsburghsymphony.org/production/92946/ravels-piano-concerto</link>
+      <pubDate>2024-01-18 15:33:30 -0500</pubDate>
+      <date>Fri, Oct 18, 2024</date>
+      <time>7:30PM</time>
+      <datetime>Fri, Oct 18, 2024, 7:30PM</datetime>
+      <venue>Heinz Hall</venue>
+    </item>
+    <item>
+      <title>PSO360: Tom Borrow, piano</title>
+      <presenter>Pittsburgh Symphony Orchestra</presenter>
+      <genre/>
+      <image>
+        <url>https://culturaldistrict-prod.s3.amazonaws.com/l4w0i060twv0zwm69d1h6wirm0xp</url>
+        <title>PSO360: Tom Borrow, piano</title>
+        <link>https://www.pittsburghsymphony.org/production/93549/pso360-tom-borrow-piano</link>
+      </image>
+      <link>https://www.pittsburghsymphony.org/production/93549/pso360-tom-borrow-piano</link>
+      <pubDate>2024-01-24 09:19:05 -0500</pubDate>
+      <date>Sat, Oct 19, 2024</date>
+      <time>7:30PM</time>
+      <datetime>Sat, Oct 19, 2024, 7:30PM</datetime>
+      <venue>Heinz Hall</venue>
+    </item>
+    <item>
+      <title>Ravel’s Piano Concerto</title>
+      <presenter>Pittsburgh Symphony Orchestra</presenter>
+      <genre></genre>
+      <image>
+        <url>https://culturaldistrict-prod.s3.amazonaws.com/snymn5uilge8f6zexo4rtdb5ha5h</url>
+        <title>Ravel’s Piano Concerto</title>
+        <link>https://www.pittsburghsymphony.org/production/92946/ravels-piano-concerto</link>
+      </image>
+      <link>https://www.pittsburghsymphony.org/production/92946/ravels-piano-concerto</link>
+      <pubDate>2024-01-18 15:33:32 -0500</pubDate>
+      <date>Sun, Oct 20, 2024</date>
+      <time>2:30PM</time>
+      <datetime>Sun, Oct 20, 2024, 2:30PM</datetime>
+      <venue>Heinz Hall</venue>
+    </item>
+    <item>
+      <title>Music of Led Zeppelin</title>
+      <presenter>Pittsburgh Symphony Orchestra</presenter>
+      <genre/>
+      <image>
+        <url>https://culturaldistrict-prod.s3.amazonaws.com/0g23796koi51lzgcnmmsz7sq6pdg</url>
+        <title>Music of Led Zeppelin</title>
+        <link>https://www.pittsburghsymphony.org/production/97243/music-of-led-zeppelin</link>
+      </image>
+      <link>https://www.pittsburghsymphony.org/production/97243/music-of-led-zeppelin</link>
+      <pubDate>2024-07-30 11:14:44 -0400</pubDate>
+      <date>Thu, Oct 24, 2024</date>
+      <time>7:30PM</time>
+      <datetime>Thu, Oct 24, 2024, 7:30PM</datetime>
+      <venue>Heinz Hall</venue>
+    </item>
+    <item>
+      <title>Harry Potter and the Order of the Phoenix™ in Concert</title>
+      <presenter>Pittsburgh Symphony Orchestra</presenter>
+      <genre></genre>
+      <image>
+        <url>https://culturaldistrict-prod.s3.amazonaws.com/7ltggnw007vdznh3yzgy04fnrz8o</url>
+        <title>Harry Potter and the Order of the Phoenix™ in Concert</title>
+        <link>https://www.pittsburghsymphony.org/production/94435/harry-potter-and-the-order-of-the-phoenix-in-concert</link>
+      </image>
+      <link>https://www.pittsburghsymphony.org/production/94435/harry-potter-and-the-order-of-the-phoenix-in-concert</link>
+      <pubDate>2024-02-22 19:09:47 -0500</pubDate>
+      <date>Sat, Oct 26, 2024</date>
+      <time>7:00PM</time>
+      <datetime>Sat, Oct 26, 2024, 7:00PM</datetime>
+      <venue>Heinz Hall</venue>
+    </item>
+    <item>
+      <title>Harry Potter and the Order of the Phoenix™ in Concert</title>
+      <presenter>Pittsburgh Symphony Orchestra</presenter>
+      <genre></genre>
+      <image>
+        <url>https://culturaldistrict-prod.s3.amazonaws.com/7ltggnw007vdznh3yzgy04fnrz8o</url>
+        <title>Harry Potter and the Order of the Phoenix™ in Concert</title>
+        <link>https://www.pittsburghsymphony.org/production/94435/harry-potter-and-the-order-of-the-phoenix-in-concert</link>
+      </image>
+      <link>https://www.pittsburghsymphony.org/production/94435/harry-potter-and-the-order-of-the-phoenix-in-concert</link>
+      <pubDate>2024-02-22 19:09:49 -0500</pubDate>
+      <date>Sun, Oct 27, 2024</date>
+      <time>2:30PM</time>
+      <datetime>Sun, Oct 27, 2024, 2:30PM</datetime>
+      <venue>Heinz Hall</venue>
+    </item>
+    <item>
+      <title>Brahms and Schumann</title>
+      <presenter>Pittsburgh Symphony Orchestra</presenter>
+      <genre/>
+      <image>
+        <url>https://culturaldistrict-prod.s3.amazonaws.com/dntpaf60gwzhhddenzfjcoz5j07m</url>
+        <title>Brahms and Schumann</title>
+        <link>https://www.pittsburghsymphony.org/production/92947/brahms-and-schumann</link>
+      </image>
+      <link>https://www.pittsburghsymphony.org/production/92947/brahms-and-schumann</link>
+      <pubDate>2024-01-18 15:33:51 -0500</pubDate>
+      <date>Fri, Nov 01, 2024</date>
+      <time>7:30PM</time>
+      <datetime>Fri, Nov 01, 2024, 7:30PM</datetime>
+      <venue>Heinz Hall</venue>
+    </item>
+    <item>
+      <title>Brahms and Schumann</title>
+      <presenter>Pittsburgh Symphony Orchestra</presenter>
+      <genre/>
+      <image>
+        <url>https://culturaldistrict-prod.s3.amazonaws.com/dntpaf60gwzhhddenzfjcoz5j07m</url>
+        <title>Brahms and Schumann</title>
+        <link>https://www.pittsburghsymphony.org/production/92947/brahms-and-schumann</link>
+      </image>
+      <link>https://www.pittsburghsymphony.org/production/92947/brahms-and-schumann</link>
+      <pubDate>2024-01-18 15:33:54 -0500</pubDate>
+      <date>Sat, Nov 02, 2024</date>
+      <time>7:30PM</time>
+      <datetime>Sat, Nov 02, 2024, 7:30PM</datetime>
+      <venue>Heinz Hall</venue>
+    </item>
+    <item>
+      <title>Brahms and Schumann</title>
+      <presenter>Pittsburgh Symphony Orchestra</presenter>
+      <genre/>
+      <image>
+        <url>https://culturaldistrict-prod.s3.amazonaws.com/dntpaf60gwzhhddenzfjcoz5j07m</url>
+        <title>Brahms and Schumann</title>
+        <link>https://www.pittsburghsymphony.org/production/92947/brahms-and-schumann</link>
+      </image>
+      <link>https://www.pittsburghsymphony.org/production/92947/brahms-and-schumann</link>
+      <pubDate>2024-01-18 15:33:58 -0500</pubDate>
+      <date>Sun, Nov 03, 2024</date>
+      <time>2:30PM</time>
+      <datetime>Sun, Nov 03, 2024, 2:30PM</datetime>
+      <venue>Heinz Hall</venue>
+    </item>
+    <item>
+      <title>Chicago: The Musical in Concert </title>
+      <presenter>Pittsburgh Symphony Orchestra</presenter>
+      <genre/>
+      <image>
+        <url>https://culturaldistrict-prod.s3.amazonaws.com/mcues1r7b948iilry8sggkfmgty5</url>
+        <title>Chicago: The Musical in Concert </title>
+        <link>https://www.pittsburghsymphony.org/production/93242/chicago-the-musical-in-concert</link>
+      </image>
+      <link>https://www.pittsburghsymphony.org/production/93242/chicago-the-musical-in-concert</link>
+      <pubDate>2024-01-18 14:23:55 -0500</pubDate>
+      <date>Fri, Nov 08, 2024</date>
+      <time>7:30PM</time>
+      <datetime>Fri, Nov 08, 2024, 7:30PM</datetime>
+      <venue>Heinz Hall</venue>
+    </item>
+    <item>
+      <title>Fiddlesticks: Nature’s Soundtrack</title>
+      <presenter>Pittsburgh Symphony Orchestra</presenter>
+      <genre/>
+      <image>
+        <url>https://culturaldistrict-prod.s3.amazonaws.com/y72mfse9m471uxtpdz3abqn1jww6</url>
+        <title>Fiddlesticks: Nature’s Soundtrack</title>
+        <link>https://www.pittsburghsymphony.org/production/94087/fiddlesticks-natures-soundtrack</link>
+      </image>
+      <link>https://www.pittsburghsymphony.org/production/94087/fiddlesticks-natures-soundtrack</link>
+      <pubDate>2024-02-22 19:07:32 -0500</pubDate>
+      <date>Sat, Nov 09, 2024</date>
+      <time>11:15AM</time>
+      <datetime>Sat, Nov 09, 2024, 11:15AM</datetime>
+      <venue>Heinz Hall</venue>
+    </item>
+    <item>
+      <title>Chicago: The Musical in Concert </title>
+      <presenter>Pittsburgh Symphony Orchestra</presenter>
+      <genre/>
+      <image>
+        <url>https://culturaldistrict-prod.s3.amazonaws.com/mcues1r7b948iilry8sggkfmgty5</url>
+        <title>Chicago: The Musical in Concert </title>
+        <link>https://www.pittsburghsymphony.org/production/93242/chicago-the-musical-in-concert</link>
+      </image>
+      <link>https://www.pittsburghsymphony.org/production/93242/chicago-the-musical-in-concert</link>
+      <pubDate>2024-01-18 14:23:57 -0500</pubDate>
+      <date>Sat, Nov 09, 2024</date>
+      <time>7:30PM</time>
+      <datetime>Sat, Nov 09, 2024, 7:30PM</datetime>
+      <venue>Heinz Hall</venue>
+    </item>
+    <item>
+      <title>Chicago: The Musical in Concert </title>
+      <presenter>Pittsburgh Symphony Orchestra</presenter>
+      <genre/>
+      <image>
+        <url>https://culturaldistrict-prod.s3.amazonaws.com/mcues1r7b948iilry8sggkfmgty5</url>
+        <title>Chicago: The Musical in Concert </title>
+        <link>https://www.pittsburghsymphony.org/production/93242/chicago-the-musical-in-concert</link>
+      </image>
+      <link>https://www.pittsburghsymphony.org/production/93242/chicago-the-musical-in-concert</link>
+      <pubDate>2024-01-18 14:23:59 -0500</pubDate>
+      <date>Sun, Nov 10, 2024</date>
+      <time>2:30PM</time>
+      <datetime>Sun, Nov 10, 2024, 2:30PM</datetime>
+      <venue>Heinz Hall</venue>
+    </item>
+    <item>
+      <title>Speakers Series: Annette Gordon-Reed</title>
+      <presenter>Pittsburgh Symphony Orchestra</presenter>
+      <genre/>
+      <image>
+        <url>https://culturaldistrict-prod.s3.amazonaws.com/l7at7nq5wf9rtooqpbnhbrdntom1</url>
+        <title>Speakers Series: Annette Gordon-Reed</title>
+        <link>https://www.pittsburghsymphony.org/production/94255/speakers-series-annette-gordon-reed</link>
+      </image>
+      <link>https://www.pittsburghsymphony.org/production/94255/speakers-series-annette-gordon-reed</link>
+      <pubDate>2024-03-19 13:18:51 -0400</pubDate>
+      <date>Wed, Nov 13, 2024</date>
+      <time>8:00PM</time>
+      <datetime>Wed, Nov 13, 2024, 8:00PM</datetime>
+      <venue>Heinz Hall</venue>
+    </item>
+    <item>
+      <title>Strauss’ Alpine Symphony</title>
+      <presenter>Pittsburgh Symphony Orchestra</presenter>
+      <genre/>
+      <image>
+        <url>https://culturaldistrict-prod.s3.amazonaws.com/jrkw59ogzhlivxhm0bzrc2uajg0n</url>
+        <title>Strauss’ Alpine Symphony</title>
+        <link>https://www.pittsburghsymphony.org/production/92948/strauss-alpine-symphony</link>
+      </image>
+      <link>https://www.pittsburghsymphony.org/production/92948/strauss-alpine-symphony</link>
+      <pubDate>2024-01-18 15:34:09 -0500</pubDate>
+      <date>Fri, Nov 15, 2024</date>
+      <time>7:30PM</time>
+      <datetime>Fri, Nov 15, 2024, 7:30PM</datetime>
+      <venue>Heinz Hall</venue>
+    </item>
+    <item>
+      <title>PSO Disrupt: Walk on the Wild Side</title>
+      <presenter>Pittsburgh Symphony Orchestra</presenter>
+      <genre/>
+      <image>
+        <url>https://culturaldistrict-prod.s3.amazonaws.com/84or7sreyfvtkz5w88nrd95t3q5p</url>
+        <title>PSO Disrupt: Walk on the Wild Side</title>
+        <link>https://www.pittsburghsymphony.org/production/93520/pso-disrupt-walk-on-the-wild-side</link>
+      </image>
+      <link>https://www.pittsburghsymphony.org/production/93520/pso-disrupt-walk-on-the-wild-side</link>
+      <pubDate>2024-02-22 19:08:13 -0500</pubDate>
+      <date>Sat, Nov 16, 2024</date>
+      <time>6:45PM</time>
+      <datetime>Sat, Nov 16, 2024, 6:45PM</datetime>
+      <venue>Heinz Hall</venue>
+    </item>
+    <item>
+      <title>Strauss’ Alpine Symphony</title>
+      <presenter>Pittsburgh Symphony Orchestra</presenter>
+      <genre/>
+      <image>
+        <url>https://culturaldistrict-prod.s3.amazonaws.com/jrkw59ogzhlivxhm0bzrc2uajg0n</url>
+        <title>Strauss’ Alpine Symphony</title>
+        <link>https://www.pittsburghsymphony.org/production/92948/strauss-alpine-symphony</link>
+      </image>
+      <link>https://www.pittsburghsymphony.org/production/92948/strauss-alpine-symphony</link>
+      <pubDate>2024-01-18 15:34:11 -0500</pubDate>
+      <date>Sun, Nov 17, 2024</date>
+      <time>2:30PM</time>
+      <datetime>Sun, Nov 17, 2024, 2:30PM</datetime>
+      <venue>Heinz Hall</venue>
+    </item>
+    <item>
+      <title>Home Alone</title>
+      <presenter>Pittsburgh Symphony Orchestra</presenter>
+      <genre/>
+      <image>
+        <url>https://culturaldistrict-prod.s3.amazonaws.com/iwu9gtryecnc9gx8nswq6m5xu3o0</url>
+        <title>Home Alone</title>
+        <link>https://www.pittsburghsymphony.org/production/94369/home-alone</link>
+      </image>
+      <link>https://www.pittsburghsymphony.org/production/94369/home-alone</link>
+      <pubDate>2024-02-22 19:09:28 -0500</pubDate>
+      <date>Fri, Nov 22, 2024</date>
+      <time>7:00PM</time>
+      <datetime>Fri, Nov 22, 2024, 7:00PM</datetime>
+      <venue>Heinz Hall</venue>
+    </item>
+    <item>
+      <title>Home Alone</title>
+      <presenter>Pittsburgh Symphony Orchestra</presenter>
+      <genre/>
+      <image>
+        <url>https://culturaldistrict-prod.s3.amazonaws.com/iwu9gtryecnc9gx8nswq6m5xu3o0</url>
+        <title>Home Alone</title>
+        <link>https://www.pittsburghsymphony.org/production/94369/home-alone</link>
+      </image>
+      <link>https://www.pittsburghsymphony.org/production/94369/home-alone</link>
+      <pubDate>2024-02-22 19:09:30 -0500</pubDate>
+      <date>Sun, Nov 24, 2024</date>
+      <time>2:30PM</time>
+      <datetime>Sun, Nov 24, 2024, 2:30PM</datetime>
+      <venue>Heinz Hall</venue>
+    </item>
+    <item>
+      <title>Strauss and Puccini</title>
+      <presenter>Pittsburgh Symphony Orchestra</presenter>
+      <genre/>
+      <image>
+        <url>https://culturaldistrict-prod.s3.amazonaws.com/xt8x4olq6m4g53azoqqex5zg2r1n</url>
+        <title>Strauss and Puccini</title>
+        <link>https://www.pittsburghsymphony.org/production/92950/strauss-and-puccini</link>
+      </image>
+      <link>https://www.pittsburghsymphony.org/production/92950/strauss-and-puccini</link>
+      <pubDate>2024-01-18 15:34:19 -0500</pubDate>
+      <date>Fri, Nov 29, 2024</date>
+      <time>7:30PM</time>
+      <datetime>Fri, Nov 29, 2024, 7:30PM</datetime>
+      <venue>Heinz Hall</venue>
+    </item>
+    <item>
+      <title>Strauss and Puccini</title>
+      <presenter>Pittsburgh Symphony Orchestra</presenter>
+      <genre/>
+      <image>
+        <url>https://culturaldistrict-prod.s3.amazonaws.com/xt8x4olq6m4g53azoqqex5zg2r1n</url>
+        <title>Strauss and Puccini</title>
+        <link>https://www.pittsburghsymphony.org/production/92950/strauss-and-puccini</link>
+      </image>
+      <link>https://www.pittsburghsymphony.org/production/92950/strauss-and-puccini</link>
+      <pubDate>2024-01-18 15:34:21 -0500</pubDate>
+      <date>Sun, Dec 01, 2024</date>
+      <time>2:30PM</time>
+      <datetime>Sun, Dec 01, 2024, 2:30PM</datetime>
+      <venue>Heinz Hall</venue>
+    </item>
+    <item>
+      <title>Sparks Fly, Voices Soar: Brahms and Fauré </title>
+      <presenter>Pittsburgh Symphony Orchestra</presenter>
+      <genre/>
+      <image>
+        <url>https://culturaldistrict-prod.s3.amazonaws.com/2ezr8l3kgpmpgoqrfvey5yugbydw</url>
+        <title>Sparks Fly, Voices Soar: Brahms and Fauré </title>
+        <link>https://www.pittsburghsymphony.org/production/92952/sparks-fly-voices-soar-brahms-and-faure</link>
+      </image>
+      <link>https://www.pittsburghsymphony.org/production/92952/sparks-fly-voices-soar-brahms-and-faure</link>
+      <pubDate>2024-01-18 15:34:23 -0500</pubDate>
+      <date>Fri, Dec 06, 2024</date>
+      <time>7:30PM</time>
+      <datetime>Fri, Dec 06, 2024, 7:30PM</datetime>
+      <venue>Heinz Hall</venue>
+    </item>
+    <item>
+      <title>Handel's Messiah</title>
+      <presenter>Pittsburgh Symphony Orchestra</presenter>
+      <genre/>
+      <image>
+        <url>https://culturaldistrict-prod.s3.amazonaws.com/e2i0nbuetvjp5yvwm19dhcumb7xm</url>
+        <title>Handel's Messiah</title>
+        <link>https://www.pittsburghsymphony.org/production/94080/handels-messiah</link>
+      </image>
+      <link>https://www.pittsburghsymphony.org/production/94080/handels-messiah</link>
+      <pubDate>2024-02-22 19:09:11 -0500</pubDate>
+      <date>Sat, Dec 07, 2024</date>
+      <time>7:30PM</time>
+      <datetime>Sat, Dec 07, 2024, 7:30PM</datetime>
+      <venue>Heinz Hall</venue>
+    </item>
+    <item>
+      <title>Sparks Fly, Voices Soar: Brahms and Fauré </title>
+      <presenter>Pittsburgh Symphony Orchestra</presenter>
+      <genre/>
+      <image>
+        <url>https://culturaldistrict-prod.s3.amazonaws.com/2ezr8l3kgpmpgoqrfvey5yugbydw</url>
+        <title>Sparks Fly, Voices Soar: Brahms and Fauré </title>
+        <link>https://www.pittsburghsymphony.org/production/92952/sparks-fly-voices-soar-brahms-and-faure</link>
+      </image>
+      <link>https://www.pittsburghsymphony.org/production/92952/sparks-fly-voices-soar-brahms-and-faure</link>
+      <pubDate>2024-01-18 15:34:25 -0500</pubDate>
+      <date>Sun, Dec 08, 2024</date>
+      <time>2:30PM</time>
+      <datetime>Sun, Dec 08, 2024, 2:30PM</datetime>
+      <venue>Heinz Hall</venue>
+    </item>
+    <item>
+      <title>Elvis Christmas Show</title>
+      <presenter>Pittsburgh Symphony Orchestra</presenter>
+      <genre/>
+      <image>
+        <url>https://culturaldistrict-prod.s3.amazonaws.com/8eki5l4tz9x6ynt9n6dyuqznwepb</url>
+        <title>Elvis Christmas Show</title>
+        <link>https://www.pittsburghsymphony.org/production/97916/elvis-christmas-show</link>
+      </image>
+      <link>https://www.pittsburghsymphony.org/production/97916/elvis-christmas-show</link>
+      <pubDate>2024-09-18 09:48:36 -0400</pubDate>
+      <date>Tue, Dec 10, 2024</date>
+      <time>7:30PM</time>
+      <datetime>Tue, Dec 10, 2024, 7:30PM</datetime>
+      <venue>Heinz Hall</venue>
+    </item>
+    <item>
+      <title>Highmark Holiday Pops</title>
+      <presenter>Pittsburgh Symphony Orchestra</presenter>
+      <genre/>
+      <image>
+        <url>https://culturaldistrict-prod.s3.amazonaws.com/1y2glboyv6skwlbquwwwvwqniih4</url>
+        <title>Highmark Holiday Pops</title>
+        <link>https://www.pittsburghsymphony.org/production/93243/highmark-holiday-pops</link>
+      </image>
+      <link>https://www.pittsburghsymphony.org/production/93243/highmark-holiday-pops</link>
+      <pubDate>2024-01-18 14:26:48 -0500</pubDate>
+      <date>Fri, Dec 13, 2024</date>
+      <time>7:30PM</time>
+      <datetime>Fri, Dec 13, 2024, 7:30PM</datetime>
+      <venue>Heinz Hall</venue>
+    </item>
+    <item>
+      <title>Sensory Friendly Concert: Holiday Pops</title>
+      <presenter>Pittsburgh Symphony Orchestra</presenter>
+      <genre/>
+      <image>
+        <url>https://culturaldistrict-prod.s3.amazonaws.com/u3ns5tt2wa44g73pmcp1shhsf3w9</url>
+        <title>Sensory Friendly Concert: Holiday Pops</title>
+        <link>https://www.pittsburghsymphony.org/production/93274/sensory-friendly-concert-holiday-pops</link>
+      </image>
+      <link>https://www.pittsburghsymphony.org/production/93274/sensory-friendly-concert-holiday-pops</link>
+      <pubDate>2024-02-26 14:35:51 -0500</pubDate>
+      <date>Sat, Dec 14, 2024</date>
+      <time>2:30PM</time>
+      <datetime>Sat, Dec 14, 2024, 2:30PM</datetime>
+      <venue>Heinz Hall</venue>
+    </item>
+    <item>
+      <title>Highmark Holiday Pops</title>
+      <presenter>Pittsburgh Symphony Orchestra</presenter>
+      <genre/>
+      <image>
+        <url>https://culturaldistrict-prod.s3.amazonaws.com/1y2glboyv6skwlbquwwwvwqniih4</url>
+        <title>Highmark Holiday Pops</title>
+        <link>https://www.pittsburghsymphony.org/production/93243/highmark-holiday-pops</link>
+      </image>
+      <link>https://www.pittsburghsymphony.org/production/93243/highmark-holiday-pops</link>
+      <pubDate>2024-01-18 14:26:50 -0500</pubDate>
+      <date>Sat, Dec 14, 2024</date>
+      <time>7:30PM</time>
+      <datetime>Sat, Dec 14, 2024, 7:30PM</datetime>
+      <venue>Heinz Hall</venue>
+    </item>
+    <item>
+      <title>Highmark Holiday Pops</title>
+      <presenter>Pittsburgh Symphony Orchestra</presenter>
+      <genre/>
+      <image>
+        <url>https://culturaldistrict-prod.s3.amazonaws.com/1y2glboyv6skwlbquwwwvwqniih4</url>
+        <title>Highmark Holiday Pops</title>
+        <link>https://www.pittsburghsymphony.org/production/93243/highmark-holiday-pops</link>
+      </image>
+      <link>https://www.pittsburghsymphony.org/production/93243/highmark-holiday-pops</link>
+      <pubDate>2024-01-18 14:26:52 -0500</pubDate>
+      <date>Sun, Dec 15, 2024</date>
+      <time>2:30PM</time>
+      <datetime>Sun, Dec 15, 2024, 2:30PM</datetime>
+      <venue>Heinz Hall</venue>
+    </item>
+    <item>
+      <title>Holiday Brass Spectacular</title>
+      <presenter>Pittsburgh Symphony Orchestra</presenter>
+      <genre/>
+      <image>
+        <url>https://culturaldistrict-prod.s3.amazonaws.com/xy0vaxcsf1lyxswd74ych6f9kezt</url>
+        <title>Holiday Brass Spectacular</title>
+        <link>https://www.pittsburghsymphony.org/production/95164/holiday-brass-spectacular</link>
+      </image>
+      <link>https://www.pittsburghsymphony.org/production/95164/holiday-brass-spectacular</link>
+      <pubDate>2024-03-11 14:21:10 -0400</pubDate>
+      <date>Tue, Dec 17, 2024</date>
+      <time>7:00PM</time>
+      <datetime>Tue, Dec 17, 2024, 7:00PM</datetime>
+      <venue>Heinz Hall</venue>
+    </item>
+    <item>
+      <title>Love Actually</title>
+      <presenter>Pittsburgh Symphony Orchestra</presenter>
+      <genre/>
+      <image>
+        <url>https://culturaldistrict-prod.s3.amazonaws.com/f44z7zqiltv1ktm627b6e06afqb9</url>
+        <title>Love Actually</title>
+        <link>https://www.pittsburghsymphony.org/production/94372/love-actually</link>
+      </image>
+      <link>https://www.pittsburghsymphony.org/production/94372/love-actually</link>
+      <pubDate>2024-02-22 19:09:33 -0500</pubDate>
+      <date>Thu, Dec 19, 2024</date>
+      <time>7:00PM</time>
+      <datetime>Thu, Dec 19, 2024, 7:00PM</datetime>
+      <venue>Heinz Hall</venue>
+    </item>
+    <item>
+      <title>Highmark Holiday Pops</title>
+      <presenter>Pittsburgh Symphony Orchestra</presenter>
+      <genre/>
+      <image>
+        <url>https://culturaldistrict-prod.s3.amazonaws.com/1y2glboyv6skwlbquwwwvwqniih4</url>
+        <title>Highmark Holiday Pops</title>
+        <link>https://www.pittsburghsymphony.org/production/93243/highmark-holiday-pops</link>
+      </image>
+      <link>https://www.pittsburghsymphony.org/production/93243/highmark-holiday-pops</link>
+      <pubDate>2024-02-01 19:01:09 -0500</pubDate>
+      <date>Fri, Dec 20, 2024</date>
+      <time>7:30PM</time>
+      <datetime>Fri, Dec 20, 2024, 7:30PM</datetime>
+      <venue>Heinz Hall</venue>
+    </item>
+    <item>
+      <title>Highmark Holiday Pops</title>
+      <presenter>Pittsburgh Symphony Orchestra</presenter>
+      <genre/>
+      <image>
+        <url>https://culturaldistrict-prod.s3.amazonaws.com/1y2glboyv6skwlbquwwwvwqniih4</url>
+        <title>Highmark Holiday Pops</title>
+        <link>https://www.pittsburghsymphony.org/production/93243/highmark-holiday-pops</link>
+      </image>
+      <link>https://www.pittsburghsymphony.org/production/93243/highmark-holiday-pops</link>
+      <pubDate>2024-02-01 19:01:12 -0500</pubDate>
+      <date>Sat, Dec 21, 2024</date>
+      <time>2:30PM</time>
+      <datetime>Sat, Dec 21, 2024, 2:30PM</datetime>
+      <venue>Heinz Hall</venue>
+    </item>
+    <item>
+      <title>Highmark Holiday Pops</title>
+      <presenter>Pittsburgh Symphony Orchestra</presenter>
+      <genre/>
+      <image>
+        <url>https://culturaldistrict-prod.s3.amazonaws.com/1y2glboyv6skwlbquwwwvwqniih4</url>
+        <title>Highmark Holiday Pops</title>
+        <link>https://www.pittsburghsymphony.org/production/93243/highmark-holiday-pops</link>
+      </image>
+      <link>https://www.pittsburghsymphony.org/production/93243/highmark-holiday-pops</link>
+      <pubDate>2024-02-01 19:01:14 -0500</pubDate>
+      <date>Sat, Dec 21, 2024</date>
+      <time>7:30PM</time>
+      <datetime>Sat, Dec 21, 2024, 7:30PM</datetime>
+      <venue>Heinz Hall</venue>
+    </item>
+    <item>
+      <title>Highmark Holiday Pops</title>
+      <presenter>Pittsburgh Symphony Orchestra</presenter>
+      <genre/>
+      <image>
+        <url>https://culturaldistrict-prod.s3.amazonaws.com/1y2glboyv6skwlbquwwwvwqniih4</url>
+        <title>Highmark Holiday Pops</title>
+        <link>https://www.pittsburghsymphony.org/production/93243/highmark-holiday-pops</link>
+      </image>
+      <link>https://www.pittsburghsymphony.org/production/93243/highmark-holiday-pops</link>
+      <pubDate>2024-02-01 19:01:16 -0500</pubDate>
+      <date>Sun, Dec 22, 2024</date>
+      <time>2:30PM</time>
+      <datetime>Sun, Dec 22, 2024, 2:30PM</datetime>
+      <venue>Heinz Hall</venue>
+    </item>
+    <item>
+      <title>Highmark Holiday Pops</title>
+      <presenter>Pittsburgh Symphony Orchestra</presenter>
+      <genre/>
+      <image>
+        <url>https://culturaldistrict-prod.s3.amazonaws.com/1y2glboyv6skwlbquwwwvwqniih4</url>
+        <title>Highmark Holiday Pops</title>
+        <link>https://www.pittsburghsymphony.org/production/93243/highmark-holiday-pops</link>
+      </image>
+      <link>https://www.pittsburghsymphony.org/production/93243/highmark-holiday-pops</link>
+      <pubDate>2024-02-01 19:01:18 -0500</pubDate>
+      <date>Sun, Dec 22, 2024</date>
+      <time>7:30PM</time>
+      <datetime>Sun, Dec 22, 2024, 7:30PM</datetime>
+      <venue>Heinz Hall</venue>
+    </item>
+    <item>
+      <title>R&amp;B Ladies Nite Out - Bobby Brown</title>
+      <presenter>CECEE / Heinz Hall Presents</presenter>
+      <genre></genre>
+      <image>
+        <url>https://culturaldistrict-prod.s3.amazonaws.com/wygr8ewxtgfj4w4r4r4nlpjn7e59</url>
+        <title>R&amp;B Ladies Nite Out - Bobby Brown</title>
+        <link>https://www.pittsburghsymphony.org/production/97247/r-and-b-ladies-nite-out-bobby-brown</link>
+      </image>
+      <link>https://www.pittsburghsymphony.org/production/97247/r-and-b-ladies-nite-out-bobby-brown</link>
+      <pubDate>2024-08-07 08:28:05 -0400</pubDate>
+      <date>Sat, Dec 28, 2024</date>
+      <time>8:00PM</time>
+      <datetime>Sat, Dec 28, 2024, 8:00PM</datetime>
+      <venue>Heinz Hall</venue>
+    </item>
+    <item>
+      <title>Debussy’s La Mer</title>
+      <presenter>Pittsburgh Symphony Orchestra</presenter>
+      <genre/>
+      <image>
+        <url>https://culturaldistrict-prod.s3.amazonaws.com/547cidw85l77sn1axnhvqavwq41u</url>
+        <title>Debussy’s La Mer</title>
+        <link>https://www.pittsburghsymphony.org/production/92953/debussys-la-mer</link>
+      </image>
+      <link>https://www.pittsburghsymphony.org/production/92953/debussys-la-mer</link>
+      <pubDate>2024-01-18 15:34:28 -0500</pubDate>
+      <date>Fri, Jan 10, 2025</date>
+      <time>7:30PM</time>
+      <datetime>Fri, Jan 10, 2025, 7:30PM</datetime>
+      <venue>Heinz Hall</venue>
+    </item>
+    <item>
+      <title>Debussy’s La Mer</title>
+      <presenter>Pittsburgh Symphony Orchestra</presenter>
+      <genre/>
+      <image>
+        <url>https://culturaldistrict-prod.s3.amazonaws.com/547cidw85l77sn1axnhvqavwq41u</url>
+        <title>Debussy’s La Mer</title>
+        <link>https://www.pittsburghsymphony.org/production/92953/debussys-la-mer</link>
+      </image>
+      <link>https://www.pittsburghsymphony.org/production/92953/debussys-la-mer</link>
+      <pubDate>2024-01-18 15:34:30 -0500</pubDate>
+      <date>Sun, Jan 12, 2025</date>
+      <time>2:30PM</time>
+      <datetime>Sun, Jan 12, 2025, 2:30PM</datetime>
+      <venue>Heinz Hall</venue>
+    </item>
+    <item>
+      <title>Rachmaninoff's Rhapsody</title>
+      <presenter>Pittsburgh Symphony Orchestra</presenter>
+      <genre/>
+      <image>
+        <url>https://culturaldistrict-prod.s3.amazonaws.com/u48j7sb28tdwxn07dun15elvapsd</url>
+        <title>Rachmaninoff's Rhapsody</title>
+        <link>https://www.pittsburghsymphony.org/production/92954/rachmaninoffs-rhapsody</link>
+      </image>
+      <link>https://www.pittsburghsymphony.org/production/92954/rachmaninoffs-rhapsody</link>
+      <pubDate>2024-01-18 15:34:32 -0500</pubDate>
+      <date>Fri, Jan 17, 2025</date>
+      <time>7:30PM</time>
+      <datetime>Fri, Jan 17, 2025, 7:30PM</datetime>
+      <venue>Heinz Hall</venue>
+    </item>
+    <item>
+      <title>Rachmaninoff's Rhapsody</title>
+      <presenter>Pittsburgh Symphony Orchestra</presenter>
+      <genre/>
+      <image>
+        <url>https://culturaldistrict-prod.s3.amazonaws.com/u48j7sb28tdwxn07dun15elvapsd</url>
+        <title>Rachmaninoff's Rhapsody</title>
+        <link>https://www.pittsburghsymphony.org/production/92954/rachmaninoffs-rhapsody</link>
+      </image>
+      <link>https://www.pittsburghsymphony.org/production/92954/rachmaninoffs-rhapsody</link>
+      <pubDate>2024-01-19 15:01:02 -0500</pubDate>
+      <date>Sat, Jan 18, 2025</date>
+      <time>7:30PM</time>
+      <datetime>Sat, Jan 18, 2025, 7:30PM</datetime>
+      <venue>Heinz Hall</venue>
+    </item>
+    <item>
+      <title>Rachmaninoff's Rhapsody</title>
+      <presenter>Pittsburgh Symphony Orchestra</presenter>
+      <genre/>
+      <image>
+        <url>https://culturaldistrict-prod.s3.amazonaws.com/u48j7sb28tdwxn07dun15elvapsd</url>
+        <title>Rachmaninoff's Rhapsody</title>
+        <link>https://www.pittsburghsymphony.org/production/92954/rachmaninoffs-rhapsody</link>
+      </image>
+      <link>https://www.pittsburghsymphony.org/production/92954/rachmaninoffs-rhapsody</link>
+      <pubDate>2024-01-18 15:34:34 -0500</pubDate>
+      <date>Sun, Jan 19, 2025</date>
+      <time>2:30PM</time>
+      <datetime>Sun, Jan 19, 2025, 2:30PM</datetime>
+      <venue>Heinz Hall</venue>
+    </item>
+    <item>
+      <title>One Piece</title>
+      <presenter>Pittsburgh Symphony Orchestra</presenter>
+      <genre/>
+      <image>
+        <url>https://culturaldistrict-prod.s3.amazonaws.com/nz7agp7gpa1uyjyqhtqgjmq8358q</url>
+        <title>One Piece</title>
+        <link>https://www.pittsburghsymphony.org/production/96616/one-piece</link>
+      </image>
+      <link>https://www.pittsburghsymphony.org/production/96616/one-piece</link>
+      <pubDate>2024-05-30 14:07:21 -0400</pubDate>
+      <date>Sat, Jan 25, 2025</date>
+      <time>7:00PM</time>
+      <datetime>Sat, Jan 25, 2025, 7:00PM</datetime>
+      <venue>Heinz Hall</venue>
+    </item>
+    <item>
+      <title>One Piece</title>
+      <presenter>Pittsburgh Symphony Orchestra</presenter>
+      <genre/>
+      <image>
+        <url>https://culturaldistrict-prod.s3.amazonaws.com/nz7agp7gpa1uyjyqhtqgjmq8358q</url>
+        <title>One Piece</title>
+        <link>https://www.pittsburghsymphony.org/production/96616/one-piece</link>
+      </image>
+      <link>https://www.pittsburghsymphony.org/production/96616/one-piece</link>
+      <pubDate>2024-05-30 14:07:23 -0400</pubDate>
+      <date>Sun, Jan 26, 2025</date>
+      <time>2:30PM</time>
+      <datetime>Sun, Jan 26, 2025, 2:30PM</datetime>
+      <venue>Heinz Hall</venue>
+    </item>
+    <item>
+      <title>Speakers Series: Oren Etzioni</title>
+      <presenter>Pittsburgh Symphony Orchestra</presenter>
+      <genre/>
+      <image>
+        <url>https://culturaldistrict-prod.s3.amazonaws.com/97sixuhzxq676qg6srzkn3k4ar20</url>
+        <title>Speakers Series: Oren Etzioni</title>
+        <link>https://www.pittsburghsymphony.org/production/94256/speakers-series-oren-etzioni</link>
+      </image>
+      <link>https://www.pittsburghsymphony.org/production/94256/speakers-series-oren-etzioni</link>
+      <pubDate>2024-03-19 13:18:57 -0400</pubDate>
+      <date>Wed, Jan 29, 2025</date>
+      <time>8:00PM</time>
+      <datetime>Wed, Jan 29, 2025, 8:00PM</datetime>
+      <venue>Heinz Hall</venue>
+    </item>
+    <item>
+      <title>Shostakovich’s Final Symphony</title>
+      <presenter>Pittsburgh Symphony Orchestra</presenter>
+      <genre/>
+      <image>
+        <url>https://culturaldistrict-prod.s3.amazonaws.com/zlrqhg65b5tgx71bajb04m17djg3</url>
+        <title>Shostakovich’s Final Symphony</title>
+        <link>https://www.pittsburghsymphony.org/production/92955/shostakovichs-final-symphony</link>
+      </image>
+      <link>https://www.pittsburghsymphony.org/production/92955/shostakovichs-final-symphony</link>
+      <pubDate>2024-01-18 15:34:35 -0500</pubDate>
+      <date>Fri, Jan 31, 2025</date>
+      <time>7:30PM</time>
+      <datetime>Fri, Jan 31, 2025, 7:30PM</datetime>
+      <venue>Heinz Hall</venue>
+    </item>
+    <item>
+      <title>Shostakovich’s Final Symphony</title>
+      <presenter>Pittsburgh Symphony Orchestra</presenter>
+      <genre/>
+      <image>
+        <url>https://culturaldistrict-prod.s3.amazonaws.com/zlrqhg65b5tgx71bajb04m17djg3</url>
+        <title>Shostakovich’s Final Symphony</title>
+        <link>https://www.pittsburghsymphony.org/production/92955/shostakovichs-final-symphony</link>
+      </image>
+      <link>https://www.pittsburghsymphony.org/production/92955/shostakovichs-final-symphony</link>
+      <pubDate>2024-01-18 15:34:37 -0500</pubDate>
+      <date>Sun, Feb 02, 2025</date>
+      <time>2:30PM</time>
+      <datetime>Sun, Feb 02, 2025, 2:30PM</datetime>
+      <venue>Heinz Hall</venue>
+    </item>
+    <item>
+      <title>Star Wars Episode IV: A New Hope</title>
+      <presenter>Pittsburgh Symphony Orchestra</presenter>
+      <genre/>
+      <image>
+        <url>https://culturaldistrict-prod.s3.amazonaws.com/m15p7lfkbaim8ajqh6up06sy5h0t</url>
+        <title>Star Wars Episode IV: A New Hope</title>
+        <link>https://www.pittsburghsymphony.org/production/94453/star-wars-episode-iv-a-new-hope</link>
+      </image>
+      <link>https://www.pittsburghsymphony.org/production/94453/star-wars-episode-iv-a-new-hope</link>
+      <pubDate>2024-02-22 19:09:52 -0500</pubDate>
+      <date>Fri, Feb 07, 2025</date>
+      <time>7:00PM</time>
+      <datetime>Fri, Feb 07, 2025, 7:00PM</datetime>
+      <venue>Heinz Hall</venue>
+    </item>
+    <item>
+      <title>Fiddlesticks: The Sounds of Invention</title>
+      <presenter>Pittsburgh Symphony Orchestra</presenter>
+      <genre/>
+      <image>
+        <url>https://culturaldistrict-prod.s3.amazonaws.com/f74p02z4ipai3ph7lc3fkbkkvbrd</url>
+        <title>Fiddlesticks: The Sounds of Invention</title>
+        <link>https://www.pittsburghsymphony.org/production/94088/fiddlesticks-the-sounds-of-invention</link>
+      </image>
+      <link>https://www.pittsburghsymphony.org/production/94088/fiddlesticks-the-sounds-of-invention</link>
+      <pubDate>2024-02-22 19:07:38 -0500</pubDate>
+      <date>Sat, Feb 08, 2025</date>
+      <time>11:15AM</time>
+      <datetime>Sat, Feb 08, 2025, 11:15AM</datetime>
+      <venue>Heinz Hall</venue>
+    </item>
+    <item>
+      <title>Star Wars Episode IV: A New Hope</title>
+      <presenter>Pittsburgh Symphony Orchestra</presenter>
+      <genre/>
+      <image>
+        <url>https://culturaldistrict-prod.s3.amazonaws.com/m15p7lfkbaim8ajqh6up06sy5h0t</url>
+        <title>Star Wars Episode IV: A New Hope</title>
+        <link>https://www.pittsburghsymphony.org/production/94453/star-wars-episode-iv-a-new-hope</link>
+      </image>
+      <link>https://www.pittsburghsymphony.org/production/94453/star-wars-episode-iv-a-new-hope</link>
+      <pubDate>2024-02-22 19:09:54 -0500</pubDate>
+      <date>Sat, Feb 08, 2025</date>
+      <time>7:00PM</time>
+      <datetime>Sat, Feb 08, 2025, 7:00PM</datetime>
+      <venue>Heinz Hall</venue>
+    </item>
+    <item>
+      <title>Star Wars Episode IV: A New Hope</title>
+      <presenter>Pittsburgh Symphony Orchestra</presenter>
+      <genre/>
+      <image>
+        <url>https://culturaldistrict-prod.s3.amazonaws.com/m15p7lfkbaim8ajqh6up06sy5h0t</url>
+        <title>Star Wars Episode IV: A New Hope</title>
+        <link>https://www.pittsburghsymphony.org/production/94453/star-wars-episode-iv-a-new-hope</link>
+      </image>
+      <link>https://www.pittsburghsymphony.org/production/94453/star-wars-episode-iv-a-new-hope</link>
+      <pubDate>2024-02-22 19:09:56 -0500</pubDate>
+      <date>Sun, Feb 09, 2025</date>
+      <time>2:30PM</time>
+      <datetime>Sun, Feb 09, 2025, 2:30PM</datetime>
+      <venue>Heinz Hall</venue>
+    </item>
+    <item>
+      <title>Dvorák’s New World</title>
+      <presenter>Pittsburgh Symphony Orchestra</presenter>
+      <genre/>
+      <image>
+        <url>https://culturaldistrict-prod.s3.amazonaws.com/xjk43fuy4o6r73of2rw6b0j7hk3u</url>
+        <title>Dvorák’s New World</title>
+        <link>https://www.pittsburghsymphony.org/production/92956/dvoraks-new-world</link>
+      </image>
+      <link>https://www.pittsburghsymphony.org/production/92956/dvoraks-new-world</link>
+      <pubDate>2024-01-18 15:34:39 -0500</pubDate>
+      <date>Fri, Feb 14, 2025</date>
+      <time>7:30PM</time>
+      <datetime>Fri, Feb 14, 2025, 7:30PM</datetime>
+      <venue>Heinz Hall</venue>
+    </item>
+    <item>
+      <title>Dvorák’s New World</title>
+      <presenter>Pittsburgh Symphony Orchestra</presenter>
+      <genre/>
+      <image>
+        <url>https://culturaldistrict-prod.s3.amazonaws.com/xjk43fuy4o6r73of2rw6b0j7hk3u</url>
+        <title>Dvorák’s New World</title>
+        <link>https://www.pittsburghsymphony.org/production/92956/dvoraks-new-world</link>
+      </image>
+      <link>https://www.pittsburghsymphony.org/production/92956/dvoraks-new-world</link>
+      <pubDate>2024-01-18 15:34:41 -0500</pubDate>
+      <date>Sat, Feb 15, 2025</date>
+      <time>7:30PM</time>
+      <datetime>Sat, Feb 15, 2025, 7:30PM</datetime>
+      <venue>Heinz Hall</venue>
+    </item>
+    <item>
+      <title>Dvorák’s New World</title>
+      <presenter>Pittsburgh Symphony Orchestra</presenter>
+      <genre/>
+      <image>
+        <url>https://culturaldistrict-prod.s3.amazonaws.com/xjk43fuy4o6r73of2rw6b0j7hk3u</url>
+        <title>Dvorák’s New World</title>
+        <link>https://www.pittsburghsymphony.org/production/92956/dvoraks-new-world</link>
+      </image>
+      <link>https://www.pittsburghsymphony.org/production/92956/dvoraks-new-world</link>
+      <pubDate>2024-01-18 15:34:43 -0500</pubDate>
+      <date>Sun, Feb 16, 2025</date>
+      <time>2:30PM</time>
+      <datetime>Sun, Feb 16, 2025, 2:30PM</datetime>
+      <venue>Heinz Hall</venue>
+    </item>
+    <item>
+      <title>Speakers Series: Adm. James Stavridis</title>
+      <presenter>Pittsburgh Symphony Orchestra</presenter>
+      <genre/>
+      <image>
+        <url>https://culturaldistrict-prod.s3.amazonaws.com/v3gkcj52rqdgucwl3xf7tmofznad</url>
+        <title>Speakers Series: Adm. James Stavridis</title>
+        <link>https://www.pittsburghsymphony.org/production/94257/speakers-series-adm-james-stavridis</link>
+      </image>
+      <link>https://www.pittsburghsymphony.org/production/94257/speakers-series-adm-james-stavridis</link>
+      <pubDate>2024-03-19 13:19:14 -0400</pubDate>
+      <date>Wed, Feb 19, 2025</date>
+      <time>8:00PM</time>
+      <datetime>Wed, Feb 19, 2025, 8:00PM</datetime>
+      <venue>Heinz Hall</venue>
+    </item>
+    <item>
+      <title>Ax Plays Mozart</title>
+      <presenter>Pittsburgh Symphony Orchestra</presenter>
+      <genre/>
+      <image>
+        <url>https://culturaldistrict-prod.s3.amazonaws.com/ug6o5l0zk4rsznwzln4uvp9xtqtx</url>
+        <title>Ax Plays Mozart</title>
+        <link>https://www.pittsburghsymphony.org/production/92957/ax-plays-mozart</link>
+      </image>
+      <link>https://www.pittsburghsymphony.org/production/92957/ax-plays-mozart</link>
+      <pubDate>2024-01-18 15:34:43 -0500</pubDate>
+      <date>Fri, Feb 21, 2025</date>
+      <time>7:30PM</time>
+      <datetime>Fri, Feb 21, 2025, 7:30PM</datetime>
+      <venue>Heinz Hall</venue>
+    </item>
+    <item>
+      <title>Sal Vulcano</title>
+      <presenter>Outback Presents / Heinz Hall Presents</presenter>
+      <genre/>
+      <image>
+        <url>https://culturaldistrict-prod.s3.amazonaws.com/s4jbiq0bc94shqp0r5a7s1uywe3b</url>
+        <title>Sal Vulcano</title>
+        <link>https://www.pittsburghsymphony.org/production/96579/sal-vulcano</link>
+      </image>
+      <link>https://www.pittsburghsymphony.org/production/96579/sal-vulcano</link>
+      <pubDate>2024-05-23 14:32:53 -0400</pubDate>
+      <date>Sat, Feb 22, 2025</date>
+      <time>7:00PM</time>
+      <datetime>Sat, Feb 22, 2025, 7:00PM</datetime>
+      <venue>Heinz Hall</venue>
+    </item>
+    <item>
+      <title>Ax Plays Mozart</title>
+      <presenter>Pittsburgh Symphony Orchestra</presenter>
+      <genre/>
+      <image>
+        <url>https://culturaldistrict-prod.s3.amazonaws.com/ug6o5l0zk4rsznwzln4uvp9xtqtx</url>
+        <title>Ax Plays Mozart</title>
+        <link>https://www.pittsburghsymphony.org/production/92957/ax-plays-mozart</link>
+      </image>
+      <link>https://www.pittsburghsymphony.org/production/92957/ax-plays-mozart</link>
+      <pubDate>2024-01-18 15:34:46 -0500</pubDate>
+      <date>Sun, Feb 23, 2025</date>
+      <time>2:30PM</time>
+      <datetime>Sun, Feb 23, 2025, 2:30PM</datetime>
+      <venue>Heinz Hall</venue>
+    </item>
+    <item>
+      <title>Pixar in Concert</title>
+      <presenter>Pittsburgh Symphony Orchestra</presenter>
+      <genre/>
+      <image>
+        <url>https://culturaldistrict-prod.s3.amazonaws.com/3i3e48syzglyfwgxdmpi1koeos9j</url>
+        <title>Pixar in Concert</title>
+        <link>https://www.pittsburghsymphony.org/production/93244/pixar-in-concert</link>
+      </image>
+      <link>https://www.pittsburghsymphony.org/production/93244/pixar-in-concert</link>
+      <pubDate>2024-01-18 14:26:55 -0500</pubDate>
+      <date>Fri, Feb 28, 2025</date>
+      <time>7:30PM</time>
+      <datetime>Fri, Feb 28, 2025, 7:30PM</datetime>
+      <venue>Heinz Hall</venue>
+    </item>
+    <item>
+      <title>Pixar in Concert</title>
+      <presenter>Pittsburgh Symphony Orchestra</presenter>
+      <genre/>
+      <image>
+        <url>https://culturaldistrict-prod.s3.amazonaws.com/3i3e48syzglyfwgxdmpi1koeos9j</url>
+        <title>Pixar in Concert</title>
+        <link>https://www.pittsburghsymphony.org/production/93244/pixar-in-concert</link>
+      </image>
+      <link>https://www.pittsburghsymphony.org/production/93244/pixar-in-concert</link>
+      <pubDate>2024-01-18 14:26:57 -0500</pubDate>
+      <date>Sat, Mar 01, 2025</date>
+      <time>7:30PM</time>
+      <datetime>Sat, Mar 01, 2025, 7:30PM</datetime>
+      <venue>Heinz Hall</venue>
+    </item>
+    <item>
+      <title>Pixar in Concert</title>
+      <presenter>Pittsburgh Symphony Orchestra</presenter>
+      <genre/>
+      <image>
+        <url>https://culturaldistrict-prod.s3.amazonaws.com/3i3e48syzglyfwgxdmpi1koeos9j</url>
+        <title>Pixar in Concert</title>
+        <link>https://www.pittsburghsymphony.org/production/93244/pixar-in-concert</link>
+      </image>
+      <link>https://www.pittsburghsymphony.org/production/93244/pixar-in-concert</link>
+      <pubDate>2024-01-18 14:26:59 -0500</pubDate>
+      <date>Sun, Mar 02, 2025</date>
+      <time>2:30PM</time>
+      <datetime>Sun, Mar 02, 2025, 2:30PM</datetime>
+      <venue>Heinz Hall</venue>
+    </item>
+    <item>
+      <title>Lisiecki Performs Mozart</title>
+      <presenter>Pittsburgh Symphony Orchestra</presenter>
+      <genre/>
+      <image>
+        <url>https://culturaldistrict-prod.s3.amazonaws.com/5sri4xike5b1wp1az7jpswirnpwy</url>
+        <title>Lisiecki Performs Mozart</title>
+        <link>https://www.pittsburghsymphony.org/production/92958/lisiecki-performs-mozart</link>
+      </image>
+      <link>https://www.pittsburghsymphony.org/production/92958/lisiecki-performs-mozart</link>
+      <pubDate>2024-01-18 15:34:50 -0500</pubDate>
+      <date>Fri, Mar 07, 2025</date>
+      <time>7:30PM</time>
+      <datetime>Fri, Mar 07, 2025, 7:30PM</datetime>
+      <venue>Heinz Hall</venue>
+    </item>
+    <item>
+      <title>PSO Disrupt: Hope and Resistance</title>
+      <presenter>Pittsburgh Symphony Orchestra</presenter>
+      <genre/>
+      <image>
+        <url>https://culturaldistrict-prod.s3.amazonaws.com/4ye3pn787vuzz49bs11c9nfcubzf</url>
+        <title>PSO Disrupt: Hope and Resistance</title>
+        <link>https://www.pittsburghsymphony.org/production/93521/pso-disrupt-hope-and-resistance</link>
+      </image>
+      <link>https://www.pittsburghsymphony.org/production/93521/pso-disrupt-hope-and-resistance</link>
+      <pubDate>2024-02-22 19:08:21 -0500</pubDate>
+      <date>Sat, Mar 08, 2025</date>
+      <time>6:45PM</time>
+      <datetime>Sat, Mar 08, 2025, 6:45PM</datetime>
+      <venue>Heinz Hall</venue>
+    </item>
+    <item>
+      <title>Lisiecki Performs Mozart</title>
+      <presenter>Pittsburgh Symphony Orchestra</presenter>
+      <genre/>
+      <image>
+        <url>https://culturaldistrict-prod.s3.amazonaws.com/5sri4xike5b1wp1az7jpswirnpwy</url>
+        <title>Lisiecki Performs Mozart</title>
+        <link>https://www.pittsburghsymphony.org/production/92958/lisiecki-performs-mozart</link>
+      </image>
+      <link>https://www.pittsburghsymphony.org/production/92958/lisiecki-performs-mozart</link>
+      <pubDate>2024-01-18 15:34:52 -0500</pubDate>
+      <date>Sun, Mar 09, 2025</date>
+      <time>2:30PM</time>
+      <datetime>Sun, Mar 09, 2025, 2:30PM</datetime>
+      <venue>Heinz Hall</venue>
+    </item>
+    <item>
+      <title>Lift Every Voice</title>
+      <presenter>Pittsburgh Symphony Orchestra</presenter>
+      <genre/>
+      <image>
+        <url>https://culturaldistrict-prod.s3.amazonaws.com/6d5octelmhs4nizln79koukf0yz3</url>
+        <title>Lift Every Voice</title>
+        <link>https://www.pittsburghsymphony.org/production/94617/lift-every-voice</link>
+      </image>
+      <link>https://www.pittsburghsymphony.org/production/94617/lift-every-voice</link>
+      <pubDate>2024-02-22 19:09:41 -0500</pubDate>
+      <date>Sat, Mar 15, 2025</date>
+      <time>7:00PM</time>
+      <datetime>Sat, Mar 15, 2025, 7:00PM</datetime>
+      <venue>Heinz Hall</venue>
+    </item>
+    <item>
+      <title>Lang Lang with the PSO</title>
+      <presenter>Pittsburgh Symphony Orchestra</presenter>
+      <genre/>
+      <image>
+        <url>https://culturaldistrict-prod.s3.amazonaws.com/g33ymou5lwfpzvess0bwkusd5goq</url>
+        <title>Lang Lang with the PSO</title>
+        <link>https://www.pittsburghsymphony.org/production/94078/lang-lang-with-the-pso</link>
+      </image>
+      <link>https://www.pittsburghsymphony.org/production/94078/lang-lang-with-the-pso</link>
+      <pubDate>2024-02-22 19:09:16 -0500</pubDate>
+      <date>Wed, Mar 19, 2025</date>
+      <time>7:30PM</time>
+      <datetime>Wed, Mar 19, 2025, 7:30PM</datetime>
+      <venue>Heinz Hall</venue>
+    </item>
+    <item>
+      <title>Kanneh-Mason Performs Shostakovich </title>
+      <presenter>Pittsburgh Symphony Orchestra</presenter>
+      <genre/>
+      <image>
+        <url>https://culturaldistrict-prod.s3.amazonaws.com/mn9o6j8amjc9h6mmxbrfyjut20w8</url>
+        <title>Kanneh-Mason Performs Shostakovich </title>
+        <link>https://www.pittsburghsymphony.org/production/92959/kanneh-mason-performs-shostakovich</link>
+      </image>
+      <link>https://www.pittsburghsymphony.org/production/92959/kanneh-mason-performs-shostakovich</link>
+      <pubDate>2024-01-18 15:34:54 -0500</pubDate>
+      <date>Fri, Mar 21, 2025</date>
+      <time>7:30PM</time>
+      <datetime>Fri, Mar 21, 2025, 7:30PM</datetime>
+      <venue>Heinz Hall</venue>
+    </item>
+    <item>
+      <title>PSO360: Sheku Kanneh-Mason, cello</title>
+      <presenter>Pittsburgh Symphony Orchestra</presenter>
+      <genre/>
+      <image>
+        <url>https://culturaldistrict-prod.s3.amazonaws.com/dgbjq1blp9fif7j9z1mb79hn0q0g</url>
+        <title>PSO360: Sheku Kanneh-Mason, cello</title>
+        <link>https://www.pittsburghsymphony.org/production/93550/pso360-sheku-kanneh-mason-cello</link>
+      </image>
+      <link>https://www.pittsburghsymphony.org/production/93550/pso360-sheku-kanneh-mason-cello</link>
+      <pubDate>2024-02-22 19:08:42 -0500</pubDate>
+      <date>Sat, Mar 22, 2025</date>
+      <time>7:30PM</time>
+      <datetime>Sat, Mar 22, 2025, 7:30PM</datetime>
+      <venue>Heinz Hall</venue>
+    </item>
+    <item>
+      <title>Kanneh-Mason Performs Shostakovich </title>
+      <presenter>Pittsburgh Symphony Orchestra</presenter>
+      <genre/>
+      <image>
+        <url>https://culturaldistrict-prod.s3.amazonaws.com/mn9o6j8amjc9h6mmxbrfyjut20w8</url>
+        <title>Kanneh-Mason Performs Shostakovich </title>
+        <link>https://www.pittsburghsymphony.org/production/92959/kanneh-mason-performs-shostakovich</link>
+      </image>
+      <link>https://www.pittsburghsymphony.org/production/92959/kanneh-mason-performs-shostakovich</link>
+      <pubDate>2024-01-18 15:34:56 -0500</pubDate>
+      <date>Sun, Mar 23, 2025</date>
+      <time>2:30PM</time>
+      <datetime>Sun, Mar 23, 2025, 2:30PM</datetime>
+      <venue>Heinz Hall</venue>
+    </item>
+    <item>
+      <title>Speakers Series: Chris Wallace</title>
+      <presenter>Pittsburgh Symphony Orchestra</presenter>
+      <genre/>
+      <image>
+        <url>https://culturaldistrict-prod.s3.amazonaws.com/1w0tbgginddw5w9xda5yi8o3rkjw</url>
+        <title>Speakers Series: Chris Wallace</title>
+        <link>https://www.pittsburghsymphony.org/production/94258/speakers-series-chris-wallace</link>
+      </image>
+      <link>https://www.pittsburghsymphony.org/production/94258/speakers-series-chris-wallace</link>
+      <pubDate>2024-03-19 13:19:22 -0400</pubDate>
+      <date>Wed, Mar 26, 2025</date>
+      <time>8:00PM</time>
+      <datetime>Wed, Mar 26, 2025, 8:00PM</datetime>
+      <venue>Heinz Hall</venue>
+    </item>
+    <item>
+      <title>Beethoven’s Pastoral</title>
+      <presenter>Pittsburgh Symphony Orchestra</presenter>
+      <genre/>
+      <image>
+        <url>https://culturaldistrict-prod.s3.amazonaws.com/exkbmd0xeflvxesrowa4mvc12vsm</url>
+        <title>Beethoven’s Pastoral</title>
+        <link>https://www.pittsburghsymphony.org/production/92960/beethovens-pastoral</link>
+      </image>
+      <link>https://www.pittsburghsymphony.org/production/92960/beethovens-pastoral</link>
+      <pubDate>2024-01-18 15:34:58 -0500</pubDate>
+      <date>Fri, Mar 28, 2025</date>
+      <time>7:30PM</time>
+      <datetime>Fri, Mar 28, 2025, 7:30PM</datetime>
+      <venue>Heinz Hall</venue>
+    </item>
+    <item>
+      <title>Beethoven’s Pastoral</title>
+      <presenter>Pittsburgh Symphony Orchestra</presenter>
+      <genre/>
+      <image>
+        <url>https://culturaldistrict-prod.s3.amazonaws.com/exkbmd0xeflvxesrowa4mvc12vsm</url>
+        <title>Beethoven’s Pastoral</title>
+        <link>https://www.pittsburghsymphony.org/production/92960/beethovens-pastoral</link>
+      </image>
+      <link>https://www.pittsburghsymphony.org/production/92960/beethovens-pastoral</link>
+      <pubDate>2024-01-18 15:35:00 -0500</pubDate>
+      <date>Sat, Mar 29, 2025</date>
+      <time>7:30PM</time>
+      <datetime>Sat, Mar 29, 2025, 7:30PM</datetime>
+      <venue>Heinz Hall</venue>
+    </item>
+    <item>
+      <title>Beethoven’s Pastoral</title>
+      <presenter>Pittsburgh Symphony Orchestra</presenter>
+      <genre/>
+      <image>
+        <url>https://culturaldistrict-prod.s3.amazonaws.com/exkbmd0xeflvxesrowa4mvc12vsm</url>
+        <title>Beethoven’s Pastoral</title>
+        <link>https://www.pittsburghsymphony.org/production/92960/beethovens-pastoral</link>
+      </image>
+      <link>https://www.pittsburghsymphony.org/production/92960/beethovens-pastoral</link>
+      <pubDate>2024-01-18 15:35:02 -0500</pubDate>
+      <date>Sun, Mar 30, 2025</date>
+      <time>2:30PM</time>
+      <datetime>Sun, Mar 30, 2025, 2:30PM</datetime>
+      <venue>Heinz Hall</venue>
+    </item>
+    <item>
+      <title>Total Eclipse of the Chart: Music of the 80s </title>
+      <presenter>Pittsburgh Symphony Orchestra</presenter>
+      <genre/>
+      <image>
+        <url>https://culturaldistrict-prod.s3.amazonaws.com/bhxq2ij98qa57oejjcljwfczwk44</url>
+        <title>Total Eclipse of the Chart: Music of the 80s </title>
+        <link>https://www.pittsburghsymphony.org/production/93245/total-eclipse-of-the-chart-music-of-the-80s</link>
+      </image>
+      <link>https://www.pittsburghsymphony.org/production/93245/total-eclipse-of-the-chart-music-of-the-80s</link>
+      <pubDate>2024-01-18 14:26:59 -0500</pubDate>
+      <date>Fri, Apr 04, 2025</date>
+      <time>7:30PM</time>
+      <datetime>Fri, Apr 04, 2025, 7:30PM</datetime>
+      <venue>Heinz Hall</venue>
+    </item>
+    <item>
+      <title>Fiddlesticks: Imagine That!</title>
+      <presenter>Pittsburgh Symphony Orchestra</presenter>
+      <genre/>
+      <image>
+        <url>https://culturaldistrict-prod.s3.amazonaws.com/2keiagts44llt7v8tetxncn2ntoq</url>
+        <title>Fiddlesticks: Imagine That!</title>
+        <link>https://www.pittsburghsymphony.org/production/94089/fiddlesticks-imagine-that</link>
+      </image>
+      <link>https://www.pittsburghsymphony.org/production/94089/fiddlesticks-imagine-that</link>
+      <pubDate>2024-02-22 19:07:43 -0500</pubDate>
+      <date>Sat, Apr 05, 2025</date>
+      <time>11:15AM</time>
+      <datetime>Sat, Apr 05, 2025, 11:15AM</datetime>
+      <venue>Heinz Hall</venue>
+    </item>
+    <item>
+      <title>Total Eclipse of the Chart: Music of the 80s </title>
+      <presenter>Pittsburgh Symphony Orchestra</presenter>
+      <genre/>
+      <image>
+        <url>https://culturaldistrict-prod.s3.amazonaws.com/bhxq2ij98qa57oejjcljwfczwk44</url>
+        <title>Total Eclipse of the Chart: Music of the 80s </title>
+        <link>https://www.pittsburghsymphony.org/production/93245/total-eclipse-of-the-chart-music-of-the-80s</link>
+      </image>
+      <link>https://www.pittsburghsymphony.org/production/93245/total-eclipse-of-the-chart-music-of-the-80s</link>
+      <pubDate>2024-01-18 14:27:01 -0500</pubDate>
+      <date>Sat, Apr 05, 2025</date>
+      <time>7:30PM</time>
+      <datetime>Sat, Apr 05, 2025, 7:30PM</datetime>
+      <venue>Heinz Hall</venue>
+    </item>
+    <item>
+      <title>Total Eclipse of the Chart: Music of the 80s </title>
+      <presenter>Pittsburgh Symphony Orchestra</presenter>
+      <genre/>
+      <image>
+        <url>https://culturaldistrict-prod.s3.amazonaws.com/bhxq2ij98qa57oejjcljwfczwk44</url>
+        <title>Total Eclipse of the Chart: Music of the 80s </title>
+        <link>https://www.pittsburghsymphony.org/production/93245/total-eclipse-of-the-chart-music-of-the-80s</link>
+      </image>
+      <link>https://www.pittsburghsymphony.org/production/93245/total-eclipse-of-the-chart-music-of-the-80s</link>
+      <pubDate>2024-01-18 14:27:03 -0500</pubDate>
+      <date>Sun, Apr 06, 2025</date>
+      <time>2:30PM</time>
+      <datetime>Sun, Apr 06, 2025, 2:30PM</datetime>
+      <venue>Heinz Hall</venue>
+    </item>
+    <item>
+      <title>Speakers Series: Andrew Lloyd Webber</title>
+      <presenter>Pittsburgh Symphony Orchestra</presenter>
+      <genre/>
+      <image>
+        <url>https://culturaldistrict-prod.s3.amazonaws.com/7leqer628w4djnb6m2jc7q40o1h8</url>
+        <title>Speakers Series: Andrew Lloyd Webber</title>
+        <link>https://www.pittsburghsymphony.org/production/94259/speakers-series-andrew-lloyd-webber</link>
+      </image>
+      <link>https://www.pittsburghsymphony.org/production/94259/speakers-series-andrew-lloyd-webber</link>
+      <pubDate>2024-03-19 13:19:30 -0400</pubDate>
+      <date>Wed, Apr 09, 2025</date>
+      <time>8:00PM</time>
+      <datetime>Wed, Apr 09, 2025, 8:00PM</datetime>
+      <venue>Heinz Hall</venue>
+    </item>
+    <item>
+      <title>Gerstein Plays Tchaikovsky</title>
+      <presenter>Pittsburgh Symphony Orchestra</presenter>
+      <genre/>
+      <image>
+        <url>https://culturaldistrict-prod.s3.amazonaws.com/jtkb1mqvnwtlwy0z5nt3f614lnoo</url>
+        <title>Gerstein Plays Tchaikovsky</title>
+        <link>https://www.pittsburghsymphony.org/production/92961/gerstein-plays-tchaikovsky</link>
+      </image>
+      <link>https://www.pittsburghsymphony.org/production/92961/gerstein-plays-tchaikovsky</link>
+      <pubDate>2024-01-18 15:35:03 -0500</pubDate>
+      <date>Fri, Apr 11, 2025</date>
+      <time>7:30PM</time>
+      <datetime>Fri, Apr 11, 2025, 7:30PM</datetime>
+      <venue>Heinz Hall</venue>
+    </item>
+    <item>
+      <title>PSO Disrupt: Lovestruck</title>
+      <presenter>Pittsburgh Symphony Orchestra</presenter>
+      <genre/>
+      <image>
+        <url>https://culturaldistrict-prod.s3.amazonaws.com/iakbn4fbaj15om74awpfjzdrwnbt</url>
+        <title>PSO Disrupt: Lovestruck</title>
+        <link>https://www.pittsburghsymphony.org/production/93522/pso-disrupt-lovestruck</link>
+      </image>
+      <link>https://www.pittsburghsymphony.org/production/93522/pso-disrupt-lovestruck</link>
+      <pubDate>2024-02-22 19:08:28 -0500</pubDate>
+      <date>Sat, Apr 12, 2025</date>
+      <time>6:45PM</time>
+      <datetime>Sat, Apr 12, 2025, 6:45PM</datetime>
+      <venue>Heinz Hall</venue>
+    </item>
+    <item>
+      <title>Gerstein Plays Tchaikovsky</title>
+      <presenter>Pittsburgh Symphony Orchestra</presenter>
+      <genre/>
+      <image>
+        <url>https://culturaldistrict-prod.s3.amazonaws.com/jtkb1mqvnwtlwy0z5nt3f614lnoo</url>
+        <title>Gerstein Plays Tchaikovsky</title>
+        <link>https://www.pittsburghsymphony.org/production/92961/gerstein-plays-tchaikovsky</link>
+      </image>
+      <link>https://www.pittsburghsymphony.org/production/92961/gerstein-plays-tchaikovsky</link>
+      <pubDate>2024-01-18 15:35:05 -0500</pubDate>
+      <date>Sun, Apr 13, 2025</date>
+      <time>2:30PM</time>
+      <datetime>Sun, Apr 13, 2025, 2:30PM</datetime>
+      <venue>Heinz Hall</venue>
+    </item>
+    <item>
+      <title>Beethoven and Brahms</title>
+      <presenter>Pittsburgh Symphony Orchestra</presenter>
+      <genre/>
+      <image>
+        <url>https://culturaldistrict-prod.s3.amazonaws.com/931nwo3r6rtg3u2v52kuo995zm77</url>
+        <title>Beethoven and Brahms</title>
+        <link>https://www.pittsburghsymphony.org/production/92962/beethoven-and-brahms</link>
+      </image>
+      <link>https://www.pittsburghsymphony.org/production/92962/beethoven-and-brahms</link>
+      <pubDate>2024-01-18 15:35:07 -0500</pubDate>
+      <date>Fri, Apr 25, 2025</date>
+      <time>7:30PM</time>
+      <datetime>Fri, Apr 25, 2025, 7:30PM</datetime>
+      <venue>Heinz Hall</venue>
+    </item>
+    <item>
+      <title>Beethoven and Brahms</title>
+      <presenter>Pittsburgh Symphony Orchestra</presenter>
+      <genre/>
+      <image>
+        <url>https://culturaldistrict-prod.s3.amazonaws.com/931nwo3r6rtg3u2v52kuo995zm77</url>
+        <title>Beethoven and Brahms</title>
+        <link>https://www.pittsburghsymphony.org/production/92962/beethoven-and-brahms</link>
+      </image>
+      <link>https://www.pittsburghsymphony.org/production/92962/beethoven-and-brahms</link>
+      <pubDate>2024-01-18 15:35:09 -0500</pubDate>
+      <date>Sat, Apr 26, 2025</date>
+      <time>7:30PM</time>
+      <datetime>Sat, Apr 26, 2025, 7:30PM</datetime>
+      <venue>Heinz Hall</venue>
+    </item>
+    <item>
+      <title>Beethoven and Brahms</title>
+      <presenter>Pittsburgh Symphony Orchestra</presenter>
+      <genre/>
+      <image>
+        <url>https://culturaldistrict-prod.s3.amazonaws.com/931nwo3r6rtg3u2v52kuo995zm77</url>
+        <title>Beethoven and Brahms</title>
+        <link>https://www.pittsburghsymphony.org/production/92962/beethoven-and-brahms</link>
+      </image>
+      <link>https://www.pittsburghsymphony.org/production/92962/beethoven-and-brahms</link>
+      <pubDate>2024-01-18 15:35:11 -0500</pubDate>
+      <date>Sun, Apr 27, 2025</date>
+      <time>2:30PM</time>
+      <datetime>Sun, Apr 27, 2025, 2:30PM</datetime>
+      <venue>Heinz Hall</venue>
+    </item>
+    <item>
+      <title>Clouds in my Coffee: Music of Joni Mitchell, Carole King &amp; Carly Simon</title>
+      <presenter>Pittsburgh Symphony Orchestra</presenter>
+      <genre/>
+      <image>
+        <url>https://culturaldistrict-prod.s3.amazonaws.com/2szmpgvvr6un24n0yx8wghk7aetz</url>
+        <title>Clouds in my Coffee: Music of Joni Mitchell, Carole King &amp; Carly Simon</title>
+        <link>https://www.pittsburghsymphony.org/production/93246/clouds-in-my-coffee-music-of-joni-mitchell-carole-king-and-carly-simon</link>
+      </image>
+      <link>https://www.pittsburghsymphony.org/production/93246/clouds-in-my-coffee-music-of-joni-mitchell-carole-king-and-carly-simon</link>
+      <pubDate>2024-01-18 14:27:02 -0500</pubDate>
+      <date>Fri, May 09, 2025</date>
+      <time>7:30PM</time>
+      <datetime>Fri, May 09, 2025, 7:30PM</datetime>
+      <venue>Heinz Hall</venue>
+    </item>
+    <item>
+      <title>Clouds in my Coffee: Music of Joni Mitchell, Carole King &amp; Carly Simon</title>
+      <presenter>Pittsburgh Symphony Orchestra</presenter>
+      <genre/>
+      <image>
+        <url>https://culturaldistrict-prod.s3.amazonaws.com/2szmpgvvr6un24n0yx8wghk7aetz</url>
+        <title>Clouds in my Coffee: Music of Joni Mitchell, Carole King &amp; Carly Simon</title>
+        <link>https://www.pittsburghsymphony.org/production/93246/clouds-in-my-coffee-music-of-joni-mitchell-carole-king-and-carly-simon</link>
+      </image>
+      <link>https://www.pittsburghsymphony.org/production/93246/clouds-in-my-coffee-music-of-joni-mitchell-carole-king-and-carly-simon</link>
+      <pubDate>2024-01-18 14:27:04 -0500</pubDate>
+      <date>Sat, May 10, 2025</date>
+      <time>7:30PM</time>
+      <datetime>Sat, May 10, 2025, 7:30PM</datetime>
+      <venue>Heinz Hall</venue>
+    </item>
+    <item>
+      <title>Clouds in my Coffee: Music of Joni Mitchell, Carole King &amp; Carly Simon</title>
+      <presenter>Pittsburgh Symphony Orchestra</presenter>
+      <genre/>
+      <image>
+        <url>https://culturaldistrict-prod.s3.amazonaws.com/2szmpgvvr6un24n0yx8wghk7aetz</url>
+        <title>Clouds in my Coffee: Music of Joni Mitchell, Carole King &amp; Carly Simon</title>
+        <link>https://www.pittsburghsymphony.org/production/93246/clouds-in-my-coffee-music-of-joni-mitchell-carole-king-and-carly-simon</link>
+      </image>
+      <link>https://www.pittsburghsymphony.org/production/93246/clouds-in-my-coffee-music-of-joni-mitchell-carole-king-and-carly-simon</link>
+      <pubDate>2024-01-18 14:27:06 -0500</pubDate>
+      <date>Sun, May 11, 2025</date>
+      <time>2:30PM</time>
+      <datetime>Sun, May 11, 2025, 2:30PM</datetime>
+      <venue>Heinz Hall</venue>
+    </item>
+    <item>
+      <title>Bronfman Plays Beethoven </title>
+      <presenter>Pittsburgh Symphony Orchestra</presenter>
+      <genre></genre>
+      <image>
+        <url>https://culturaldistrict-prod.s3.amazonaws.com/oafm19yuw8wyckx6ga9sybbe1gbq</url>
+        <title>Bronfman Plays Beethoven </title>
+        <link>https://www.pittsburghsymphony.org/production/92963/bronfman-plays-beethoven</link>
+      </image>
+      <link>https://www.pittsburghsymphony.org/production/92963/bronfman-plays-beethoven</link>
+      <pubDate>2024-01-18 15:35:11 -0500</pubDate>
+      <date>Fri, May 16, 2025</date>
+      <time>7:30PM</time>
+      <datetime>Fri, May 16, 2025, 7:30PM</datetime>
+      <venue>Heinz Hall</venue>
+    </item>
+    <item>
+      <title>Bronfman Plays Beethoven </title>
+      <presenter>Pittsburgh Symphony Orchestra</presenter>
+      <genre></genre>
+      <image>
+        <url>https://culturaldistrict-prod.s3.amazonaws.com/oafm19yuw8wyckx6ga9sybbe1gbq</url>
+        <title>Bronfman Plays Beethoven </title>
+        <link>https://www.pittsburghsymphony.org/production/92963/bronfman-plays-beethoven</link>
+      </image>
+      <link>https://www.pittsburghsymphony.org/production/92963/bronfman-plays-beethoven</link>
+      <pubDate>2024-01-18 15:35:19 -0500</pubDate>
+      <date>Sun, May 18, 2025</date>
+      <time>2:30PM</time>
+      <datetime>Sun, May 18, 2025, 2:30PM</datetime>
+      <venue>Heinz Hall</venue>
+    </item>
+    <item>
+      <title>Brahms’ Fourth Symphony</title>
+      <presenter>Pittsburgh Symphony Orchestra</presenter>
+      <genre/>
+      <image>
+        <url>https://culturaldistrict-prod.s3.amazonaws.com/gfh76grrmtdbj8evi558a1fu4tre</url>
+        <title>Brahms’ Fourth Symphony</title>
+        <link>https://www.pittsburghsymphony.org/production/92964/brahms-fourth-symphony</link>
+      </image>
+      <link>https://www.pittsburghsymphony.org/production/92964/brahms-fourth-symphony</link>
+      <pubDate>2024-01-18 15:35:18 -0500</pubDate>
+      <date>Fri, May 30, 2025</date>
+      <time>7:30PM</time>
+      <datetime>Fri, May 30, 2025, 7:30PM</datetime>
+      <venue>Heinz Hall</venue>
+    </item>
+    <item>
+      <title>Brahms’ Fourth Symphony</title>
+      <presenter>Pittsburgh Symphony Orchestra</presenter>
+      <genre/>
+      <image>
+        <url>https://culturaldistrict-prod.s3.amazonaws.com/gfh76grrmtdbj8evi558a1fu4tre</url>
+        <title>Brahms’ Fourth Symphony</title>
+        <link>https://www.pittsburghsymphony.org/production/92964/brahms-fourth-symphony</link>
+      </image>
+      <link>https://www.pittsburghsymphony.org/production/92964/brahms-fourth-symphony</link>
+      <pubDate>2024-01-19 15:01:06 -0500</pubDate>
+      <date>Sat, May 31, 2025</date>
+      <time>7:30PM</time>
+      <datetime>Sat, May 31, 2025, 7:30PM</datetime>
+      <venue>Heinz Hall</venue>
+    </item>
+    <item>
+      <title>Brahms’ Fourth Symphony</title>
+      <presenter>Pittsburgh Symphony Orchestra</presenter>
+      <genre/>
+      <image>
+        <url>https://culturaldistrict-prod.s3.amazonaws.com/gfh76grrmtdbj8evi558a1fu4tre</url>
+        <title>Brahms’ Fourth Symphony</title>
+        <link>https://www.pittsburghsymphony.org/production/92964/brahms-fourth-symphony</link>
+      </image>
+      <link>https://www.pittsburghsymphony.org/production/92964/brahms-fourth-symphony</link>
+      <pubDate>2024-01-18 15:35:20 -0500</pubDate>
+      <date>Sun, Jun 01, 2025</date>
+      <time>2:30PM</time>
+      <datetime>Sun, Jun 01, 2025, 2:30PM</datetime>
+      <venue>Heinz Hall</venue>
+    </item>
+    <item>
+      <title>Yo-Yo Ma</title>
+      <presenter>Pittsburgh Symphony Orchestra</presenter>
+      <genre/>
+      <image>
+        <url>https://culturaldistrict-prod.s3.amazonaws.com/ygtw3neqy6sr0naf4xpty4e0c2if</url>
+        <title>Yo-Yo Ma</title>
+        <link>https://www.pittsburghsymphony.org/production/94082/yo-yo-ma</link>
+      </image>
+      <link>https://www.pittsburghsymphony.org/production/94082/yo-yo-ma</link>
+      <pubDate>2024-02-23 15:20:21 -0500</pubDate>
+      <date>Wed, Jun 04, 2025</date>
+      <time>7:30PM</time>
+      <datetime>Wed, Jun 04, 2025, 7:30PM</datetime>
+      <venue>Heinz Hall</venue>
+    </item>
+    <item>
+      <title>Beethoven and Mahler</title>
+      <presenter>Pittsburgh Symphony Orchestra</presenter>
+      <genre/>
+      <image>
+        <url>https://culturaldistrict-prod.s3.amazonaws.com/l8cgbhx6rx4105krbnld142717o1</url>
+        <title>Beethoven and Mahler</title>
+        <link>https://www.pittsburghsymphony.org/production/92965/beethoven-and-mahler</link>
+      </image>
+      <link>https://www.pittsburghsymphony.org/production/92965/beethoven-and-mahler</link>
+      <pubDate>2024-01-18 15:35:22 -0500</pubDate>
+      <date>Fri, Jun 06, 2025</date>
+      <time>7:30PM</time>
+      <datetime>Fri, Jun 06, 2025, 7:30PM</datetime>
+      <venue>Heinz Hall</venue>
+    </item>
+    <item>
+      <title>PSO360: Alice Sara Ott, piano</title>
+      <presenter>Pittsburgh Symphony Orchestra</presenter>
+      <genre/>
+      <image>
+        <url>https://culturaldistrict-prod.s3.amazonaws.com/vfzq8qdnuzrtf2fn2d2vsu1rb2el</url>
+        <title>PSO360: Alice Sara Ott, piano</title>
+        <link>https://www.pittsburghsymphony.org/production/93551/pso360-alice-sara-ott-piano</link>
+      </image>
+      <link>https://www.pittsburghsymphony.org/production/93551/pso360-alice-sara-ott-piano</link>
+      <pubDate>2024-02-22 19:08:50 -0500</pubDate>
+      <date>Sat, Jun 07, 2025</date>
+      <time>7:30PM</time>
+      <datetime>Sat, Jun 07, 2025, 7:30PM</datetime>
+      <venue>Heinz Hall</venue>
+    </item>
+    <item>
+      <title>Beethoven and Mahler</title>
+      <presenter>Pittsburgh Symphony Orchestra</presenter>
+      <genre/>
+      <image>
+        <url>https://culturaldistrict-prod.s3.amazonaws.com/l8cgbhx6rx4105krbnld142717o1</url>
+        <title>Beethoven and Mahler</title>
+        <link>https://www.pittsburghsymphony.org/production/92965/beethoven-and-mahler</link>
+      </image>
+      <link>https://www.pittsburghsymphony.org/production/92965/beethoven-and-mahler</link>
+      <pubDate>2024-01-18 15:35:25 -0500</pubDate>
+      <date>Sun, Jun 08, 2025</date>
+      <time>2:30PM</time>
+      <datetime>Sun, Jun 08, 2025, 2:30PM</datetime>
+      <venue>Heinz Hall</venue>
+    </item>
+    <item>
+      <title>Rana Plays Mendelssohn</title>
+      <presenter>Pittsburgh Symphony Orchestra</presenter>
+      <genre/>
+      <image>
+        <url>https://culturaldistrict-prod.s3.amazonaws.com/7pfsbs0lh6qz7nrkneruyllhk3oh</url>
+        <title>Rana Plays Mendelssohn</title>
+        <link>https://www.pittsburghsymphony.org/production/92966/rana-plays-mendelssohn</link>
+      </image>
+      <link>https://www.pittsburghsymphony.org/production/92966/rana-plays-mendelssohn</link>
+      <pubDate>2024-01-18 15:35:25 -0500</pubDate>
+      <date>Fri, Jun 13, 2025</date>
+      <time>7:30PM</time>
+      <datetime>Fri, Jun 13, 2025, 7:30PM</datetime>
+      <venue>Heinz Hall</venue>
+    </item>
+    <item>
+      <title>Rana Plays Mendelssohn</title>
+      <presenter>Pittsburgh Symphony Orchestra</presenter>
+      <genre/>
+      <image>
+        <url>https://culturaldistrict-prod.s3.amazonaws.com/7pfsbs0lh6qz7nrkneruyllhk3oh</url>
+        <title>Rana Plays Mendelssohn</title>
+        <link>https://www.pittsburghsymphony.org/production/92966/rana-plays-mendelssohn</link>
+      </image>
+      <link>https://www.pittsburghsymphony.org/production/92966/rana-plays-mendelssohn</link>
+      <pubDate>2024-01-18 15:35:33 -0500</pubDate>
+      <date>Sat, Jun 14, 2025</date>
+      <time>7:30PM</time>
+      <datetime>Sat, Jun 14, 2025, 7:30PM</datetime>
+      <venue>Heinz Hall</venue>
+    </item>
+    <item>
+      <title>Rana Plays Mendelssohn</title>
+      <presenter>Pittsburgh Symphony Orchestra</presenter>
+      <genre/>
+      <image>
+        <url>https://culturaldistrict-prod.s3.amazonaws.com/7pfsbs0lh6qz7nrkneruyllhk3oh</url>
+        <title>Rana Plays Mendelssohn</title>
+        <link>https://www.pittsburghsymphony.org/production/92966/rana-plays-mendelssohn</link>
+      </image>
+      <link>https://www.pittsburghsymphony.org/production/92966/rana-plays-mendelssohn</link>
+      <pubDate>2024-01-18 15:35:35 -0500</pubDate>
+      <date>Sun, Jun 15, 2025</date>
+      <time>2:30PM</time>
+      <datetime>Sun, Jun 15, 2025, 2:30PM</datetime>
+      <venue>Heinz Hall</venue>
+    </item>
+    <item>
+      <title>Kings of Soul</title>
+      <presenter>Pittsburgh Symphony Orchestra</presenter>
+      <genre/>
+      <image>
+        <url>https://culturaldistrict-prod.s3.amazonaws.com/dhi881miremtmlek8u9d2v96uuf3</url>
+        <title>Kings of Soul</title>
+        <link>https://www.pittsburghsymphony.org/production/93247/kings-of-soul</link>
+      </image>
+      <link>https://www.pittsburghsymphony.org/production/93247/kings-of-soul</link>
+      <pubDate>2024-01-18 14:27:09 -0500</pubDate>
+      <date>Fri, Jun 20, 2025</date>
+      <time>7:30PM</time>
+      <datetime>Fri, Jun 20, 2025, 7:30PM</datetime>
+      <venue>Heinz Hall</venue>
+    </item>
+    <item>
+      <title>Kings of Soul</title>
+      <presenter>Pittsburgh Symphony Orchestra</presenter>
+      <genre/>
+      <image>
+        <url>https://culturaldistrict-prod.s3.amazonaws.com/dhi881miremtmlek8u9d2v96uuf3</url>
+        <title>Kings of Soul</title>
+        <link>https://www.pittsburghsymphony.org/production/93247/kings-of-soul</link>
+      </image>
+      <link>https://www.pittsburghsymphony.org/production/93247/kings-of-soul</link>
+      <pubDate>2024-01-18 14:27:11 -0500</pubDate>
+      <date>Sat, Jun 21, 2025</date>
+      <time>7:30PM</time>
+      <datetime>Sat, Jun 21, 2025, 7:30PM</datetime>
+      <venue>Heinz Hall</venue>
+    </item>
+    <item>
+      <title>Kings of Soul</title>
+      <presenter>Pittsburgh Symphony Orchestra</presenter>
+      <genre/>
+      <image>
+        <url>https://culturaldistrict-prod.s3.amazonaws.com/dhi881miremtmlek8u9d2v96uuf3</url>
+        <title>Kings of Soul</title>
+        <link>https://www.pittsburghsymphony.org/production/93247/kings-of-soul</link>
+      </image>
+      <link>https://www.pittsburghsymphony.org/production/93247/kings-of-soul</link>
+      <pubDate>2024-01-18 14:27:13 -0500</pubDate>
+      <date>Sun, Jun 22, 2025</date>
+      <time>2:30PM</time>
+      <datetime>Sun, Jun 22, 2025, 2:30PM</datetime>
+      <venue>Heinz Hall</venue>
+    </item>
+    <item>
+      <title>Lord of the Rings: The Fellowship of the Ring</title>
+      <presenter>Pittsburgh Symphony Orchestra</presenter>
+      <genre/>
+      <image>
+        <url>https://culturaldistrict-prod.s3.amazonaws.com/s7qqp48p3huqeq5nmfoinygw8nzc</url>
+        <title>Lord of the Rings: The Fellowship of the Ring</title>
+        <link>https://www.pittsburghsymphony.org/production/94962/lord-of-the-rings-the-fellowship-of-the-ring</link>
+      </image>
+      <link>https://www.pittsburghsymphony.org/production/94962/lord-of-the-rings-the-fellowship-of-the-ring</link>
+      <pubDate>2024-03-03 20:29:26 -0500</pubDate>
+      <date>Fri, Jun 27, 2025</date>
+      <time>7:00PM</time>
+      <datetime>Fri, Jun 27, 2025, 7:00PM</datetime>
+      <venue>Heinz Hall</venue>
+    </item>
+    <item>
+      <title>Lord of the Rings: The Fellowship of the Ring</title>
+      <presenter>Pittsburgh Symphony Orchestra</presenter>
+      <genre/>
+      <image>
+        <url>https://culturaldistrict-prod.s3.amazonaws.com/s7qqp48p3huqeq5nmfoinygw8nzc</url>
+        <title>Lord of the Rings: The Fellowship of the Ring</title>
+        <link>https://www.pittsburghsymphony.org/production/94962/lord-of-the-rings-the-fellowship-of-the-ring</link>
+      </image>
+      <link>https://www.pittsburghsymphony.org/production/94962/lord-of-the-rings-the-fellowship-of-the-ring</link>
+      <pubDate>2024-03-03 20:29:28 -0500</pubDate>
+      <date>Sat, Jun 28, 2025</date>
+      <time>7:00PM</time>
+      <datetime>Sat, Jun 28, 2025, 7:00PM</datetime>
+      <venue>Heinz Hall</venue>
+    </item>
+    <item>
+      <title>Lord of the Rings: The Fellowship of the Ring</title>
+      <presenter>Pittsburgh Symphony Orchestra</presenter>
+      <genre/>
+      <image>
+        <url>https://culturaldistrict-prod.s3.amazonaws.com/s7qqp48p3huqeq5nmfoinygw8nzc</url>
+        <title>Lord of the Rings: The Fellowship of the Ring</title>
+        <link>https://www.pittsburghsymphony.org/production/94962/lord-of-the-rings-the-fellowship-of-the-ring</link>
+      </image>
+      <link>https://www.pittsburghsymphony.org/production/94962/lord-of-the-rings-the-fellowship-of-the-ring</link>
+      <pubDate>2024-03-03 20:29:30 -0500</pubDate>
+      <date>Sun, Jun 29, 2025</date>
+      <time>2:30PM</time>
+      <datetime>Sun, Jun 29, 2025, 2:30PM</datetime>
+      <venue>Heinz Hall</venue>
+    </item>
+  </channel>
+</rss>
