@@ -3,3 +3,5 @@ node_modules
 __pycache__
 crawled_sublink_text_data.zip
 crawled_sublink_text_data/
+crawled_all/
+crawled_all.zip
