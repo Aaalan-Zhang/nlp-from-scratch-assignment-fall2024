@@ -38,10 +38,10 @@ def remove_duplicate_urls(file_path, column_name):
 
 if __name__ == "__main__":
     # Path to the CSV file
-    file_path = '/Users/alan/11711/nlp-from-scratch-assignment/data/1010_160_entries/crawled/crawled_sublinks.csv'
+    file_path = '/Users/alan/11711/nlp-from-scratch-assignment/data/1010_160_entries/crawled/sublink_file_name_url_mapping.csv'
     
     # Column in the CSV file containing the URLs
-    column_name = 'Sublink'  # Adjust based on your CSV column name
+    column_name = 'Value'  # Adjust based on your CSV column name
 
     # Remove duplicates
     remove_duplicate_urls(file_path, column_name)
