@@ -6,13 +6,15 @@ from tqdm import tqdm
 # Make sure NLTK's sentence and word tokenizers are downloaded
 nltk.download('punkt')
 
+MAX_WORDS_PER_CHUNK = 3072  # Maximum number of words per shard
+OVERLAP_WORDS = 600  # Number of overlapping words between shards
 # Function to read the content of a text file
 def read_file(file_path):
     with open(file_path, 'r', encoding='utf-8') as file:
         return file.read()
 
 # Function to split text into sentence-based chunks with word-based overlap
-def shard_text_by_sentences(text, max_words_per_chunk=1024, overlap_words=200):
+def shard_text_by_sentences(text, max_words_per_chunk=MAX_WORDS_PER_CHUNK, overlap_words=OVERLAP_WORDS):
     sentences = sent_tokenize(text)  # Tokenize text into sentences
     chunks = []
     current_chunk = []
@@ -72,7 +74,7 @@ def process_directory(input_dir, output_dir, max_words_per_chunk=1024, overlap_w
 
 # Define input and output directories
 input_directory = '../../data/crawled/crawled_text_data'  # Directory containing text files
-output_directory = '../../data/crawled/crawled_text_data_append_sharding_1024_200'  # Directory to save the shards
+output_directory = f'../../data/crawled/crawled_text_data_append_sharding_{MAX_WORDS_PER_CHUNK}_{OVERLAP_WORDS}'  # Directory to save the shards
 
 # Process the directory and shard files
 process_directory(input_directory, output_directory)
