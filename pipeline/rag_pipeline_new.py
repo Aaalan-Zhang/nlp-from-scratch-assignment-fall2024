@@ -247,15 +247,15 @@ Answer:
 if __name__ == "__main__":
 
     # Step 0: Load environment variables
-    # load_dotenv()
+    load_dotenv()
 
-    # os.environ["LANGCHAIN_TRACING_V2"] = "true"
-    # os.environ["LANGCHAIN_API_KEY"] = os.getenv('LANGCHAIN_API_KEY')
-    # os.environ["LANGCHAIN_ENDPOINT"] = "https://api.smith.langchain.com"
-    # os.environ["LANGCHAIN_PROJECT"] = "rag-template"
-    # os.environ["USER_AGENT"] = "LangChain/1.0 (+https://www.langchain.com)"
+    os.environ["LANGCHAIN_TRACING_V2"] = "true"
+    os.environ["LANGCHAIN_API_KEY"] = os.getenv('LANGCHAIN_API_KEY')
+    os.environ["LANGCHAIN_ENDPOINT"] = "https://api.smith.langchain.com"
+    os.environ["LANGCHAIN_PROJECT"] = "rag-template"
+    os.environ["USER_AGENT"] = "LangChain/1.0 (+https://www.langchain.com)"
 
-    # login(token=os.getenv('HUGGINGFACE_TOKEN'))
+    login(token=os.getenv('HUGGINGFACE_TOKEN'))
 
     # Step 1: Initialize the Hugging Face model as your LLM
     print("Initializing the Hugging Face model...")
