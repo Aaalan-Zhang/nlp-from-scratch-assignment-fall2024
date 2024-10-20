@@ -113,8 +113,9 @@ if __name__ == "__main__":
     embedding_model = SentenceTransformer(embedding_model_name, truncate_dim=384)
 
     # Step 3: load the text files for building the index
+    print(f"Start loading texts from {text_files_path}")
     docs = load_text_files(path=text_files_path) # TODO: path to be replaced with the arg passed in
-
+    print(f"End loading texts from {text_files_path}")
     # Step 4: Split the documents into smaller chunks
     # Wrap text strings in Document objects
     documents = [Document(page_content=text) for text in docs]
@@ -130,17 +131,18 @@ if __name__ == "__main__":
     #               chunk_size=1000, chunk_overlap=200)
     
     splits = text_splitter.split_documents(documents)
-
+    print(f"End Spliting texts")
     # Step 5: Create Chroma vectorstore with embeddings from Sentence Transformers
     embeddings = [embedding_model.encode(doc.page_content) for doc in splits]
     embedding_wrapper = SentenceTransformerEmbeddings(embedding_model)
+    print(f"End Embedding texts")
 
-    print("Building the vectorstore...")
-    # TODO: the method of building the vectorstore can be a choice by the user: dense retriever like FAISS, sparse retriever like BM25.
-    vectorstore = Chroma.from_documents(documents=splits, embedding=embedding_wrapper, collection_name="collectionChroma")
+    # print("Building the vectorstore...")
+    # # TODO: the method of building the vectorstore can be a choice by the user: dense retriever like FAISS, sparse retriever like BM25.
+    # vectorstore = Chroma.from_documents(documents=splits, embedding=embedding_wrapper, collection_name="collectionChroma")
 
-    num_documents = vectorstore._collection.count()
-    print(f"Number of documents in the vectorstore: {num_documents}")
+    # num_documents = vectorstore._collection.count()
+    # print(f"Number of documents in the vectorstore: {num_documents}")
 
     # Step 6: Create the RAG prompting pipeline
     prompt_template = PromptTemplate(
@@ -164,14 +166,20 @@ if __name__ == "__main__":
     ref_doc_ids, questions, ref_answers = load_qa_test_data(qa_test_data_path)
     
     # Step 8: Generate answers for the questions
+    print("Building the vectorstore...")
     if retriever_type == "CHROMA":
+        print("Building the vectorstore Chroma...")
+        vectorstore = Chroma.from_documents(documents=splits, embedding=embedding_wrapper, collection_name="collectionChroma")
         chroma_retriever = vectorstore.as_retriever(search_kwargs={'k': top_k_search})
         retriever = chroma_retriever
     elif retriever_type == "FAISS":
+        print("Building FAISS...")
         embeddings_np = np.array(embeddings).astype("float32")
         faiss_retriever = FAISSRetriever(embeddings=embeddings_np, documents=splits)
         retriever = faiss_retriever
     else:
+        print("Building the vectorstore Chroma...")
+        vectorstore = Chroma.from_documents(documents=splits, embedding=embedding_wrapper, collection_name="collectionChroma")
         chroma_retriever = vectorstore.as_retriever(search_kwargs={'k': top_k_search})
         retriever = chroma_retriever
     
