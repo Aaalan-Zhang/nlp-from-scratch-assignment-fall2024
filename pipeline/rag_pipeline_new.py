@@ -5,6 +5,7 @@ from tqdm import tqdm
 
 import faiss
 import numpy as np
+import argparse
 
 from dotenv import load_dotenv
 from huggingface_hub import login
@@ -33,19 +34,31 @@ from utility.rag_utility import FAISSRetriever, SentenceTransformerEmbeddings, l
 # ========================================
 # Vars that can be set and read from another var file.
 # ========================================
-model_name = "meta-llama/Llama-3.1-8B-Instruct" 
-# model_name = "unsloth/Llama-3.2-1B-Instruct"
-# torchType = torch.bfloat16
-torchType = torch.float16
-padding_side = "left"
-embeddingModelName = "sentence-transformers/all-MiniLM-L6-v2"
-textFilesPath = "data/crawled/crawled_text_data"
-qesFilePath = "data/annotated/generated_qa_pairs_3000_test20.csv"
-topKSearch = 3
-retrieverType = "FAISS" # "CHROMA" or "FAISS"
-outputFile = "output/qa_rag_results.csv"
 
 
+def parse_args():
+    parser = argparse.ArgumentParser(description="Script for running RAG pipeline with FAISS or CHROMA.")
+
+    # Add arguments
+    parser.add_argument("--model_name", type=str, default="meta-llama/Llama-3.1-8B-Instruct",
+                        help="Name of the Hugging Face model to use.")
+    parser.add_argument("--torch_type", type=str, default="float16",
+                        help="Precision type (float16 or bfloat16).")
+    parser.add_argument("--padding_side", type=str, choices=["left", "right"], default="left",
+                        help="Padding side for tokenizer.")
+    parser.add_argument("--embedding_model_name", type=str, default="sentence-transformers/all-MiniLM-L6-v2",
+                        help="Name of the embedding model to use.")
+    parser.add_argument("--text_files_path", type=str, default="data/crawled/crawled_text_data",
+                        help="Path to the text files directory.")
+    parser.add_argument("--qes_file_path", type=str, default="data/annotated/generated_qa_pairs_3000_test20.csv",
+                        help="Path to the QA file.")
+    parser.add_argument("--top_k_search", type=int, default=3, help="Top K documents to retrieve.")
+    parser.add_argument("--retriever_type", type=str, choices=["FAISS", "CHROMA"], default="FAISS",
+                        help="Type of retriever to use (FAISS or CHROMA).")
+    parser.add_argument("--output_file", type=str, default="output/qa_rag_results.csv",
+                        help="Path to the output CSV file.")
+
+    return parser.parse_args()
 
 # ========================================
 # Main Script Execution
@@ -63,10 +76,23 @@ if __name__ == "__main__":
 
     login(token=os.getenv('HUGGINGFACE_TOKEN'))
 
+    args = parse_args()
+
+    # Set model name, precision, and other parameters based on passed args
+    model_name = args.model_name
+    torch_type = torch.float16 if args.torch_type == "float16" else torch.bfloat16
+    padding_side = args.padding_side
+    embedding_model_name = args.embedding_model_name
+    text_files_path = args.text_files_path
+    qes_file_path = args.qes_file_path
+    top_k_search = args.top_k_search
+    retriever_type = args.retriever_type
+    output_file = args.output_file
+
     # Step 1: Initialize the Hugging Face model as your LLM
     print("Initializing the Hugging Face model...")
     # model_name = "meta-llama/Llama-3.1-8B-Instruct" # TODO: model name to be replaced with the arg passed in
-    model = AutoModelForCausalLM.from_pretrained(model_name, torch_dtype=torchType, device_map="auto")
+    model = AutoModelForCausalLM.from_pretrained(model_name, torch_dtype=torch_type, device_map="auto")
 
     tokenizer = AutoTokenizer.from_pretrained(model_name)
     tokenizer.pad_token = tokenizer.eos_token
@@ -76,7 +102,7 @@ if __name__ == "__main__":
         "text-generation",
         model=model,
         tokenizer=tokenizer, 
-        torch_dtype=torchType
+        torch_dtype=torch_type
     )
     print("Model initialized successfully!")
 
@@ -84,10 +110,10 @@ if __name__ == "__main__":
     # TODO: 
     # 1. model for embeddings can be a choice by the user
     # 2. truncate_dim to be replaced with the arg passed
-    embedding_model = SentenceTransformer(embeddingModelName, truncate_dim=384)
+    embedding_model = SentenceTransformer(embedding_model_name, truncate_dim=384)
 
     # Step 3: load the text files for building the index
-    docs = load_text_files(path=textFilesPath) # TODO: path to be replaced with the arg passed in
+    docs = load_text_files(path=text_files_path) # TODO: path to be replaced with the arg passed in
 
     # Step 4: Split the documents into smaller chunks
     # Wrap text strings in Document objects
@@ -134,22 +160,22 @@ if __name__ == "__main__":
     prompt = chat_prompt_template
 
     # Step 7: Load the QA test data
-    qa_test_data_path = qesFilePath # TODO: qa_test_data_path to be replaced with the arg passed in
+    qa_test_data_path = qes_file_path # TODO: qa_test_data_path to be replaced with the arg passed in
     ref_doc_ids, questions, ref_answers = load_qa_test_data(qa_test_data_path)
     
     # Step 8: Generate answers for the questions
-    if retrieverType == "CHROMA":
-        chroma_retriever = vectorstore.as_retriever(search_kwargs={'k': topKSearch})
+    if retriever_type == "CHROMA":
+        chroma_retriever = vectorstore.as_retriever(search_kwargs={'k': top_k_search})
         retriever = chroma_retriever
-    elif retrieverType == "FAISS":
+    elif retriever_type == "FAISS":
         embeddings_np = np.array(embeddings).astype("float32")
         faiss_retriever = FAISSRetriever(embeddings=embeddings_np, documents=splits)
         retriever = faiss_retriever
     else:
-        chroma_retriever = vectorstore.as_retriever(search_kwargs={'k': topKSearch})
+        chroma_retriever = vectorstore.as_retriever(search_kwargs={'k': top_k_search})
         retriever = chroma_retriever
     
-    generated_answers = answer_generation(questions, retriever, embedding_model, generation_pipe, prompt, k=topKSearch)
+    generated_answers = answer_generation(questions, retriever, embedding_model, generation_pipe, prompt, k=top_k_search)
     
     # save the generated answers together with the questions and reference doc ids and answers
     qa_results = pd.DataFrame({
@@ -160,5 +186,5 @@ if __name__ == "__main__":
     })
     
     # save the results to a csv file
-    qa_results.to_csv(outputFile, index=False) # TODO: output_file to be replaced with the arg passed in
-    print(f"QA evaluation completed! Results saved to {outputFile}")
+    qa_results.to_csv(output_file, index=False) # TODO: output_file to be replaced with the arg passed in
+    print(f"QA evaluation completed! Results saved to {output_file}")
