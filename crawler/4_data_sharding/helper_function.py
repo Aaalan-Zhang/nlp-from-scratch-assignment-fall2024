@@ -35,7 +35,7 @@ def compute_word_counts(directory):
         return 0, 0  # If no text files are found, return zero
 
 # Example: Process all text files in the directory
-directory = '../../data/crawled/crawled_text_data_sentence_50_5_max_1024'  # Specify the path to your text file directory
+directory = '../../data/crawled/crawled_text_data_append_sharding_1024_200_max_1024'  # Specify the path to your text file directory
 avg_word_count, max_word_count = compute_word_counts(directory)
 
 print(f"Average Word Count: {avg_word_count}")

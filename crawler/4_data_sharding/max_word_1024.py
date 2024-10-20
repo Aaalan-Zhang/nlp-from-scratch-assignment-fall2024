@@ -53,8 +53,8 @@ def process_chunk_directory(input_dir, output_dir, max_words_per_chunk=1024):
     print("All files processed.")
 
 # Define input and output directories
-input_directory = '../../data/crawled/crawled_text_data_sentence_50_5'  # Directory containing text files
-output_directory = '../../data/crawled/crawled_text_data_sentence_50_5_max_1024'  # Directory to save the shards
+input_directory = '../../data/crawled/crawled_text_data_append_sharding_1024_200'  # Directory containing text files
+output_directory = '../../data/crawled/crawled_text_data_append_sharding_1024_200_max_1024'  # Directory to save the shards
 
 os.makedirs(output_directory, exist_ok=True)
 # Process the directory and split chunks if needed
