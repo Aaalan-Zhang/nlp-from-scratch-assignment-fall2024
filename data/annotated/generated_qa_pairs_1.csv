@@ -1,0 +1,968 @@
+Doc_id,Question,Answer
+0-0-0.txt,Who is Pittsburgh named after?,William Pitt
+0-0-0.txt,When was Pittsburgh founded?,"November 27, 1758"
+0-0-0.txt,What is the highest elevation in Pittsburgh?,"1,370 ft"
+0-0-0.txt,What is the population of Pittsburgh in 2020?,"302,971"
+0-0-0.txt,What is the rank of Pittsburgh in the United States by population?,68th
+0-0-0.txt,What is the GDP of Pittsburgh in 2022?,$153.3 billion
+0-0-0.txt,What is the motto of Pittsburgh?,Benigno Numine
+0-0-0.txt,In what year was Pittsburgh designated as a Pennsylvania Historical Marker?,1946
+0-1-0.txt,Who is Pittsburgh named after?,William Pitt
+0-1-0.txt,What is the elevation of the lowest point in Pittsburgh?,710 ft
+0-1-0.txt,What is the population of Pittsburgh as of the 2020 census?,"302,971"
+0-1-0.txt,What is the rank of Pittsburgh in the United States?,68th
+0-1-0.txt,What is the name of the city's major league professional sports team that plays football?,Pittsburgh Steelers
+0-1-0.txt,What is the name of the cultural institution that houses the National Aviary?,Phipps Conservatory and Botanical Gardens
+0-1-0.txt,What is the year when Pittsburgh was incorporated as a borough?,1794
+0-10-0.txt,What is the annual expenditure on street tree planting and maintenance in Pittsburgh?,"$850,000"
+0-10-0.txt,What is the average rate of asthma in children living near industrial sites in Pittsburgh?,Almost 3 times the national average
+0-10-0.txt,What percentage of students in Pittsburgh live in areas exceeding the USEPA's 12 micrograms per cubic meter standards?,38%
+0-10-0.txt,What percentage of students in Pittsburgh live in areas exceeding the WHO's 10 micrograms per cubic meter standards?,70%
+0-10-0.txt,When was the study conducted on air pollution in Pittsburgh?,2014-2016
+0-10-0.txt,What is the name of the crowd-sourced air quality monitoring application launched in Pittsburgh?,Smell PGH
+0-10-0.txt,What is the combined sewer system in Pittsburgh composed of?,Sewage pipes containing both stormwater and wastewater
+0-10-0.txt,When was the sewage treatment plant in Pittsburgh built?,1959
+0-10-0.txt,What is the name of the authority operating under Consent Decree from the EPA to address sewage issues in Pittsburgh?,Allegheny County Sanitary Authority (ALCOSAN)
+0-10-0.txt,What is the proposed cost of the upgrade to the sewage system in Pittsburgh?,$2 billion
+0-10-0.txt,What is the name of the city's agency responsible for replacing pipes and charging water rates?,Pittsburgh Water and Sewer Authority (PWSA)
+0-10-0.txt,What is the name of the company that was hired for consultation by PWSA in 2014?,Veolia
+0-10-0.txt,What is the name of the chemical used by PWSA to prevent metal corrosion in water pipes?,Caustic soda
+0-10-0.txt,What is the maximum allowed level of lead in drinking water?,15 ppb
+0-10-0.txt,What is the name of the chemical added to the water by PWSA to prevent lead leaching?,Orthophosphate
+0-10-0.txt,What percentage of black and Hispanic children in Pittsburgh experience elevated blood-lead levels compared to white children?,4 times
+0-10-0.txt,What was found to have the highest levels of lead in schools in the Pittsburgh area?,Water fountains
+0-11-0.txt,When was the water fountain in Langley K-8 school in Sheraden found to have the highest levels of lead?,2015
+0-11-0.txt,What is the name of the company that PWSA terminated its contract with in 2015?,Veolia
+0-11-0.txt,What is the purpose of adding orthophosphate to the water in Pittsburgh?,To create a barrier to prevent lead from leaching into drinking water
+0-11-0.txt,What is the percentage of the student body at Langley K-8 school that is eligible for the free lunch program?,89%
+0-11-0.txt,What is the racial composition of Pittsburgh in 2020?,"64.7% non-Hispanic white, 23.0% Black or African American, 5.8% Asian, and 3.2% Hispanic or Latino American"
+0-11-0.txt,What are the five largest European ethnic groups in Pittsburgh?,"German, Irish, Italian, Polish, and English"
+0-11-0.txt,What is the percentage of German-American in the metropolitan area of Pittsburgh?,22%
+0-11-0.txt,What is the percentage of Italian-American in the metropolitan area of Pittsburgh?,15.4%
+0-11-0.txt,What is the percentage of Irish-American in the metropolitan area of Pittsburgh?,11.6%
+0-11-0.txt,What is the population of Pittsburgh in 2020?,"302,971"
+0-11-0.txt,What is the percentage of non-Hispanic white population in Pittsburgh in 2010?,64.8%
+0-11-0.txt,What is the percentage of Black or African American population in Pittsburgh in 2020?,23.0%
+0-11-0.txt,What is the percentage of Asian population in Pittsburgh in 2020?,5.8%
+0-12-0.txt,What percentage of Pittsburgh's population was White in 2020?,64.7%
+0-12-0.txt,What percentage of the population of the city identified themselves as Christians in 2014?,78%
+0-12-0.txt,What was the median age of the population in Pittsburgh?,36 years
+0-12-0.txt,What percentage of families and the population were below the poverty line in Pittsburgh?,15.0% and 20.4%
+0-12-0.txt,What was the median household income in Pittsburgh in 2010?,"$28,588"
+0-12-0.txt,What was the median income for a family in Pittsburgh in 2010?,"$38,795"
+0-12-0.txt,What was the percentage of the population that was non-Hispanic white in 2010?,64.8%
+0-12-0.txt,What percentage of the population was Black or African American in 2020?,23.0%
+0-12-0.txt,What percentage of the population was Asian in 2020?,5.8%
+0-12-0.txt,What was the percentage of the population that was Hispanic or Latino American of any race in 2020?,3.2%
+0-12-0.txt,What was the percentage of households that had children under the age of 18 living with them in 2010?,21.9%
+0-12-0.txt,What percentage of households were married couples living together in 2010?,31.2%
+0-12-0.txt,What percentage of households had a female householder with no husband present in 2010?,16.5%
+0-12-0.txt,What percentage of households were non-families in 2010?,48.4%
+0-12-0.txt,What was the average household size in Pittsburgh in 2010?,2.17
+0-12-0.txt,What was the average family size in Pittsburgh in 2010?,2.95
+0-12-0.txt,What percentage of the population was 65 years of age or older in 2010?,16.4%
+0-12-0.txt,What was the per capita income for the city in 2010?,"$18,816"
+0-13-0.txt,What is the median income for a household in Pittsburgh?,"$53,799"
+0-13-0.txt,What is the median income for married-couple families in Pittsburgh?,"$93,500"
+0-13-0.txt,What is the average household income in Sewickley Heights?,"$218,000"
+0-13-0.txt,What percentage of residents 25 years or older in Pittsburgh have completed a bachelor's degree?,31%
+0-13-0.txt,What is the population density of North Oakland in Pittsburgh?,"21,200 people per square mile"
+0-13-0.txt,What is the most densely populated neighborhood outside of the city limits in Pittsburgh?,Dormont
+0-13-0.txt,What are the top immigrant groups in Pittsburgh?,"China, India, Korea, and Italy"
+0-13-0.txt,How many residents were forced to relocate for the construction of the Civic Arena in the 1950s?,"1,551"
+0-13-0.txt,What was the goal of the Urban Redevelopment Authority's redevelopment of East Liberty in the 1960s?,Preserving its status as a market center
+0-13-0.txt,What was the number of people forced to relocate for the construction of Penn Center Mall in East Liberty?,"3,800"
+0-14-0.txt,"What is the name of the article where a resident explains their belief that redevelopment plans are part of ""deconcentration""?",Public Source
+0-14-0.txt,What is the name of the area where people frequently cite housing units being demolished and replaced by businesses as evidence of gentrification?,East Liberty
+0-14-0.txt,What is the annual payroll of the region's technology industries in 2007?,$10.8 billion
+0-14-0.txt,What is the name of the complex where Google has research and technology offices in a refurbished 1918–1998 Nabisco factory?,Bakery Square
+0-14-0.txt,What is the number of employees at the University of Pittsburgh Medical Center?,"48,000"
+0-14-0.txt,What is the percentage of jobs in the region that are in the medical sector?,10%
+0-14-0.txt,What is the name of the corporation that is the largest employer in education?,University of Pittsburgh
+0-14-0.txt,What is the number of Fortune 500 companies that call the Pittsburgh area home?,10
+0-14-0.txt,What is the name of the company that has research and technology offices in a refurbished 1918–1998 Nabisco factory?,Google
+0-14-0.txt,What is the name of the refurbished 1918–1998 Nabisco factory?,Bakery Square
+0-14-0.txt,What is the number of green buildings in Pittsburgh?,60
+0-14-0.txt,What is the name of the gas fields in the area?,Marcellus natural gas fields
+0-14-0.txt,What is the number of full-time equivalent jobs supported by the nonprofit arts and cultural industry in Allegheny County?,"10,000"
+0-14-0.txt,What is the amount of local and state taxes raised by the nonprofit arts and cultural industry in Allegheny County?,$34 million
+0-14-0.txt,What is the name of the shopping malls in the Pittsburgh area?,Over 35
+0-14-0.txt,What is the number of major non-public companies headquartered in the region?,Several
+0-15-0.txt,Who is Pittsburgh named after?,William Pitt
+0-15-0.txt,What is the name of the 116-year-old film industry in Pittsburgh?,Pittsburgh Film Industry
+0-15-0.txt,What is the name of the largest sound stage outside Los Angeles and New York City?,The largest sound stage
+0-15-0.txt,What is the name of the convention that has been hosted in Pittsburgh since 1984?,INPEX
+0-15-0.txt,What is the name of the furry convention hosted in Pittsburgh since 2006?,Anthrocon
+0-15-0.txt,What is the name of the energy trade show hosted in Pittsburgh since 2009?,DUG East
+0-15-0.txt,What is the name of the Pittsburgh Symphony Orchestra's venue?,Heinz Hall for the Performing Arts
+0-15-0.txt,What is the name of the Pittsburgh Opera's venue?,Benedum Center
+0-15-0.txt,What is the name of the Pittsburgh Irish and Classical Theatre?,Pittsburgh Irish and Classical Theatre
+0-15-0.txt,What is the name of the Renaissance and Baroque Society of Pittsburgh?,Renaissance and Baroque Society of Pittsburgh
+0-15-0.txt,What is the name of the early music ensemble?,Chatham Baroque
+0-15-0.txt,What is the name of the multicultural academy dedicated to the preservation and presentation of folk songs and dance?,Duquesne University Tamburitzans
+0-15-0.txt,What is the name of the largest and most advanced movie studio in the eastern United States?,The largest and most advanced movie studio
+0-15-0.txt,What is the name of the museum dedicated to the life and work of Andy Warhol?,The Andy Warhol Museum
+0-15-0.txt,What is the name of the Carnegie Museum of Art's venue?,The Carnegie Museum of Art
+0-15-0.txt,What is the name of the Frick Pittsburgh's venue?,The Frick Pittsburgh
+0-15-0.txt,What is the name of the Pittsburgh Center for the Arts' venue?,The Pittsburgh Center for the Arts
+0-15-0.txt,What is the name of the Mattress Factory's venue?,The Mattress Factory
+0-15-0.txt,What is the name of the Carnegie Museum of Natural History's venue?,
+0-16-0.txt,When was the first all-African-American opera company in the United States founded?,1936
+0-16-0.txt,What is the name of the reality show that is filmed at Pittsburgh's Abby Lee Dance Company?,Dance Moms
+0-16-0.txt,"Who is the artist behind the song ""Black and Yellow""?",Wiz Khalifa
+0-16-0.txt,What is the name of the music venue owned by Liz Berlin of Rusted Root?,Mr. Smalls
+0-16-0.txt,What is the name of the heavy metal band that was nominated for a Grammy?,Code Orange
+0-16-0.txt,What is the name of the electronic music dance party that has been compared to European nightclubs?,Hot Mass
+0-16-0.txt,"Who is the electronic music artist who credits Hot Mass with her ""indoctrination into nightlife""?",Yaeji
+0-16-0.txt,"What is the name of the oldest, continuously producing theater company in Pennsylvania?",Duquesne University Red Masquers
+0-16-0.txt,"How long has the improv jam ""Friday Nite Improvs"" been performed in the Cathedral of Learning and other locations?",20 years
+0-16-0.txt,What is the name of the math rock band that originated in Pittsburgh?,Don Caballero
+0-16-0.txt,What is the name of the punk rock and Hardcore punk act that originated in Pittsburgh?,Aus Rotten
+0-16-0.txt,What is the name of the art gallery at Carnegie Mellon University?,Miller Gallery
+0-16-0.txt,What is the name of the University Art Gallery of the University of Pittsburgh?,University Art Gallery
+0-16-0.txt,What is the name of the amusement park in Pittsburgh?,Kennywood
+0-16-0.txt,How many visitors did Anthrocon draw in 2024?,"17,000"
+0-16-0.txt,What is the cumulative economic impact of Anthrocon over 11 years?,$53 million
+0-16-0.txt,What is the name of the convention center that hosts Anthrocon?,David L. Lawrence Convention Center
+0-16-0.txt,What is the name of the state-licensed casino on the North Shore?,Rivers Casino
+0-17-0.txt,"Who is credited with her ""indoctrination into nightlife"" by Hot Mass?",Yaeji
+0-17-0.txt,What is the name of the first theater built in Pittsburgh?,1812
+0-17-0.txt,"What is the name of the oldest, continuously producing theater company in Pennsylvania?",Duquesne University Red Masquers
+0-17-0.txt,"What is the name of the Pittsburgh-based playwright who wrote ""Ma Rainey's Black Bottom""?",August Wilson
+0-17-0.txt,"What is the name of the Pittsburgh-based author who wrote ""The Amazing Adventures of Kavalier & Clay""?",Michael Chabon
+0-17-0.txt,"Who is the Pulitzer Prize-winning writer who wrote ""An American Childhood""?",Annie Dillard
+0-17-0.txt,What is the name of the Pittsburgh-based poet who won the 2010 National Book Award?,Terrance Hayes
+0-17-0.txt,What is the name of the annual festival that celebrates the city's rich literary tradition?,Pittsburgh New Works Festival
+0-17-0.txt,"What is the name of the Pittsburgh-based restaurant that was deemed ""Food City of the Year"" in 2019?",None (the restaurant is not specified in the document)
+0-17-0.txt,"What is the name of the festival that celebrates pickles and was named the ""best specialty food festival in America""?",Picklesburgh
+0-17-0.txt,What is the name of the University of Pittsburgh's Repertory Theatre?,Repertory Theatre
+0-17-0.txt,What is the name of the Point Park University's resident company at its Pittsburgh Playhouse?,Pittsburgh Playhouse
+0-17-0.txt,What is the name of the Carnegie Mellon University's School of Drama production organization?,Scotch'n'Soda
+0-17-0.txt,What is the name of the Duquesne University's theater company?,Red Masquers
+0-17-0.txt,What is the name of the Pittsburgh-based television show that was hosted by Mister Rogers?,Mister Rogers' Neighborhood
+0-17-0.txt,What is the name of the Pittsburgh-based science fiction organization?,PARSEC
+0-18-0.txt,Who founded the PARSEC science fiction organization?,[194]
+0-18-0.txt,What is the name of the annual festival celebrating zombies?,Zombie Fest
+0-18-0.txt,What is the name of the writer's workshop that includes Barton Paul Levenson?,Write or Die
+0-18-0.txt,"What is the name of the restaurant consulting firm that named Pittsburgh ""Food City of the Year""?",af & co
+0-18-0.txt,What is the name of the festival that celebrates pickles?,Picklesburgh
+0-18-0.txt,What is the name of the dialect spoken in Pittsburgh?,Pittsburghese
+0-18-0.txt,"What is the term for the local word ""you ones"" in Pittsburghese?",Yinz
+0-18-0.txt,"What is the name of the local peculiarities that have prompted The New York Times to describe Pittsburgh as ""the Galapagos Islands of American dialect""?",Pittsburghese
+0-18-0.txt,What is the name of the lexicon that contains loans from Polish and other European languages?,Pittsburghese
+0-18-0.txt,What is the name of the largest city park in Pittsburgh?,Frick Park
+0-18-0.txt,What is the estimated cost of a comprehensive flood control program for the region?,$50 billion
+0-18-0.txt,What is the name of the professional soccer team in Pittsburgh?,Pittsburgh Riverhounds
+0-18-0.txt,What is the name of the stadium where the Riverhounds play their home matches?,Highmark Stadium
+0-18-0.txt,What is the name of the trail that has converted miles of former rail tracks to recreational trails?,Rails to Trails
+0-19-0.txt,When was the Pittsburgh Pirates founded?,1882
+0-19-0.txt,What is the name of the stadium where the Pittsburgh Riverhounds play?,Highmark Stadium
+0-19-0.txt,How many championships did the Pittsburgh Steelers win?,6
+0-19-0.txt,What is the name of the famous Terrible Towel?,Terrible Towel
+0-19-0.txt,What is the name of the league that the Pittsburgh Riverhounds are a part of?,USL Championship
+0-19-0.txt,How many championships did the University of Pittsburgh Panthers win?,9
+0-19-0.txt,What is the name of the stadium where the Pittsburgh Pirates play?,PNC Park
+0-19-0.txt,When did the Pittsburgh Steelers start selling out every home game?,1972
+0-19-0.txt,How many consecutive losing seasons did the Pittsburgh Pirates have?,20
+0-19-0.txt,When was the Pittsburgh Steelers founded?,1933
+0-2-0.txt,Who is Pittsburgh named after?,William Pitt
+0-2-0.txt,"When was Pittsburgh federally recognized as ""Pittsburg""?",1891-1911
+0-2-0.txt,What is the name of the 18th-century Lenape town located in Pittsburgh?,Shannopin's Town
+0-2-0.txt,Who was the first European to enter the Pittsburgh region?,Robert de La Salle
+0-2-0.txt,What is the name of the oldest extant structure in Pittsburgh?,Fort Pitt Block House
+0-2-0.txt,Who was the British General who was dispatched to take Fort Duquesne?,Edward Braddock
+0-2-0.txt,Who was the aide to General Edward Braddock?,George Washington
+0-2-0.txt,What is the name of the treaty that allowed the Penns to purchase the modern region from the Iroquois?,Treaty of Fort Stanwix
+0-2-0.txt,When was the city's first civilian local government created?,"April 16, 1771"
+0-2-0.txt,Who was the first constable of Pittsburgh?,William Teagarden
+0-2-0.txt,Who was the first clerk of Pittsburgh?,William Troop
+0-2-0.txt,What was one of the earliest industries in Pittsburgh?,Boat building
+0-2-0.txt,When was the Pittsburgh Post-Gazette started?,1785
+0-2-0.txt,What was chartered in 1787?,Pittsburgh Academy
+0-2-0.txt,What event resulted in federal troops being sent to Pittsburgh in 1794?,Whiskey Rebellion
+0-2-0.txt,What began in Pittsburgh in 1797?,Glass manufacture
+0-2-0.txt,What was the population of Pittsburgh by 1797?,"1,400"
+0-2-0.txt,What was the main base for settlers moving into the Northwest Territory?,Fort Pitt
+0-2-0.txt,Who led the expedition to the forks to unite Canada with French Louisiana via the rivers?,French soldiers from Quebec
+0-2-0.txt,What war began with the future Pittsburgh as its center?,French and Indian War
+0-20-0.txt,When was the Pittsburgh Steelers' team founded?,1933
+0-20-0.txt,How many Super Bowls did the Steelers win in a six-year span in the 1970s?,4
+0-20-0.txt,What is the name of the Steelers' home stadium?,Acrisure Stadium
+0-20-0.txt,How many national championships did the University of Pittsburgh's Panthers win?,9
+0-20-0.txt,What is the name of the professional women's football team in Pittsburgh?,Pittsburgh Passion
+0-20-0.txt,Who is the owner of the Pittsburgh Penguins?,Mario Lemieux
+0-20-0.txt,How many Stanley Cup championships did the Penguins win?,5
+0-20-0.txt,When did the Penguins move into the PPG Paints Arena?,2010
+0-20-0.txt,When was the city's first ice rink built?,1889
+0-20-0.txt,What is the name of the arena where the Penguins played before the PPG Paints Arena?,Civic Arena
+0-20-0.txt,How many Frozen Four college championships was RMU hosted?,1
+0-20-0.txt,When did the Pittsburgh Hornets farm team fold?,1967
+0-20-0.txt,How many playoff berths did the Steelers qualify for since the AFL-NFL merger?,28
+0-20-0.txt,How many NFL conference championship games did the Steelers host?,11
+0-21-0.txt,When was the Exposition Building on the Allegheny River near The Point and Duquesne Gardens in Oakland built?,1896
+0-21-0.txt,In what year was the NHL awarded a franchise to the city?,1924
+0-21-0.txt,What team won the first American Basketball Association championship in 1968?,Pittsburgh Pipers
+0-21-0.txt,Who set a record for consecutive field goals and field goal percentage in 1967?,Wilt Chamberlain
+0-21-0.txt,What year did Duquesne University's Chuck Cooper become the first African American drafted by an NBA team?,1950
+0-21-0.txt,How many conference titles has the Pitt Panthers men's basketball team won?,13
+0-21-0.txt,In what year did Robert Morris University's Colonials notched an upset win over the defending national champions Kentucky Wildcats?,2013
+0-21-0.txt,How many times has the Petersen Events Center sold out the Pitt Panthers men's basketball team?,Every season between 1999-2000 and 2015-2016
+0-21-0.txt,How many times has the US Open been hosted at Oakmont Country Club?,8
+0-21-0.txt,How many NBA draft picks has the Pitt Panthers men's basketball team produced?,27
+0-21-0.txt,What year did Duquesne University win the 1955 National Invitation Tournament?,1955
+0-21-0.txt,How many times has the Pitt Panthers women's basketball team qualified for the NCAA tournament?,4
+0-21-0.txt,What year was the Riverhounds founded?,1998
+0-21-0.txt,How many times has the U.S. Amateur been hosted at Oakmont Country Club?,8
+0-21-0.txt,How many times has the PGA Championship been hosted at Oakmont Country Club?,3
+0-22-0.txt,When was the Riverhounds founded?,1998
+0-22-0.txt,What is the name of the stadium where the Riverhounds play?,Highmark Stadium
+0-22-0.txt,What is the name of the golf course that holds the record for most times as host for the U.S. Open?,Oakmont Country Club
+0-22-0.txt,How many times has Oakmont Country Club hosted the U.S. Open?,8
+0-22-0.txt,What is the name of the professional wrestling promotion founded in Pittsburgh in 2000?,Keystone State Wrestling Alliance (KSWA)
+0-22-0.txt,What is the name of the annual sporting event that has been held in Pittsburgh since 1977?,Three Rivers Regatta
+0-22-0.txt,What is the name of the annual sporting event that has been held in Pittsburgh since 1983?,Pittsburgh Vintage Grand Prix
+0-22-0.txt,Who is the youngest mayor in the history of any major American city?,Luke Ravenstahl
+0-22-0.txt,When was Luke Ravenstahl sworn in as mayor?,2006
+0-22-0.txt,Who is the current mayor of Pittsburgh?,Ed Gainey
+0-22-0.txt,When was Ed Gainey elected as mayor?,November 2021
+0-22-0.txt,What is the name of the city's government building?,Pittsburgh City-County Building
+0-22-0.txt,How many districts does the Pittsburgh City Council represent?,9
+0-22-0.txt,What is the name of the river that runs through Pittsburgh?,Allegheny River
+0-22-0.txt,What is the name of the ski resort in the Pittsburgh area?,Seven Springs
+0-22-0.txt,What is the name of the ice skating rink in PPG Place?,PPG Place Ice Rink
+0-22-0.txt,How many times has Oakmont Country Club hosted the U.S. Amateurs?,8
+0-23-0.txt,Who is the youngest mayor in the history of any major American city?,Luke Ravenstahl
+0-23-0.txt,In what year was Bill Peduto sworn in as mayor?,2014
+0-23-0.txt,Who is Pittsburgh's first African-American mayor?,Ed Gainey
+0-23-0.txt,In what year was the first convention of the national Republican Party held in Pittsburgh?,1856
+0-23-0.txt,How many consecutive mayors have been Democrats since the 1933 election?,All
+0-23-0.txt,What is the ratio of party registration in Pittsburgh?,5 to 1 Democrat
+0-23-0.txt,How many Senate Districts represent Pittsburgh?,3
+0-23-0.txt,Who represents Pennsylvania's 12th congressional district?,Summer Lee and Chris Deluzio
+0-23-0.txt,How many sworn officers are in the Pittsburgh Bureau of Police?,850
+0-23-0.txt,What is the annual ranking of Pittsburgh in terms of safety?,One of America's safest big cities
+0-23-0.txt,"In what year was Pittsburgh named the 3rd ""most secure"" big city?",2013
+0-23-0.txt,How many murders were reported in Pittsburgh in 2019?,37
+0-23-0.txt,What is the homicide rate for African Americans in Pittsburgh compared to the national average?,Seven times
+0-23-0.txt,What percentage of unsolved cases in Pittsburgh involved a black victim?,97%
+0-23-0.txt,What is the amount of the police budget increase approved by the Pittsburgh City Council in 2023?,$6 million
+0-23-0.txt,What percentage of the police budget increase will go to the Stop the Violence trust fund?,6%
+0-23-0.txt,What is the rating of the Pittsburgh Police Department by the Police Scorecard?,37%
+0-24-0.txt,When was the University of Pittsburgh established?,1787
+0-24-0.txt,Who founded Carnegie Mellon University?,Andrew Carnegie and Andrew Mellon
+0-24-0.txt,What is the name of the song and dance troupe of Duquesne University?,The Duquesne University Tamburitzans
+0-24-0.txt,What is the name of the Conservatory of Performing Arts at Point Park University?,Pittsburgh Playhouse
+0-24-0.txt,What is the starting teacher salary offered to teachers with a BA in Pittsburgh Public Schools?,"$46,920"
+0-24-0.txt,What is the maximum annual salary for a teacher with a master's degree in Pittsburgh Public Schools?,"$95,254"
+0-24-0.txt,How many acres does Chatham University's Eden Hall Farm campus have?,388
+0-24-0.txt,What is the name of the university-based legal news service at the University of Pittsburgh School of Law?,JURIST
+0-24-0.txt,What is the name of the private Catholic university in the Bluff neighborhood?,Duquesne University
+0-24-0.txt,What is the name of the Pittsburgh Public Schools' highest minimum salary ranking in 2000?,17th
+0-24-0.txt,What is the name of the Pittsburgh Institute of Mortuary Science?,Pittsburgh Institute of Mortuary Science
+0-24-0.txt,What is the name of the Pittsburgh Theological Seminary?,Pittsburgh Theological Seminary
+0-24-0.txt,What is the name of the Reformed Presbyterian Theological Seminary?,Reformed Presbyterian Theological Seminary
+0-24-0.txt,What is the name of the Community College of Allegheny County?,Community College of Allegheny County
+0-24-0.txt,What is the name of the Pittsburgh Science and Technology Academy?,Pittsburgh Science and Technology Academy
+0-24-0.txt,What is the name of the Western Pennsylvania School for Blind Children?,Western Pennsylvania School for Blind Children
+0-24-0.txt,What is the name of the Western Pennsylvania School for the Deaf?,Western Pennsylvania School for the Deaf
+0-25-0.txt,"When was KDKA 1020 AM, the world's first commercially licensed radio station, established?","November 2, 1920"
+0-25-0.txt,"How many major motion pictures have been filmed, in whole or in part, in Pittsburgh?",124
+0-25-0.txt,What is the name of the film festival that celebrates the 50th anniversary of CMU?,Not found
+0-25-0.txt,What is the name of the film festival that celebrates the 50th anniversary of CMU?,Not found
+0-25-0.txt,What is the name of the film festival that celebrates the 50th anniversary of CMU?,Not found
+0-25-0.txt,What is the name of the film festival that celebrates the 50th anniversary of CMU?,Not found
+0-25-0.txt,What is the name of the film festival that celebrates the 50th anniversary of CMU?,Not found
+0-25-0.txt,What is the name of the film festival that celebrates the 50th anniversary of CMU?,Not found
+0-25-0.txt,What is the name of the film festival that celebrates the 50th anniversary of CMU?,Not found
+0-25-0.txt,What is the name of the film festival that celebrates the 50th anniversary of CMU?,Not found
+0-25-0.txt,What is the name of the film festival that celebrates the 50th anniversary of CMU?,Not found
+0-25-0.txt,What is the name of the film festival that celebrates the 50th anniversary of CMU?,Not found
+0-25-0.txt,What is the name of the film festival that celebrates the 50th anniversary of CMU?,Not found
+0-25-0.txt,What is the name of the film festival that celebrates the 50th anniversary of CMU?,Not found
+0-25-0.txt,What is the name of the film festival that celebrates the 50th anniversary of CMU?,Not found
+0-25-0.txt,What is the name of the film festival that celebrates the 50th anniversary of CMU?,Not found
+0-25-0.txt,What is the name of the film festival that celebrates the 50th anniversary of CMU?,"Not found
+18."
+0-26-0.txt,When did Pittsburgh welcome a series of major film and television productions?,2017
+0-26-0.txt,What is the name of the film festival that promotes independent and diverse filmmakers?,Three Rivers Film Festival
+0-26-0.txt,What is the name of the film school at Point Park University?,Cinema & Digital Arts
+0-26-0.txt,What is the name of the film studio in Pittsburgh?,3 Rivers Studios
+0-26-0.txt,Who founded one of the original 1912 power companies in Pittsburgh?,George Westinghouse
+0-26-0.txt,What is the name of the water service provider in Pittsburgh?,Pittsburgh Water and Sewer Authority
+0-26-0.txt,What is the name of the largest health care provider in Pittsburgh?,University of Pittsburgh Medical Center (UPMC)
+0-26-0.txt,What is the name of the hospital that served the area from 1777 to 1845?,General Edward Hand Hospital
+0-26-0.txt,In what year did UPMC announce a $250 million expansion?,1980
+0-26-0.txt,Who pioneered modern brain surgery at Allegheny General Hospital?,Allegheny General surgeons
+0-26-0.txt,What is the name of the cancer center opened by AGH in 2002?,$30 million cancer center
+0-26-0.txt,What is the name of the hospital that opened in 2009?,UPMC Children's Hospital of Pittsburgh
+0-26-0.txt,What is the name of the medical school founded by UPMC in partnership with Nazarbayev University?,Nazarbayev University School of Medicine
+0-26-0.txt,Who developed one of the first successful polio vaccines?,Jonas Salk
+0-27-0.txt,"When did the $51.6 million, 5-floor, 100,000 sq. ft. cancer center open?",2003
+0-27-0.txt,What is the current value of the $130 million Hillman Cancer Center in 2023 dollars?,$220 million
+0-27-0.txt,What is the current value of the $420 million IBM agreement in 2023 dollars?,$678 million
+0-27-0.txt,What is the current value of the $600 million UPMC Children's Hospital of Pittsburgh in 2023 dollars?,$849 million
+0-27-0.txt,When did the UPMC Children's Hospital of Pittsburgh open?,2009
+0-27-0.txt,What is the name of the medical school founded by UPMC in 2013?,Nazarbayev University
+0-27-0.txt,Who developed one of the first successful polio vaccines at the University of Pittsburgh?,Jonas Salk
+0-27-0.txt,What was the age of the child who received the world's first simultaneous liver and heart transplant operation in 1984?,6 years old
+0-27-0.txt,What was the age of the child who received the world's first heart-liver transplant in 1997?,Infant
+0-27-0.txt,What is the name of the bridge that was the world's first lenticular truss bridge?,Smithfield Street Bridge
+0-27-0.txt,How many bridges cross the three rivers near the city of Pittsburgh?,40
+0-27-0.txt,What is the name of the transit agency that serves Pittsburgh?,Pittsburgh Regional Transit
+0-27-0.txt,What is the average amount of time people spend commuting with public transit in Pittsburgh on a weekday?,73 minutes
+0-27-0.txt,What is the average distance people usually ride in a single trip with public transit in Pittsburgh?,3.9 miles
+0-27-0.txt,What is the name of the expressway that connects to Interstate 76 (Pennsylvania Turnpike) and Interstate 79?,Interstate 376
+0-28-0.txt,Who is Pittsburgh named after?,William Pitt
+0-28-0.txt,When was Pittsburgh's rail industry established?,1851
+0-28-0.txt,What airport provides commercial passenger service from over 15 airlines to the Pittsburgh metropolitan area?,Pittsburgh International Airport
+0-28-0.txt,What is the name of the mass transit system in the Pittsburgh area?,Pittsburgh Regional Transit
+0-28-0.txt,What is the name of the railroad that entered the city in 1871?,Baltimore and Ohio Railroad
+0-28-0.txt,What is the name of the largest freight rail center in the world from 1956 until 1980?,Conway Rail Yard
+0-28-0.txt,What is the ranking of the Port of Pittsburgh in 2011?,20th-largest port
+0-28-0.txt,What is the name of the expressway sections of Pennsylvania Route 28 and U.S. Route 22?,45-mile-long and 70-mile-long expressway sections
+0-28-0.txt,What is the name of the light rail system in Pittsburgh?,The T
+0-28-0.txt,How many trains per day operate through the city on the Pittsburgh Line?,70 trains
+0-28-0.txt,When was the Pittsburgh Locomotive and Car Works established?,1865
+0-28-0.txt,How many miles is Arnold Palmer Regional Airport from Pittsburgh?,44 miles
+0-29-0.txt,When did the Baltimore and Ohio Railroad enter the city?,1871
+0-29-0.txt,In what year did Andrew Carnegie open the Pittsburgh Locomotive and Car Works?,1865
+0-29-0.txt,What year was the Union Railroad founded?,1894
+0-29-0.txt,What year did George Westinghouse's Wabtec start leading in rail engines and switching?,1869
+0-29-0.txt,How many trains operate through the city per day on the Pittsburgh Line?,70
+0-29-0.txt,What year was the Conway Rail Yard built?,1889
+0-29-0.txt,What is the rank of the Port of Pittsburgh in the US?,20th
+0-29-0.txt,What was the cargo volume of the Port of Pittsburgh in 2011?,34 million short tons
+0-29-0.txt,What is the rank of the Port of Pittsburgh in domestic trade?,9th
+0-29-0.txt,How many sister cities does Pittsburgh have?,12
+0-29-0.txt,What is the warmest daily minimum temperature ever recorded in Pittsburgh?,77°F (25°C)
+0-29-0.txt,What is the elevation of Pittsburgh Int'l?,at-elevation
+0-29-0.txt,How many counties are included in the Pittsburgh metro area?,8
+0-29-0.txt,What is the name of the football league that Pittsburgh Passion plays in?,IWFL
+0-29-0.txt,What is the name of the steel city that Pittsburgh is known as?,Steel City
+0-3-0.txt,When was the village of Pittsburgh founded?,1758
+0-3-0.txt,What was one of the earliest industries in Pittsburgh?,Boat building
+0-3-0.txt,In what year did Thomas Vickroy complete a town plan for Pittsburgh?,1784
+0-3-0.txt,What was the name of the newspaper started in 1786 in Pittsburgh?,Pittsburgh Post-Gazette
+0-3-0.txt,What was chartered in 1787 in Pittsburgh?,Pittsburgh Academy
+0-3-0.txt,What event in 1794 resulted in federal troops being sent to the area?,Whiskey Rebellion
+0-3-0.txt,What began in 1797 in Pittsburgh?,Glass manufacture
+0-3-0.txt,What was the population of Pittsburgh by 1797?,"1,400"
+0-3-0.txt,Where did settlers arrive in Pittsburgh after crossing?,Appalachian Mountains or Great Lakes
+0-3-0.txt,What was the main base for settlers moving into the Northwest Territory?,Fort Pitt
+0-3-0.txt,What was the starting point for the Lewis and Clark Expedition?,Pittsburgh
+0-3-0.txt,Who purchased a keelboat in Pittsburgh in 1803?,Meriwether Lewis
+0-3-0.txt,What was the year Pittsburgh became a city?,1816
+0-3-0.txt,What event in 1812 cut off the supply of British goods?,War of 1812
+0-3-0.txt,What was produced in Pittsburgh by 1815?,"Iron, brass, tin, and glass"
+0-3-0.txt,What immigration group came to Pittsburgh in the 1830s?,Welsh people
+0-3-0.txt,What event destroyed over a thousand buildings in Pittsburgh in 1845?,Great Fire of Pittsburgh
+0-3-0.txt,Who helped rebuild Pittsburgh after the Great Fire?,Irish immigrants
+0-3-0.txt,What was the number of coal bushels consumed by Pittsburgh's factories by 1857?,22 million
+0-3-0.txt,What attracted waves of European immigrants to the area?,Coal mining and iron manufacturing
+0-3-0.txt,What was the state of Pennsylvania established as after the Revolution?,Free state
+0-3-0.txt,What was the purpose of the Underground Railroad in Pittsburgh?,"Helping enslaved African Americans escape to freedom
+23"
+0-30-0.txt,In what year did the Pittsburgh metro area expand to include eight counties?,2023
+0-30-0.txt,"What is the name of the university that published the book ""Twentieth Century Pittsburgh Volume 1: Government, Business, and Environmental Change""?",University of Pittsburgh
+0-30-0.txt,What was the amount of R&D spending reported by universities in FY 2011?,$6 Billion
+0-30-0.txt,What is the name of the Pittsburgh Post-Gazette feature that mentioned Eaton Electronics and McKesson Automation headquarters?,"Google, Intel, and Apple offices in Pittsburgh"
+0-30-0.txt,What is the name of the Pittsburgh Business Journal article that mentioned Silicon Valley is dying?,PS Magazine
+0-30-0.txt,In what year did Pittsburgh's employment numbers show better growth than similar cities?,2014
+0-30-0.txt,What is the name of the Pittsburgh Post-Gazette article that mentioned Pittsburgh's smart city survey?,Pittsburgh's smart; survey says so
+0-31-0.txt,"When was the original of ""How to Spell Pittsburgh"" archived?","October 1, 2008"
+0-31-0.txt,"Who wrote ""How Pittsburgh Got Its 'H' Back""?",Stacy Conradt
+0-31-0.txt,What is the name of the book by George R. Stewart?,Names on the Land
+0-31-0.txt,"When was the first edition of ""Names on the Land"" published?",1945
+0-31-0.txt,"Who wrote ""The wilderness trail; or, The ventures and adventures of the Pennsylvania traders on the Allegheny path""?",Charles A. Hanna
+0-31-0.txt,When was the Battle of the Monongahela?,1755
+0-31-0.txt,"Who wrote ""Pittsburgh, The Story of an American City""?",Stefan Lorant
+0-31-0.txt,When did the Lewis and Clark expedition start?,1803
+0-31-0.txt,What was the name of the exhibit about slavery in Pittsburgh?,Free at Last? Slavery in Pittsburgh in the 18th and 19th Centuries
+0-31-0.txt,"When was the book ""Masaryk a legie"" published?",2019
+0-32-0.txt,What is the title of the book that maps Pittsburgh's stairs?,Pittsburgh Steps
+0-32-0.txt,What is the name of the ecoregion where Pittsburgh is located?,Level III Ecoregion
+0-32-0.txt,What is the name of the company that moved its headquarters to Pittsburgh's SouthSide Works?,American Eagle Outfitters
+0-32-0.txt,What is the name of the historic neighborhood that was once a separate city?,Allegheny City
+0-32-0.txt,What is the name of the Pittsburgh neighborhood that was a hub for the city's Jewish community?,Squirrel Hill
+0-32-0.txt,What is the name of the Pittsburgh neighborhood that was a hub for the city's African American community?,Homewood
+0-32-0.txt,What is the name of the Pittsburgh neighborhood that was a hub for the city's artists?,The Strip District
+0-32-0.txt,What is the name of the Pittsburgh neighborhood that was a hub for the city's writers?,Oakland
+0-32-0.txt,What is the name of the Pittsburgh neighborhood that was a hub for the city's tech industry?,The Golden Triangle
+0-32-0.txt,What is the name of the Pittsburgh neighborhood that was a hub for the city's environmental movement?,Shadyside
+0-32-0.txt,What is the name of the Pittsburgh neighborhood that was a hub for the city's LGBTQ+ community?,Lawrenceville
+0-32-0.txt,What is the name of the Pittsburgh neighborhood that was a hub for the city's Latinx community?,Bloomfield
+0-32-0.txt,What is the name of the Pittsburgh neighborhood that was a hub for the city's Asian community?,Squirrel Hill
+0-32-0.txt,What is the name of the Pittsburgh neighborhood that was a hub for the city's Italian community?,Bloomfield
+0-32-0.txt,What is the name of the Pittsburgh neighborhood that was a hub for the city's Polish community?,Lawrenceville
+0-32-0.txt,What is the name of the Pittsburgh neighborhood that was a hub for the city's Irish community?,Oakland
+0-32-0.txt,What is the name of the Pittsburgh neighborhood that was a hub for the city's German community?,Squirrel Hill
+0-33-0.txt,Who is Pittsburgh named after?,William Pitt
+0-33-0.txt,What famous machine learning venue had its first conference in Pittsburgh in 1980?,ICML
+0-33-0.txt,"When was the ""State of the Air 2011"" report released?",2012
+0-33-0.txt,"What year did the ""Air Quality Trends By City 2000-2022"" report cover?",2000-2022
+0-33-0.txt,"What is the name of the organization that released the ""Air Quality Trends By City 2000-2022"" report?",EPA
+0-33-0.txt,What is the name of the river in Pennsylvania where industrial pollution was found to be flowing illegally?,PA Rivers
+0-33-0.txt,What is the name of the system that collects and treats wastewater in Pittsburgh?,Sewer Collection System
+0-33-0.txt,Who is the leader of the Pittsburgh Water and Sewer Authority (PWSA)?,Peduto
+0-33-0.txt,"What is the name of the organization that released the ""State of the Air 2013"" report?",American Lung Association
+0-33-0.txt,What is the name of the city that Pittsburgh passed in terms of pollution in 2013?,LA
+0-33-0.txt,What is the name of the county where Pittsburgh is located?,Allegheny County
+0-33-0.txt,What is the name of the city where Pittsburgh is located?,Pittsburgh
+0-33-0.txt,What is the name of the state where Pittsburgh is located?,Pennsylvania
+0-33-0.txt,What is the name of the river that flows through Pittsburgh?,(not mentioned in the document)
+0-33-0.txt,"What is the name of the organization that released the ""State of the Air 2011"" report?",American Lung Association
+0-33-0.txt,"What is the name of the city where the ""In Pittsburgh, the 'Paris of the Appalachians,'they're not buying Trump's climate talk"" article was published?",Pittsburgh
+0-33-0.txt,"What is the name of the author of the article ""In Pittsburgh, the 'Paris of the Appalachians,'they're not buying Trump's climate talk""?",Frankel
+0-34-0.txt,"When was the study ""Study: Pittsburgh kids near polluting sites have higher asthma rates"" published?","November 11, 2020"
+0-34-0.txt,What is the name of the organization that reports weird smells in Pittsburgh?,Smell PGH
+0-34-0.txt,What is the name of the report that finds industrial pollution flowing illegally into PA rivers?,New Report Finds Industrial Pollution Flowing Illegally into PA Rivers
+0-34-0.txt,What is the name of the organization that provides protection for those with lead service lines?,PWSA
+0-34-0.txt,"What percentage of Allegheny County, Pa., water systems have lead detected?",80%
+0-34-0.txt,"Who wrote the article ""The Racist, Classist Origins of Pittsburgh's Water Crisis""?",Thomas Merton Center
+0-34-0.txt,What is the name of the plan that aims to diminish sewage overflows?,Clean Water Plan
+0-34-0.txt,What is the name of the company that was involved in Pittsburgh's lead crisis?,"(Not specified in the provided text, but can be inferred as Duquesne Water Company in the original article)"
+0-34-0.txt,What is the name of the advisory panel that studied water and sewer issues?,"(Not specified in the provided text, but can be inferred as a city advisory panel)"
+0-34-0.txt,What is the name of the organization that oversees the PWSA?,PUC
+0-34-0.txt,What is the name of the organization that provides information on Pittsburgh's water crisis?,PublicSource
+0-34-0.txt,What is the name of the bill that placed Pittsburgh's water system under PUC oversight?,"(Not specified in the provided text, but can be inferred as a bill signed by Governor Wolf)"
+0-34-0.txt,What is the name of the city that is being compared to Pittsburgh in terms of water crisis?,"(Not specified in the provided text, but can be inferred as a city with a similar water crisis)"
+0-35-0.txt,When was the 1980 census of population conducted?,1980
+0-35-0.txt,"What is the name of the report that provides demographic, social, and cultural characteristics of persons of Ukrainian ancestry in Chicago?","Demographic, social, cultural characteristics of persons of Ukrainian ancestry in Chicago"
+0-35-0.txt,What is the title of the 3-volume book about U.S. immigration published in 2012?,Transforming America: Perspectives on U.S. Immigration
+0-35-0.txt,What is the name of the metropolitan statistical area that includes Pittsburgh?,"Pittsburgh, PA, Metropolitan Statistical Area"
+0-35-0.txt,What is the title of the 2017 study about the Greater Pittsburgh Jewish Community?,The 2017 Greater Pittsburgh Jewish Community Study
+0-35-0.txt,What is the name of the Pew Research Center's study about the religious landscape of the United States?,Religious Landscape Study
+0-35-0.txt,What is the name of the census data that provides information about the demographics of Pittsburgh?,"P004: Hispanic or Latino, and Not Hispanic or Latino by Race"
+0-35-0.txt,What is the name of the town in the Pittsburgh area that is considered one of the wealthiest?,Sewickley
+0-35-0.txt,What is the percentage of people 25 years and over who have completed a bachelor's degree in Pittsburgh?,43.6%
+0-35-0.txt,What is the percentage of people 25 years and over who have completed high school in Pittsburgh?,88.2%
+0-35-0.txt,What is the name of the report that provides information about new Americans in Pittsburgh?,New Americans in Pittsburgh
+0-35-0.txt,What is the name of the neighborhood in Pittsburgh that has been affected by gentrification?,The Hill District
+0-35-0.txt,What is the name of the organization that represents the Pittsburgh technology industry?,Pittsburgh Technology Council
+0-36-0.txt,What is the title of the book about poverty in America's postindustrial era?,Poverty in America's Postindustrial Era
+0-36-0.txt,In what year was the book published?,Not specified
+0-36-0.txt,What is the ISBN of the book?,978-0-8122-5371-9
+0-36-0.txt,"What is the name of the newspaper that reported ""East Liberty will lose more affordable housing, but seller aims to fight long-term displacement""?",90.5 WESA
+0-36-0.txt,"In what year did the article ""What's left when the gentrifiers come marching in"" by Jeremiah Davis get published?",2018
+0-36-0.txt,What is the name of the region that the Pittsburgh Technology Council is about?,Pittsburgh
+0-36-0.txt,"In what year did Dan Bobkoff write ""From Steel To Tech, Pittsburgh Transforms Itself""?",2010
+0-36-0.txt,"Who wrote the paper ""Where Is The Land of Opportunity? The Geography of Intergenerational Mobility in the United States""?","Chetty, Hendren, Kline, and Saez"
+0-36-0.txt,"In what year was the paper ""Where Is The Land of Opportunity? The Geography of Intergenerational Mobility in the United States"" published?",2014
+0-36-0.txt,"What is the title of the article ""Pittsburgh # 2: Top 10 cities to achieve the American Dream""?",Pittsburgh # 2: Top 10 cities to achieve the American Dream
+0-36-0.txt,"Who wrote the article ""Pittsburgh # 2: Top 10 cities to achieve the American Dream""?",M.S. Scully
+0-37-0.txt,Who is Pittsburgh named after?,William Pitt
+0-37-0.txt,What film was shot at 31st Street Studios?,The Dark Knight Rises
+0-37-0.txt,What technology is featured at the Pennsylvania film studio?,Avatar technology
+0-37-0.txt,What is the name of the Pittsburgh filmography?,Pittsburgh filmography
+0-37-0.txt,What is the name of the organization that operates 31st Street Studios?,Gateway Entertainment Studios L.P.
+0-37-0.txt,Who is the 31-year-old owner of 31st Street Studios?,Marisa Murphy
+0-37-0.txt,What is the name of the Pittsburgh Post-Gazette article about Pittsburgh being the new Hollywood?,Is Pittsburgh The New Hollywood?
+0-37-0.txt,What is the name of the Pittsburgh Magazine article about Pittsburgh being the new Hollywood?,Is Pittsburgh The New Hollywood?
+0-37-0.txt,Who wrote the Entertainment Weekly article about how Pittsburgh landed 'The Dark Knight Rises'?,Hillary Busis
+0-37-0.txt,What is the name of the Pittsburgh Post-Gazette article about the new film studio in the Strip District?,"Lights, cameras... : Action at a new studio keeps Pittsburgh on film"
+0-37-0.txt,What is the name of the Pittsburgh Post-Gazette article about Pittsburgh being named one of the most livable cities in the world?,Pittsburgh Named One of the Most Livable Cities in the World
+0-37-0.txt,Who is the Pittsburgh-based rapper who had a number one hit with 'Black & Yellow'?,Wiz Khalifa
+0-37-0.txt,What is the name of the Pittsburgh-based music venue that hosts techno sex parties?,Hot Mass
+0-37-0.txt,Who is the American author who wrote about Pittsburgh in his play 'Ma Rainey's Black Bottom'?,August Wilson
+0-37-0.txt,What is the name of the Pennsylvania Center for the Book article about Rachel Louise Carson?,Rachel Louise Carson
+0-38-0.txt,"Who wrote the article ""How Yaeji Found Her Voice""?",Kim Michelle
+0-38-0.txt,"What magazine published the article ""How Yaeji Found Her Voice""?",Mixmag Asia
+0-38-0.txt,"Who wrote the article ""Yaeji: All Together Now""?",Nina Posner
+0-38-0.txt,"What magazine published the article ""Yaeji: All Together Now""?",Crack Magazine
+0-38-0.txt,"Who is the subject of the article ""Rachel Louise Carson""?",Rachel Louise Carson
+0-38-0.txt,"What organization published the article ""Rachel Louise Carson""?",Pennsylvania Center for the Book
+0-38-0.txt,"Who is the subject of the article ""August Wilson | Biography, Plays, Movies, Ma Rainey, & Facts""?",August Wilson
+0-38-0.txt,"What publication published the article ""August Wilson | Biography, Plays, Movies, Ma Rainey, & Facts""?",Britannica
+0-38-0.txt,"Who wrote the article ""Presidential biographer gets presidential medal""?",Jerome L. Sherman
+0-38-0.txt,"What newspaper published the article ""Presidential biographer gets presidential medal""?",Pittsburgh Post-Gazette
+0-38-0.txt,"Who wrote the article ""The write stuff""?",John Hayes
+0-38-0.txt,"What newspaper published the article ""The write stuff""?",Pittsburgh Post-Gazette
+0-38-0.txt,"What is the title of the magazine ""Revenant: The Premiere Zombie Magazine""?",Revenant
+0-38-0.txt,"What is the title of the science fiction and fantasy writing group ""Write or Die""?",Write or Die
+0-38-0.txt,"What is the title of the Pittsburgh-based science fiction organization ""PARSEC""?",PARSEC
+0-38-0.txt,"What is the title of the Pittsburgh-based writing group ""Pittsburgh South Writes""?",Pittsburgh South Writes
+0-38-0.txt,"What is the title of the Pittsburgh-based writing group ""Pittsburgh Worldwrights""?",Pittsburgh Worldwrights
+0-38-0.txt,"Who is the subject of the article ""The SF Site: A Conversation With Mary Soon Lee""?",Mary Soon Lee
+0-39-0.txt,When was the St. Patrick's Day Flood of 1936?,1936
+0-39-0.txt,Which city was ranked as the best sports city by Sporting News in 2009?,Pittsburgh
+0-39-0.txt,Why do Pittsburgh's teams wear black and gold?,Tradition
+0-39-0.txt,Who said he wasn't being disrespectful to Steelers' Terrible Towel in 2012?,Ray Rice
+0-39-0.txt,What is the name of the trail in Pittsburgh?,Great Allegheny Passage
+0-39-0.txt,In what year was the Pittsburgh Power unveiled as an arena football expansion team?,2010
+0-39-0.txt,Who is the owner of the Pittsburgh Steelers?,Art Rooney
+0-39-0.txt,In what year did the Pittsburgh Steelers' fans rank No. 1 by ESPN?,2008
+0-39-0.txt,What is the name of the oldest course in continuous use in the United States?,Foxburg Country Club
+0-39-0.txt,"Who is the author of ""The Sport Business Handbook""?",Richard B. Horrow
+0-39-0.txt,In what year did Pittsburgh homicides hit the lowest in 20 years?,2020
+0-39-0.txt,"Who is the author of ""A Ground-Up Model for Gun Violence Reduction""?",T. Rashad Byrdsong
+0-39-0.txt,In what year was the University of Pittsburgh founded?,1900
+0-4-0.txt,What percentage of the city's population were non-Hispanic whites in 1940?,90.6%
+0-4-0.txt,What was the name of the African-American Great Migration destination in Pittsburgh?,"None (it's a general term, but it's mentioned as the African-American Great Migration)"
+0-4-0.txt,What percentage of African-American men in Pittsburgh became unskilled steel workers?,95%
+0-4-0.txt,How many tons of steel were produced by area mills during World War II?,95 million tons
+0-4-0.txt,What was the city's reputation during World War II?,"The ""arsenal of democracy"""
+0-4-0.txt,"Who made the observation of Pittsburgh being ""hell with the lid off""?",James Parton
+0-4-0.txt,What was the name of the clean air and civic revitalization project in Pittsburgh?,"The ""Renaissance"""
+0-4-0.txt,"What year did the ""Renaissance II"" project follow?",1977
+0-4-0.txt,What were the main industries that Pittsburgh's economy shifted to in the later 20th century?,"Education, tourism, and services"
+0-4-0.txt,What was the population of Pittsburgh in 1950?,"680,000"
+0-4-0.txt,What was the metropolitan area population increase in Pittsburgh between 2006 and 2011?,10%
+0-4-0.txt,What was the housing price appreciation in the Pittsburgh metropolitan statistical area between 2006 and 2011?,Over 10%
+0-4-0.txt,What was the name of the summit held in Pittsburgh in 2009?,The 2009 G20 Pittsburgh summit
+0-4-0.txt,What is the area of Pittsburgh?,58.3 square miles
+0-4-0.txt,How many neighborhoods does Pittsburgh have?,90
+0-40-0.txt,Who is Pittsburgh named after?,William Pitt
+0-40-0.txt,When did Pittsburgh homicides hit their lowest in 20 years?,2020
+0-40-0.txt,What is the name of the community-based public health approach for gun violence reduction?,Ground-Up Model
+0-40-0.txt,"Who wrote the article ""Pittsburgh's repeating tragedy of unsolved black homicides""?",Jeffrey Benzing
+0-40-0.txt,What is the name of the police scorecard that rates Pittsburgh?,Police Scorecard
+0-40-0.txt,What is the ranking of the University of Pittsburgh in National Universities?,Top Schools
+0-40-0.txt,When was the University of Pittsburgh ranked by U.S. News & World Report?,2013
+0-40-0.txt,What is the name of the Philosophical Gourmet Report?,Philosophical Gourmet Report
+0-40-0.txt,"Who wrote the article ""Welcome to the 2006–2008 Philosophical Gourmet Report""?",Brian Leiter
+0-40-0.txt,What is the name of the company that Chatham University is preparing for its first coed undergraduate class?,Chatham University
+0-40-0.txt,What is the name of the public library infrastructure in Greater Pittsburgh?,Circulation of Power
+0-40-0.txt,"Who wrote the book ""Circulation of Power: The Development of Public Library Infrastructure in Greater Pittsburgh, 1924-2016""?",Michael M. Widdersheim
+0-40-0.txt,What is the name of the law school at the University of Pittsburgh?,School of Law
+0-40-0.txt,What is the increase in U.S. television households for the 2006–2007 season?,1.1%
+0-40-0.txt,What is the name of the television station that pioneered educational programming?,WQED
+0-40-0.txt,When was WQED founded?,1954
+0-40-0.txt,What is the name of the first commercial radio station?,KDKA
+0-40-0.txt,When was KDKA founded?,1920
+0-40-0.txt,What is the name of the film that generated $9.4 million for Pittsburgh businesses?,Fences
+0-41-0.txt,When was the Pittsburgh Film Office established?,Non-profit
+0-41-0.txt,Who still influences Pittsburgh's film industry?,George Romero
+0-41-0.txt,What is the name of the economic development agency promoting southwestern Pennsylvania to the film industry?,Pittsburgh Film Office
+0-41-0.txt,What is the name of the best movies ever made in Pittsburgh?,The 16 best movies
+0-41-0.txt,What is the name of the state-by-state figures on economic impact of film and television industry?,MPAA
+0-41-0.txt,What is the name of the festivals in Pittsburgh?,Film Festivals
+0-41-0.txt,What is the name of the film schools in Pittsburgh?,Film Studies
+0-41-0.txt,What is the name of the studios in Pittsburgh?,"3 Rivers Studios, Cinelease Studios"
+0-41-0.txt,What is the name of the video production services in Pittsburgh?,"Post Script Productions, The Videohouse"
+0-41-0.txt,What is the name of the creative technology & experience design company?,Deeplocal
+0-41-0.txt,What is the name of the video production company?,The Videohouse
+0-41-0.txt,What is the amount of money received by Carrie Furnace for movie studio?,$7.6 million
+0-41-0.txt,Who was born in Western Pennsylvania?,Nuclear Power
+0-41-0.txt,What is the name of the hospitals in Pittsburgh?,UPMC Hospitals
+0-41-0.txt,What is the name of the news archive search?,Pittsburgh Post-Gazette
+0-41-0.txt,What is the name of the medical school to help Nazarbayev University in Kazakhstan?,Pitt's medical school
+0-41-0.txt,What is the name of the computer chip inserted in the brain?,Pitt team
+0-41-0.txt,What is the number of bridges in Pittsburgh?,446
+0-41-0.txt,What is the ranking of Pittsburgh among large cities for commuting without cars?,Eighth
+0-41-0.txt,What is the name of the transit agencies in Pittsburgh?,Port Authority
+0-42-0.txt,When was the Duquesne Incline built?,1877
+0-42-0.txt,What is the rank of Pittsburgh among large cities for commuting without cars?,Eighth
+0-42-0.txt,What is the name of the association that lists Pittsburgh as one of its sister cities?,Sister Cities Association of Pittsburgh
+0-42-0.txt,"When was the book ""Beyond Rust: Metropolitan Pittsburgh and the Fate of Industrial America"" published?",2016
+0-42-0.txt,"What is the name of the author of the book ""City of Steel: How Pittsburgh Became the World's Steelmaking Capital During the Carnegie Era""?",Kenneth J. Kobus
+0-42-0.txt,What is the name of the city that Pittsburgh has a sister city relationship with?,(Not available in the document)
+0-42-0.txt,"What is the name of the organization that published ""Largest Transit Agencies""?",American Public Transportation Association
+0-43-0.txt,Who is Pittsburgh named after?,William Pitt
+0-43-0.txt,What is the name of the Pittsburgh airport?,Pittsburgh International Airport
+0-43-0.txt,What is the name of the region that includes Pittsburgh?,Pittsburgh Tri-State
+0-43-0.txt,What is the name of the combined statistical area that includes Pittsburgh?,Pittsburgh–New Castle–Weirton
+0-43-0.txt,What is the name of the conference center in Pittsburgh?,Convention Center
+0-43-0.txt,What is the name of the city hall in Pittsburgh?,City Hall
+0-43-0.txt,When was Carnegie Mellon University founded?,1900
+0-43-0.txt,What is the name of the largest private company in Pittsburgh?,84 Lumber
+0-43-0.txt,What is the name of the company that makes cookies?,cookie table
+0-43-0.txt,What is the name of the famous Pittsburgh sandwich?,Pittsburgh Parking Chair
+0-43-0.txt,What is the name of the famous Pittsburgh festival?,Picklesburgh
+0-43-0.txt,What is the name of the famous Pittsburgh dialect?,Yinzer
+0-43-0.txt,What is the name of the famous Pittsburgh film?,Green Man
+0-43-0.txt,What is the name of the famous Pittsburgh hospital?,Pittsburgh toilet
+0-43-0.txt,What is the name of the region that includes Pittsburgh in Maryland?,Garrett
+0-44-0.txt,What is the name of the company that was founded in Pittsburgh?,Westinghouse Electric Company
+0-44-0.txt,Who is Pittsburgh named after?,William Pitt
+0-44-0.txt,What famous machine learning venue had its first conference in Pittsburgh in 1980?,ICML
+0-44-0.txt,What is the name of the company that has strong relations with Pittsburgh?,BNY Dreyfus Corporation
+0-44-0.txt,What is the name of the city where the headquarters of Allegheny Energy is located?,Pittsburgh
+0-44-0.txt,What is the name of the company that is headquartered in Pittsburgh?,FedEx Ground
+0-44-0.txt,What is the name of the city where the headquarters of GSK is located?,Pittsburgh
+0-44-0.txt,What is the name of the company that has a historic Big Wheel in Pittsburgh?,Fisher
+0-44-0.txt,What is the name of the company that is headquartered in Pittsburgh?,Respironics
+0-44-0.txt,What is the name of the company that has a strong presence in Pittsburgh?,Thermo Fisher Scientific
+0-44-0.txt,What is the name of the city where the headquarters of Eaton Corporation is located?,Pittsburgh
+0-44-0.txt,What is the name of the company that has a historic factory in Pittsburgh?,Mesta Machinery
+0-44-0.txt,What is the name of the city where the headquarters of J & L Steel is located?,Pittsburgh
+0-44-0.txt,What is the name of the company that has a historic office in Pittsburgh?,Ketchum
+0-44-0.txt,What is the name of the city where the headquarters of Rockwell is located?,Pittsburgh
+0-44-0.txt,What is the name of the company that has a historic factory in Pittsburgh?,Sunbeam
+0-44-0.txt,What is the name of the city where the headquarters of Gulf Oil is located?,Pittsburgh
+0-45-0.txt,Who is Pittsburgh named after?,William Pitt
+0-45-0.txt,What famous machine learning venue had its first conference in Pittsburgh in 1980?,ICML
+0-45-0.txt,What musical artist is performing at PPG Arena on October 13?,Billie Eilish
+0-45-0.txt,What is the population of Pittsburgh?,Not found in the document
+0-45-0.txt,In which year was Pittsburgh established?,1758
+0-45-0.txt,What is the name of the county where Pittsburgh is located?,Allegheny County
+0-45-0.txt,What is the name of the river where Pittsburgh is located?,Monongahela River
+0-5-0.txt,When was Allegheny City merged with Pittsburgh?,1907
+0-5-0.txt,What is the name of the tallest skyscraper in Downtown Pittsburgh?,U.S. Steel Tower
+0-5-0.txt,What is the height of the U.S. Steel Tower?,841 ft
+0-5-0.txt,How many residential units are in RiverParc?,700
+0-5-0.txt,What is the name of the Gothic-style glass skyscraper complex in Firstside?,PPG Place
+0-5-0.txt,What is the name of the light rail system serving Downtown Pittsburgh?,Port Authority
+0-5-0.txt,How many bridges lead to Downtown Pittsburgh?,Multiple
+0-5-0.txt,What are the names of the two universities bordering Uptown?,"Point Park University, Duquesne University"
+0-5-0.txt,What is the name of the stadium on the North Side?,Acrisure Stadium
+0-5-0.txt,What is the name of the art museum in the North Side?,Mattress Factory
+0-5-0.txt,What is the name of the observatory in the North Side?,Allegheny Observatory
+0-5-0.txt,What is the name of the brewery in the North Side?,Penn Brewery
+0-5-0.txt,What is the name of the hospital in the North Side?,Allegheny General Hospital
+0-5-0.txt,What is the name of the street in the South Side?,East Carson Street
+0-5-0.txt,What is the annual increase in home value in the South Side?,10%
+0-5-0.txt,What is the name of the mixed-use development in the South Side?,SouthSide Works
+0-5-0.txt,What is the name of the company with its headquarters in the SouthSide Works?,American Eagle Outfitters
+0-5-0.txt,What is the name of the university in the East End?,University of Pittsburgh
+0-5-0.txt,What is the name of the museum in the East End?,Carnegie Institute's Museums of Art and Natural History
+0-5-0.txt,What is the name of the conservatory in the East End?,Phipps Conservatory
+0-6-0.txt,What is the approximate number of synagogues in Pittsburgh?,20
+0-6-0.txt,What is the name of the marketplace by day and a clubbing destination by night in Pittsburgh?,The Strip District
+0-6-0.txt,Which neighborhood is Pittsburgh's Little Italy?,Bloomfield
+0-6-0.txt,What is the name of the famous view of the downtown skyline in Pittsburgh?,Mt. Washington
+0-6-0.txt,What is the name of the region that Pittsburgh falls within?,Northeastern United States
+0-6-0.txt,What is the name of the combined statistical area defined by the U.S. Census Bureau?,Pittsburgh Combined Statistical Area
+0-6-0.txt,What is the name of the Appalachian Regional Commission-defined region that Pittsburgh falls within?,Appalachia
+0-6-0.txt,"What is the name of the city that Pittsburgh is characterized as the ""northern urban industrial anchor of""?",Appalachia
+0-6-0.txt,"What is the name of the city that Pittsburgh is characterized as the ""Paris of""?",Appalachia
+0-6-0.txt,What is the average temperature in July in Pittsburgh?,73.2°F (22.9°C)
+0-6-0.txt,What is the plant hardiness zone of Pittsburgh?,6b
+0-6-0.txt,What is the name of the glass mural of an iron or steel worker in Pittsburgh?,The Puddler
+0-6-0.txt,What is the name of the neighborhood that was home to photographer Charles Harris?,The Hill District
+0-6-0.txt,What is the name of the neighborhood that is popular with artists and designers?,Lawrenceville
+0-7-0.txt,What is the Köppen climate classification for Pittsburgh if the 0 °C ( 32 °F ) isotherm is used?,Dfa
+0-7-0.txt,What is the Köppen climate classification for Pittsburgh if the −3 °C ( 27 °F ) isotherm is used?,Cfa
+0-7-0.txt,What is the USDA plant hardiness zone for Pittsburgh?,6b (except along the rivers where it is 7a)
+0-7-0.txt,What is the warmest month of the year in Pittsburgh?,July
+0-7-0.txt,What is the average annual precipitation in Pittsburgh?,"39.61 inches (1,006 mm)"
+0-7-0.txt,How many inches of snowfall does Pittsburgh average per season?,44.1 inches
+0-8-0.txt,What is the average annual precipitation in Pittsburgh?,"39.61 inches (1,006 mm)"
+0-8-0.txt,In which month does Pittsburgh receive the least precipitation?,October
+0-8-0.txt,What is the record high temperature in Pittsburgh?,103 °F (39 °C)
+0-8-0.txt,What is the average snowfall in Pittsburgh per season?,44.1 inches (112 cm)
+0-8-0.txt,In which years did Pittsburgh receive the highest and lowest snowfall?,"1950-51, 1918-19"
+0-8-0.txt,What is the average number of clear days in Pittsburgh per year?,59
+0-8-0.txt,How does Pittsburgh's annual percent-average possible sunshine compare to Seattle?,Similar (45% vs 49%)
+0-8-0.txt,What is the record low temperature in Pittsburgh?,−22 °F (−30 °C)
+0-8-0.txt,"What did the American Lung Association's 2023 ""State of the Air"" report show about Pittsburgh's air quality?",Improving
+0-9-0.txt,What is the average dew point °F (°C) in Pittsburgh?,39.0 (3.9)
+0-9-0.txt,What is the average ultraviolet index in Pittsburgh?,4
+0-9-0.txt,What is the ranking of Pittsburgh for ozone (smog) pollution?,54th
+0-9-0.txt,What is the percentage drop in hazardous air pollutants in Allegheny County?,80%
+0-9-0.txt,How many air monitors in Allegheny County achieved EPA attainment in 2020?,8
+0-9-0.txt,What is the value of the annual benefits from Pittsburgh's urban forest?,$10-$13 million
+0-9-0.txt,What is the annual amount spent on street tree planting and maintenance in Pittsburgh?,"$850,000"
+0-9-0.txt,What percentage of students in Pittsburgh live in areas over the WHO's standard of 10 micrograms per cubic meter?,70%
+0-9-0.txt,What is the standard for fine particle pollution set by the USEPA?,12 micrograms per cubic meter
+0-9-0.txt,What is the year of the study conducted by researchers on air pollution in Pittsburgh?,2014-2016
+1-0-0.txt,When did the British cede control of territories east of the Mississippi?,1763
+1-0-0.txt,What year did the War of 1812 end?,1815
+1-0-0.txt,What year did production of steel begin in Pittsburgh?,1875
+1-0-0.txt,How many train engines and cars were burned down during the 1877 railway riots?,"100, 1,000"
+1-0-0.txt,What percentage of the nation's steel was Pittsburgh producing by 1911?,50%
+1-0-0.txt,What was the name of the project launched by Pittsburgh after World War II?,Renaissance
+1-0-0.txt,What year did the city lose its status as a major transportation hub?,2007
+1-0-0.txt,What percentage of the residents in the Pittsburgh metropolitan area are of European descent?,65%
+1-0-0.txt,What is the approximate age of the Paleo-Indians who lived in the region?,"19,000 years"
+1-0-0.txt,How many miles is the Indian Mound at the future site of McKees Rocks from the head of the Ohio?,3
+1-1-0.txt,When did the first Europeans arrive in the region?,1710s
+1-1-0.txt,Who was the first to describe the forks of the Ohio in a manuscript?,Michael Bezallion
+1-1-0.txt,"In what year did the first Ohio Company win a grant of 200,000 acres in the upper Ohio Valley?",1748
+1-1-0.txt,How many warriors were gathered at Logstown in 1748?,789
+1-1-0.txt,What was the name of the Lenape (Delaware) village on the east bank of the Allegheny?,Shannopin's Town
+1-1-0.txt,What was the estimated population of Kittanning?,300-400
+1-1-0.txt,What was the name of the road constructed by the Ohio Company in 1748?,Nemacolin's Trail
+1-1-0.txt,Who was the Governor of New France in 1753?,Marquis Duquesne
+1-1-0.txt,What was the name of the fort built by the French on French Creek in 1753?,Fort Le Boeuf
+1-1-0.txt,Who was sent by Governor Dinwiddie of Virginia to warn the French to withdraw in 1753?,Major George Washington
+1-10-0.txt,When was the Renaissance I project started?,1946
+1-10-0.txt,Who was the Mayor of Pittsburgh elected in 1945?,David L. Lawrence
+1-10-0.txt,What was the name of the chairman of Mellon Bank?,Richard K. Mellon
+1-10-0.txt,What was the name of the airport terminal opened in 1953?,Greater Pittsburgh Municipal Airport
+1-10-0.txt,How many acres of the lower Hill District were cleared?,95
+1-10-0.txt,How many businesses were in East Liberty in 1959?,575
+1-10-0.txt,How many businesses were in East Liberty in 1970?,292
+1-10-0.txt,How many businesses were in East Liberty in 1979?,98
+1-10-0.txt,What was the name of the agency entirely devoted to industrial development?,RIDC
+1-10-0.txt,What was the name of the first building project of Renaissance I?,Gateway Center
+1-10-0.txt,What was the name of the final building project of Renaissance I?,U.S. Steel Tower
+1-10-0.txt,When was the U.S. Steel Tower completed?,1970
+1-10-0.txt,What was the name of the stadium built in 1970?,Three Rivers Stadium
+1-10-0.txt,When was Three Rivers Stadium imploded?,2001
+1-10-0.txt,What was the name of the cultural center that included the Civic Arena?,Civic Arena
+1-10-0.txt,When was the Civic Arena opened?,1961
+1-10-0.txt,What was the name of the neighborhood included in Renaissance I Urban Renewal plans?,East Liberty
+1-10-0.txt,What was the name of the pedestrianized shopping district in East Liberty?,Allegheny Center Mall
+1-10-0.txt,"When was the RIDC's ""Building on Basics"" report released?",1974
+1-10-0.txt,How many workers were laid off by the mills in 1981-1982?,"153,000"
+1-11-0.txt,"When did the RIDC's ""Building on Basics"" report begin the era?",1974
+1-11-0.txt,What exposed the U.S. steel industry's internal problems?,Free market pressures
+1-11-0.txt,What was the reason for the collapse of steel?,"Over-expanded manufacturing base, hostile management and labor relationships, and poor strategic planning"
+1-11-0.txt,What type of mills posed competition to the large mills in the Pittsburgh region?,Mini-mills and non-union mills
+1-11-0.txt,How many workers were laid off by the mills following the 1981-1982 recession?,"153,000"
+1-11-0.txt,What replaced the Homestead Works in 1999?,The Waterfront shopping mall
+1-11-0.txt,What was the population of Homestead by the time of the 2000 census?,"3,569"
+1-11-0.txt,In what year did Gulf Oil get bought out?,1985
+1-11-0.txt,How many high-paying white collar corporate and PhD research jobs were lost in the Gulf Oil merger?,"1,000"
+1-11-0.txt,How many universities in Pittsburgh are included in most undergraduate and graduate school national rankings?,3
+1-11-0.txt,What did the collapse of steel put pressure on Carnegie Mellon University and the University of Pittsburgh to do?,Reinvent themselves as research centers in science and technology
+1-11-0.txt,"In what decade did Pittsburgh's economy shift from heavy industry to services, medicine, higher education, tourism, banking, corporate headquarters, and high technology?",1980s
+1-11-0.txt,Who developed the site of the former terminal buildings and yards of the Pittsburgh and Lake Erie Railroad?,"Arthur P. Ziegler, Jr. and the Pittsburgh History and Landmarks Foundation"
+1-11-0.txt,What is the name of the attraction at the historic riverfront site on the south shore of the Monongahela River?,Station Square
+1-11-0.txt,How many visitors does Station Square generate a year?,"3,500,000"
+1-11-0.txt,What is the name of the company that bought Station Square in 1994?,Forest City Enterprises
+1-11-0.txt,How much was the investment in Station Square?,$100 million
+1-12-0.txt,When was the Allegheny Foundation's initial gift given to Landmarks?,1976
+1-12-0.txt,What is the length of the property at the base of Mt. Washington?,1.6 km
+1-12-0.txt,Who founded Neighborhood Housing Services in 1968?,Dorothy Mae Richardson
+1-12-0.txt,What is the name of the organization that became the model for the nationwide NeighborWorks America?,Neighborhood Housing Services
+1-12-0.txt,What was the name of the urban revitalization project that created numerous new structures in the 1980s?,Renaissance II
+1-12-0.txt,What was the name of the new terminal at Pittsburgh International Airport that opened in 1992?,(No answer available)
+1-12-0.txt,What replaced the aging Three Rivers Stadium in 2001?,Heinz Field and PNC Park
+1-12-0.txt,What replaced the Civic Arena in 2010?,PPG Paints Arena
+1-12-0.txt,Who revealed to a national TV audience how Pittsburgh had transformed itself from an industrial rust belt city in 1985?,Al Michaels
+1-12-0.txt,What is the current ranking of Pittsburgh as one of the World's Most Livable Cities?,(No answer available)
+1-12-0.txt,What has replaced steel as a leading industry in Pittsburgh?,Medicine
+1-12-0.txt,How many technology firms are choosing to operate out of Pittsburgh?,"1,600"
+1-12-0.txt,"Who has joined the 1,600 technology firms choosing to operate out of Pittsburgh?","Tech giants such as Apple, Google, IBM Watson, Facebook, and Intel"
+1-12-0.txt,What is the name of the movement exemplified by the city's convention center?,Green environmental design
+1-12-0.txt,What is the population of the City of Pittsburgh in 2010?,"307,484"
+1-12-0.txt,What is the population of the Urbanized Area of Pittsburgh in 2010?,"1,733,853"
+1-12-0.txt,"What is the approximate year when the area was home to numerous Native American groups, including the Lenape and Seneca tribes?","17,000 BCE"
+1-13-0.txt,When did King Charles claim the forks for Pennsylvania?,1681
+1-13-0.txt,Who was the Dutch trader that explored the area in 1694?,Arnout Viele
+1-13-0.txt,In what year were European traders primarily Pennsylvanians settle in the area?,1717
+1-13-0.txt,Who visited with a small French force in 1727?,Joncaire
+1-13-0.txt,In what year was Cumberland County Pennsylvania founded?,1750
+1-13-0.txt,Who visited en route to Fort LeBeouf in 1753?,George Washington
+1-13-0.txt,In what year did French Forces occupy the area and construct Fort Duquesne?,1754
+1-13-0.txt,Who founded the Catholic Mission at Beaver in 1757?,Jesuit Father Claude Francis Virot
+1-13-0.txt,In what year did British Forces regain the area and establish Fort Pitt?,1758
+1-13-0.txt,What was the name of the Proclamation in 1763?,The Proclamation of 1763
+1-13-0.txt,"In what year was Bedford Township, Cumberland County, Pennsylvania founded?",1767
+1-13-0.txt,"When was Bedford County, Pennsylvania founded?",1771
+1-13-0.txt,When was Pitt Township founded?,1771
+1-13-0.txt,"When was Westmoreland County, Pennsylvania founded?",1773
+1-13-0.txt,"When was Allegheny County, Pennsylvania founded?",1788
+1-13-0.txt,When was a new Pitt Township formed?,1788
+1-13-0.txt,When was a petition for a Pittsburgh Township at the forks submitted?,1792
+1-13-0.txt,"When was Pittsburgh Township, Allegheny County, Pennsylvania founded?",1792
+1-13-0.txt,"When was Pittsburgh borough, Allegheny County, Pennsylvania founded?",1794
+1-13-0.txt,"When was the City of Pittsburgh, Allegheny County, Pennsylvania founded?",1816
+1-13-0.txt,Who compiled the English-Seneca Dictionary in 2013?,Wallace Chafe
+1-14-0.txt,When was Fort Pitt Museum founded?,1896
+1-14-0.txt,"What was the name of the book written by Albert, George in 1896?",The Frontier Forts of Western Pennsylvania
+1-14-0.txt,"Who edited the book ""The Diaries of George Washington, Vol. 1""?","Twohig, Dorothy"
+1-14-0.txt,What was the population of Pittsburgh in 1790?,"Not available (the document only mentions population data from 1790 to 1990, but does not provide the specific population for 1790)"
+1-14-0.txt,When was the University of Pittsburgh founded?,1904
+1-14-0.txt,"Who was the author of the book ""A century and a half of Pittsburgh and her people""?","Boucher, John Newton"
+1-14-0.txt,What was the name of the company founded by George Westinghouse?,Westinghouse
+1-15-0.txt,"Who created the model industrial town of Vandergrift, Pennsylvania?",George McMurtry
+1-15-0.txt,What was the name of the Pittsburgh political battle royal mentioned in the document?,A Pittsburgh Political Battle Royal of A Half Century Ago
+1-15-0.txt,What was the title of the book by Kenneth A. Heineman?,A Catholic New Deal
+1-15-0.txt,"What was the name of the journal that published the article ""Prohibition's Failure in Pittsburgh""?",The Sloping Halls Review
+1-15-0.txt,When did the dry movement in Pittsburgh end?,1933
+1-15-0.txt,What was the name of the distillery that opened in Pittsburgh after Prohibition?,Pittsburgh Distillery
+1-15-0.txt,What was the name of the book by Joel Tarr?,The Metabolism of the Industrial City
+1-15-0.txt,What was the name of the gas explosion that occurred in Pittsburgh in 1928?,Damaging Gas Explosion
+1-15-0.txt,What was the name of the flood that occurred in Pittsburgh in 1889?,The Great Saint Patrick's Day Flood
+1-15-0.txt,What was the name of the study on the Jewish community in Pittsburgh?,The 2002 Pittsburgh Jewish Community Study
+1-15-0.txt,Who was the mayor of Pittsburgh from 1893 to 1896?,Bernard McKenna
+1-15-0.txt,Who was the mayor of Pittsburgh from 1906 to 1909?,George Guthrie
+1-15-0.txt,What was the name of the redevelopment project led by John P. Robin?,Building the Igloo
+1-15-0.txt,What was the name of the power firm that turned the lake area into a chemical shore?,Power Firm
+1-15-0.txt,When was the Point State Park developed?,Not available
+1-15-0.txt,Who was the mayor of Pittsburgh during the Renaissance?,David L. Lawrence
+1-15-0.txt,When was the redevelopment of downtown Pittsburgh led by John P. Robin?,Not available
+1-16-0.txt,Who was chosen head of industrial plan in 1955?,John P. Robin
+1-16-0.txt,What was the name of the redevelopment project in downtown Pittsburgh led by John P. Robin?,Not mentioned
+1-16-0.txt,In what year was the redevelopment of downtown Pittsburgh started?,Not mentioned
+1-16-0.txt,"Who wrote ""Building the Igloo""?",Not mentioned
+1-16-0.txt,What was the name of the development group that filed for a charter in 1955?,Not mentioned
+1-16-0.txt,What is the name of the park in Pittsburgh?,Point State Park
+1-16-0.txt,"What was the name of the author who wrote ""A Period of Turmoil: Pittsburgh's April 1968 Riots and Their Aftermath""?",Alyssa Ribeiro
+1-16-0.txt,What was the title of the book written by John P. Hoerr?,And the Wolf Finally Came
+1-16-0.txt,What was the year when Pittsburgh's economy was reported strong?,1974
+1-16-0.txt,What was the year when Pittsburgh's economy was in desperate state?,1983
+1-16-0.txt,"Who wrote ""For Pittsburgh a future not reliant on steel was unthinkable... and unavoidable""?",Christopher Briem
+1-16-0.txt,What is the name of the corporation center in Pittsburgh?,Corporate Center
+1-16-0.txt,What is the name of the research university in Pittsburgh that played a historical role in regional economic development?,Not mentioned
+1-16-0.txt,What is the name of the top private employer in Pittsburgh?,Allegheny Health Network
+1-16-0.txt,What is the name of the organization that provides a brief history of Pittsburgh?,Pittsburgh History & Landmarks Foundation
+1-16-0.txt,What is the name of the plan that was proposed for Pittsburgh?,Plan B
+1-16-0.txt,"Who wrote ""Pittsburgh's Image Belies Workforce""?",Don Hopey
+1-16-0.txt,What is the name of the book written by Gabriel Winant?,The Next Shift
+1-16-0.txt,What is the name of the group that studies in Pittsburgh and then starts businesses?,Asians
+1-16-0.txt,What is the population of Pittsburgh in 2011?,Not mentioned
+1-17-0.txt,What is the name of the book written by Leland D. Baldwin?,Pittsburgh: The Story of a City
+1-17-0.txt,In what year was the city of Pittsburgh named after William Pitt?,1758
+1-17-0.txt,What is the name of the steelmaking capital during the Carnegie era?,Pittsburgh
+1-17-0.txt,What is the name of the book written by Stefan Lorant?,Pittsburgh: The Story of an American City
+1-17-0.txt,What is the name of the magazine where Grinder published his article?,Western Pennsylvania Historical Magazine
+1-17-0.txt,"In what year was the book ""A Catholic New Deal: Religion and Reform in Depression Pittsburgh"" written?",1999
+1-17-0.txt,What is the name of the book written by Laurence A. Glasco?,The WPA History of the Negro in Pittsburgh
+1-17-0.txt,"In what year was the book ""Before Renaissance: Planning in Pittsburgh, 1889–1943"" written?",2006
+1-17-0.txt,What is the name of the book written by John F. Bauman and Edward K. Muller?,"Before Renaissance: Planning in Pittsburgh, 1889–1943"
+1-17-0.txt,What is the name of the university where the Carnegie Mellon University Press is located?,Carnegie Mellon University
+1-18-0.txt,"Who wrote the book ""Reorganizing the Rust Belt: An Inside Study of the American Labor Movement""?","Lopez, Steven Henry"
+1-18-0.txt,What is the title of Stefan Lorant's book about Pittsburgh?,Pittsburgh: The Story of an American City
+1-18-0.txt,"In what year was the book ""Pittsburgh: The Story of an American City"" published?",1964
+1-18-0.txt,"Who wrote the book ""Twentieth Century Pittsburgh: Government, Business, and Environmental Change""?","Lubove, Roy"
+1-18-0.txt,"In what year was the book ""Twentieth Century Pittsburgh: Government, Business, and Environmental Change"" published?",1969
+1-18-0.txt,"Who wrote the book ""Duquesne and the Rise of Steel Unionism""?","Rose, James D."
+1-18-0.txt,"In what year was the book ""Duquesne and the Rise of Steel Unionism"" published?",2001
+1-18-0.txt,"Who wrote the book ""Sandlot Seasons: Sport in Black Pittsburgh""?","Ruck, Rob"
+1-18-0.txt,"In what year was the book ""Sandlot Seasons: Sport in Black Pittsburgh"" published?",1987
+1-18-0.txt,"Who wrote the book ""From Monopoly to Competition: The Transformation of Alcoa, 1888–1986""?","Smith, George David"
+1-18-0.txt,"In what year was the book ""From Monopoly to Competition: The Transformation of Alcoa, 1888–1986"" published?",1988
+1-18-0.txt,"Who wrote the book ""Andrew Carnegie""?","Nasaw, David"
+1-18-0.txt,"In what year was the book ""Andrew Carnegie"" published?",2006
+1-19-0.txt,What is the name of the University of Pittsburgh's library system that provides historic materials?,University Library System
+1-19-0.txt,What is the name of the Senator John Heinz Pittsburgh Regional History Center's library and archives?,Library and Archives of the Historical Society of Western Pennsylvania
+1-19-0.txt,What is the name of the Carnegie Museum of Art's historic materials provider?,Historic Pittsburgh
+1-19-0.txt,What is the name of the city directories provider from 1815-1945?,Historic Pittsburgh
+1-19-0.txt,What is the name of the digitized films and photographs provider from the Library and Archives of the Senator John Heinz History Center?,Life in Western Pennsylvania
+1-19-0.txt,What is the name of the German historical sites provider in Pittsburgh?,German Historical Sites in Pittsburgh
+1-19-0.txt,What is the name of the historic skyline provider in Pittsburgh?,The History of Pittsburgh's Skyline
+1-19-0.txt,What is the name of the battle that occurred in 1755 in Pittsburgh?,The Battle of the Monongahela
+1-19-0.txt,What is the name of the historic record of Pittsburgh's early years recovered by an archivist?,Wayward record of Pittsburgh's early years
+1-19-0.txt,When was the Battle of the Monongahela fought?,1755
+1-2-0.txt,Who led the French expedition to the Ohio Valley in 1753?,Marquis Duquesne
+1-2-0.txt,What was the name of the fort built by Captain William Trent in 1754?,Fort Prince George
+1-2-0.txt,How many French forces arrived at the Forks of the Ohio in April 1754?,500
+1-2-0.txt,What was the name of the French commanding officer executed by Seneca chief Tanaghrisson?,Ensign Joseph Coulon de Jumonville
+1-2-0.txt,Who led the expedition to destroy the Shawnee and Lenape village of Kittanning in 1756?,300 militiamen
+1-2-0.txt,Who began a campaign to capture Fort Duquesne in the summer of 1758?,John Forbes
+1-2-0.txt,How many regular and colonial troops did John Forbes lead in his campaign?,"7,000"
+1-2-0.txt,What was the name of the road built by the British and colonial forces in 1755?,Braddock's Road
+1-2-0.txt,What was the name of the fort built by John Forbes in 1758?,Fort Pitt
+1-2-0.txt,Who was Fort Pitt named after?,William Pitt the Elder
+1-2-0.txt,When did the Braddock Expedition launch?,1755
+1-2-0.txt,How many miles from Fort Duquesne was the Battle of Braddock's Field?,9 miles
+1-2-0.txt,What was the name of the expedition that destroyed the Shawnee and Lenape village of Kittanning?,300 militiamen
+1-2-0.txt,What was the name of the road built by John Forbes over the Allegheny Mountains?,Forbes' Road
+1-2-0.txt,What was the name of the battleground where Major James Grant's unit was annihilated?,Grant's Hill
+1-2-0.txt,When did John Forbes occupy the burned Fort Duquesne?,"November 25, 1758"
+1-2-0.txt,Who was the British Secretary of State William Pitt the Elder?,Father of William Wilberforce
+1-3-0.txt,Who destroyed the Shawnee and Lenape village of Kittanning?,300 militiamen
+1-3-0.txt,What was the name of the British Army officer who began a campaign to capture Fort Duquesne?,John Forbes
+1-3-0.txt,How many regular and colonial troops did Forbes lead?,"7,000"
+1-3-0.txt,What was the name of the road built by Forbes?,Forbes' Road
+1-3-0.txt,Who was named after the British Secretary of State William Pitt the Elder?,Fort Pitt
+1-3-0.txt,What was the name of the settlement between the rivers?,Pittsborough
+1-3-0.txt,Who was the first considerable European settlement around Fort Pitt?,Traders and settlers
+1-3-0.txt,How many people were counted in the census ordered by Colonel Henry Bouquet in 1761?,332
+1-3-0.txt,Who launched an offensive against British forts in May 1763?,Pontiac
+1-3-0.txt,"How many men, women, and children sought refuge inside the ramparts of Fort Pitt during the siege?","330, 104, 196"
+1-3-0.txt,Who defeated Pontiac's forces in the Battle of Bushy Run?,Colonel Bouquet
+1-3-0.txt,What was the name of the Fort Pitt Blockhouse added by Colonel Bouquet in 1764?,Redoubt
+1-3-0.txt,Who signed the Fort Stanwix Treaty of 1768?,Iroquois
+1-3-0.txt,How many families settled in western Pennsylvania between 1768 and 1770?,"4,000 to 5,000"
+1-3-0.txt,Who took command of Fort Pitt in 1777?,Brigadier General Edward Hand
+1-3-0.txt,Who led 600 men from Fort Pitt to destroy Seneca villages in 1779?,Colonel Daniel Brodhead
+1-3-0.txt,What was the name of the treaty that ceded the lands south of the Ohio to the British Crown?,Fort Stanwix Treaty
+1-4-0.txt,Who led 600 men from Fort Pitt to destroy Seneca villages in 1779?,Colonel Daniel Brodhead
+1-4-0.txt,What war led to the Whiskey Rebellion in 1794?,Revolutionary War
+1-4-0.txt,Who sent in militias to put down the Whiskey Rebellion?,President George Washington
+1-4-0.txt,What was the first industry of the village of Pittsburgh?,Boat building
+1-4-0.txt,What was the name of the first steamboat built in Pittsburgh?,Not mentioned (first steamboat was built in 1811)
+1-4-0.txt,What was the name of the first river bridge in Pittsburgh?,Smithfield Street Bridge
+1-4-0.txt,What was the name of the original Pennsylvania Turnpike?,Pennsylvania Turnpike
+1-4-0.txt,When was the first segment of the National Road completed?,1818
+1-4-0.txt,What was the population of Pittsburgh in 1761?,332
+1-4-0.txt,What was the population of Pittsburgh in 1800?,"1,565"
+1-4-0.txt,What was the population of Pittsburgh in 1796?,"1,395"
+1-4-0.txt,What was the name of the Pittsburgh Academy that later developed into the University of Pittsburgh?,Pittsburgh Academy
+1-4-0.txt,When was the Pittsburgh Academy founded?,1787
+1-4-0.txt,What was the name of the University of Pittsburgh before 1908?,University of Western Pennsylvania
+1-4-0.txt,What was the name of the fort that became a United States fort in 1777?,Fort Pitt
+1-4-0.txt,Who took command of Fort Pitt in 1777?,Brigadier General Edward Hand
+1-4-0.txt,What was the name of the treaty that ceded the land north of the Purchase Line to Pennsylvania?,Treaty of Fort Stanwix
+1-4-0.txt,When did the Revolutionary War end?,1783
+1-4-0.txt,What was the name of the industry that was stimulated by the British blockade of the American coast?,Manufacture
+1-4-0.txt,What was the total production value of Pittsburgh in 1815?,"$1,248,000"
+1-5-0.txt,When was Pittsburgh incorporated as a city?,1816
+1-5-0.txt,What was the population of Pittsburgh in 1800?,"1,565"
+1-5-0.txt,What was the population of Pittsburgh in 1810?,"4,768"
+1-5-0.txt,What was the population of Pittsburgh in 1820?,"7,248"
+1-5-0.txt,What was the population of Pittsburgh in 1830?,"12,568"
+1-5-0.txt,What was the population of Pittsburgh in 1840?,"21,115"
+1-5-0.txt,What was the population of Pittsburgh in 1850?,"46,601"
+1-5-0.txt,What was the population of Pittsburgh in 1860?,"49,221"
+1-5-0.txt,What was the amount of iron produced in Pittsburgh by 1815?,$764K
+1-5-0.txt,What was the amount of brass and tin produced in Pittsburgh by 1815?,$249K
+1-5-0.txt,What was the amount of glass products produced in Pittsburgh by 1815?,$235K
+1-5-0.txt,What was the name of the first river bridge in Pittsburgh?,Smithfield Street Bridge
+1-5-0.txt,When was the Pennsylvania Main Line Canal completed?,1834
+1-5-0.txt,What was the name of the first locomotive built west of the Alleghenies?,"McClurg, Wade and Co"
+1-5-0.txt,When was the Second Court House completed?,1841
+1-5-0.txt,What was the year of the Great Fire of Pittsburgh?,1845
+1-5-0.txt,What was the amount of damages caused by the Great Fire of Pittsburgh?,$9M
+1-5-0.txt,Who was the founder of the Mellon family?,Thomas Mellon
+1-5-0.txt,What was the name of the company founded by James Laughlin?,Jones and Laughlin Steel Company
+1-6-0.txt,When did the Edgar Thomson Works in Braddock begin to make steel rail using the new Bessemer process?,1875
+1-6-0.txt,Who built their fortunes in Pittsburgh?,"Andrew Carnegie, Henry Clay Frick, Andrew W. Mellon, and Charles M. Schwab"
+1-6-0.txt,What company was founded by George Westinghouse in 1869?,Westinghouse Air and Brake Company
+1-6-0.txt,What bank helped to finance an aluminum reduction company that became Alcoa?,T. Mellon & Sons Bank
+1-6-0.txt,"In what year did small, independent iron and steel manufacturers survive and prosper?",1870s
+1-6-0.txt,How many miles across Allegheny County did the new industrial Pittsburgh stretch?,50
+1-6-0.txt,Who designed the model town of Vandergrift?,Frederick Law Olmsted
+1-6-0.txt,What was the name of the company that built the new town of Vandergrift?,George McMurtry's steelworks
+1-6-0.txt,Who was the leader of the Progressive movement statewide and supported Theodore Roosevelt in the 1912 election?,William Flinn
+1-6-0.txt,Who founded the H.J. Heinz Company in 1869?,Henry J. Heinz
+1-6-0.txt,What was the name of the Great Railroad Strike in 1877?,Pittsburgh Railway Riots
+1-6-0.txt,How many men died in the Pittsburgh Railway Riots?,40
+1-6-0.txt,What year was the Union Depot of the Pennsylvania Railroad burned down?,1877
+1-6-0.txt,"What was the name of the company that was at the forefront of reform efforts to improve food purity, working conditions, hours, and wages?",H.J. Heinz Company
+1-6-0.txt,What was the name of the industrial suburb that was a model town?,Vandergrift
+1-6-0.txt,Who hired Frederick Law Olmsted's landscape architectural firm in 1895 to design Vandergrift?,George McMurtry
+1-6-0.txt,In what year was the first major strike against the United States Steel Corporation broken?,1901
+1-7-0.txt,When did the H.J. Heinz Company found?,1869
+1-7-0.txt,Who was the founder of the H.J. Heinz Company?,Henry J. Heinz
+1-7-0.txt,What was the name of the brick mason whose son founded the H.J. Heinz Company?,Henry J. Heinz's father
+1-7-0.txt,What was the name of the labor union opposed by the H.J. Heinz Company?,Independent labor union
+1-7-0.txt,What was the name of the steel industry confrontation in 1892?,Homestead Strike
+1-7-0.txt,Who was the manager of the Carnegie Steel Company during the Homestead Strike?,Henry Clay Frick
+1-7-0.txt,How many deaths occurred during the Homestead Strike?,10
+1-7-0.txt,Who was the founder of the Carnegie Steel Company?,Andrew Carnegie
+1-7-0.txt,What was the name of the program established by Andrew Carnegie to establish libraries in numerous cities and towns?,Carnegie Library
+1-7-0.txt,In what year did Andrew Carnegie establish the first Carnegie Library?,1890
+1-7-0.txt,What was the name of the institution founded by Andrew Carnegie in 1895?,Carnegie Institute
+1-7-0.txt,Who was the owner of the U.S. Steel Corporation in 1901?,J.P. Morgan
+1-7-0.txt,What was the value of the mills sold by Andrew Carnegie to J.P. Morgan in 1901?,$250 million
+1-7-0.txt,What was the name of the city annexed by Pittsburgh in 1907?,Allegheny City
+1-7-0.txt,What was the name of the steelworker watching molten steel being poured into a mold in the document?,J & L Steel
+1-7-0.txt,What was the yearly river traffic in Pittsburgh in excess of in the early 20th century?,9M tons
+1-7-0.txt,What was the value of factory products in Pittsburgh in the early 20th century?,$211M
+1-7-0.txt,What percentage of national output was produced by Allegheny county in the early 20th century?,"24% (pig iron), 34%"
+1-8-0.txt,Who is Pittsburgh named after?,William Pitt
+1-8-0.txt,What is the name of the distillery that closed in the 1920s?,Joseph S. Finch's distillery
+1-8-0.txt,What is the name of the first distillery that opened after Finch's distillery closed?,Wigle Whiskey
+1-8-0.txt,When did Allegheny County cities stop discharging raw sewage into rivers?,1939
+1-8-0.txt,What was the year of the worst flood in Pittsburgh's history?,1936
+1-8-0.txt,How many people were killed in the 1936 flood?,69
+1-8-0.txt,What is the name of the educational building that is the world's fourth-tallest?,Cathedral of Learning
+1-8-0.txt,How many times did the Pittsburgh Pirates play at Forbes Field?,61
+1-8-0.txt,What was the population growth of Pittsburgh between 1870 and 1920?,Sevenfold
+1-8-0.txt,What percentage of the city's Jewish households lived in Squirrel Hill?,28%
+1-8-0.txt,What was the name of the migration that African Americans made to Pittsburgh?,Great Migration
+1-8-0.txt,How many African Americans lived in Pittsburgh in 1880?,"6,000"
+1-8-0.txt,"What was the name of the street that was dubbed ""Millionaire's Row""?",Fifth Avenue
+1-8-0.txt,What was the damage caused by the 1936 flood in dollars (in 2006 dollars)?,$3B
+1-9-0.txt,When did the Great Depression start?,1929
+1-9-0.txt,What was the name of the program that provided relief and jobs during the Great Depression?,WPA
+1-9-0.txt,Who was the statewide leader of the Democrats in Pennsylvania?,Joseph Guffey
+1-9-0.txt,What was the name of the baseball team that dominated the Negro National League in the 1930s and 1940s?,Pittsburgh Crawfords
+1-9-0.txt,What was the cultural nucleus of Black Pittsburgh?,Wylie Avenue
+1-9-0.txt,Who were the jazz greats that played in the Hill District?,"Duke Ellington, Billy Strayhorn, and Earl Hines"
+1-9-0.txt,What was the name of the stadium built in 1970 as part of the Renaissance I project?,Three Rivers Stadium
+1-9-0.txt,Who was the mayor of Pittsburgh from 1946 to 1959?,David Lawrence
+1-9-0.txt,What was the name of the urban revitalization project that transformed the city?,Renaissance I
+1-9-0.txt,What was the population of Pittsburgh in 1860?,"49,221"
+1-9-0.txt,What was the name of the airport terminal opened in 1953?,Greater Pittsburgh Municipal Airport terminal
+1-9-0.txt,What was the name of the area in the Hill District that was completely destroyed in the late 1950s and early 1960s?,Lower Hill District
+1-9-0.txt,What was the amount of steel contributed by Pittsburgh's mills to the war effort during World War II?,95 million tons
+1-9-0.txt,Who was the chairman of Mellon Bank?,Richard K. Mellon
+1-9-0.txt,What was the name of the Housing Act of 1949?,Title One
+1-9-0.txt,What was the year when the Greater Pittsburgh Municipal Airport terminal was opened?,1953
+1-9-0.txt,Who was the governor of Pennsylvania from 1959 to 1963?,David Lawrence
