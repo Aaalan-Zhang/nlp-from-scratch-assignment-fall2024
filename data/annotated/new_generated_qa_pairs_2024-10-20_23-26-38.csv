@@ -1,0 +1,11 @@
+,Doc_id,Question,Answer
+0,9623_ISP_Tax_Regulations-5-0.txt,What is the duration for filing a suit for collection of taxes when a return has been filed but no tax paid?,3 years after the return was due or filed
+1,9623_ISP_Tax_Regulations-5-0.txt,What is the duration for filing a suit for collection of taxes when no return was filed?,No limit
+2,9623_ISP_Tax_Regulations-5-0.txt,What is the duration for filing a suit for collection of taxes in the case of a deficiency assessment?,3 years after the assessment has been made
+3,9623_ISP_Tax_Regulations-5-0.txt,What percentage factor is zero if the taxpayer only has one office in the Commonwealth and that office is in the City?,"Payroll Percentage factor, Property Percentage factor"
+4,9623_ISP_Tax_Regulations-5-0.txt,What is the numerator of the Payroll percentage factor if the taxpayer only has one office in the Commonwealth and that office is in the City?,Total payroll reported to the Pennsylvania Department of Revenue
+5,9623_ISP_Tax_Regulations-5-0.txt,What is the numerator of the Property percentage factor if the taxpayer only has one office in the Commonwealth and that office is in the City?,Sum of tangible property located in the Commonwealth
+6,9623_ISP_Tax_Regulations-5-0.txt,What is the denominator of the City Apportionment percentage if one of the percentage factors is zero?,2
+7,9623_ISP_Tax_Regulations-5-0.txt,What is the denominator of the City Apportionment percentage if two of the percentage factors are zero?,1
+8,9623_ISP_Tax_Regulations-5-0.txt,How is leased property recorded as an item of tangible property?,8 times annual rent
+9,9623_ISP_Tax_Regulations-5-0.txt,What is the practice to be followed for the definition of Sales if additional guidance is required?,Pennsylvania Department of Revenue under the Corporate Net Income Tax provisions of the Tax Reform Act
