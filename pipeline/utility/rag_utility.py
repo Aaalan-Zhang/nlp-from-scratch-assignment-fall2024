@@ -112,14 +112,14 @@ def load_text_files(path):
 
     return docs
 
-def query_retriever(query, retriever, embedding_model, k=topKSearch):
+def query_retriever(query, retriever, embedding_model, k=3):
     # Retrieve context using the retriever
     if isinstance(retriever, Chroma):
         retrieved_docs = retriever.invoke(query)
     elif isinstance(retriever, FAISSRetriever):
         # Chroma's k is set when creating the retriever. Possibly can be changed dynamically with further research.
         query_embedding = embedding_model.encode(query).reshape(1, -1).astype("float32")
-        retrieved_docs = faiss_retriever.retrieve(query_embedding, k=k)
+        retrieved_docs = retriever.retrieve(query_embedding, k=k)
     return retrieved_docs
 
 def format_retreived_docs(docs):
