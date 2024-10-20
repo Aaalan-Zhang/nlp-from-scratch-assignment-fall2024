@@ -38,29 +38,29 @@ Doc_id,Question,Answer
 0-11-0.txt,What is the racial composition of Pittsburgh in 2020?,"64.7% non-Hispanic white, 23.0% Black or African American, 5.8% Asian, and 3.2% Hispanic or Latino American"
 0-11-0.txt,What are the five largest European ethnic groups in Pittsburgh?,"German, Irish, Italian, Polish, and English"
 0-11-0.txt,What is the percentage of German-American in the metropolitan area of Pittsburgh?,22%
-0-11-0.txt,What is the percentage of Italian-American in the metropolitan area of Pittsburgh?,15.4%
-0-11-0.txt,What is the percentage of Irish-American in the metropolitan area of Pittsburgh?,11.6%
+0-11-0.txt,What is the percentage of Italian-American in the metropolitan area of Pittsburgh?,15.40%
+0-11-0.txt,What is the percentage of Irish-American in the metropolitan area of Pittsburgh?,11.60%
 0-11-0.txt,What is the population of Pittsburgh in 2020?,"302,971"
-0-11-0.txt,What is the percentage of non-Hispanic white population in Pittsburgh in 2010?,64.8%
-0-11-0.txt,What is the percentage of Black or African American population in Pittsburgh in 2020?,23.0%
-0-11-0.txt,What is the percentage of Asian population in Pittsburgh in 2020?,5.8%
-0-12-0.txt,What percentage of Pittsburgh's population was White in 2020?,64.7%
+0-11-0.txt,What is the percentage of non-Hispanic white population in Pittsburgh in 2010?,64.80%
+0-11-0.txt,What is the percentage of Black or African American population in Pittsburgh in 2020?,23.00%
+0-11-0.txt,What is the percentage of Asian population in Pittsburgh in 2020?,5.80%
+0-12-0.txt,What percentage of Pittsburgh's population was White in 2020?,64.70%
 0-12-0.txt,What percentage of the population of the city identified themselves as Christians in 2014?,78%
 0-12-0.txt,What was the median age of the population in Pittsburgh?,36 years
 0-12-0.txt,What percentage of families and the population were below the poverty line in Pittsburgh?,15.0% and 20.4%
 0-12-0.txt,What was the median household income in Pittsburgh in 2010?,"$28,588"
 0-12-0.txt,What was the median income for a family in Pittsburgh in 2010?,"$38,795"
-0-12-0.txt,What was the percentage of the population that was non-Hispanic white in 2010?,64.8%
-0-12-0.txt,What percentage of the population was Black or African American in 2020?,23.0%
-0-12-0.txt,What percentage of the population was Asian in 2020?,5.8%
-0-12-0.txt,What was the percentage of the population that was Hispanic or Latino American of any race in 2020?,3.2%
-0-12-0.txt,What was the percentage of households that had children under the age of 18 living with them in 2010?,21.9%
-0-12-0.txt,What percentage of households were married couples living together in 2010?,31.2%
-0-12-0.txt,What percentage of households had a female householder with no husband present in 2010?,16.5%
-0-12-0.txt,What percentage of households were non-families in 2010?,48.4%
+0-12-0.txt,What was the percentage of the population that was non-Hispanic white in 2010?,64.80%
+0-12-0.txt,What percentage of the population was Black or African American in 2020?,23.00%
+0-12-0.txt,What percentage of the population was Asian in 2020?,5.80%
+0-12-0.txt,What was the percentage of the population that was Hispanic or Latino American of any race in 2020?,3.20%
+0-12-0.txt,What was the percentage of households that had children under the age of 18 living with them in 2010?,21.90%
+0-12-0.txt,What percentage of households were married couples living together in 2010?,31.20%
+0-12-0.txt,What percentage of households had a female householder with no husband present in 2010?,16.50%
+0-12-0.txt,What percentage of households were non-families in 2010?,48.40%
 0-12-0.txt,What was the average household size in Pittsburgh in 2010?,2.17
 0-12-0.txt,What was the average family size in Pittsburgh in 2010?,2.95
-0-12-0.txt,What percentage of the population was 65 years of age or older in 2010?,16.4%
+0-12-0.txt,What percentage of the population was 65 years of age or older in 2010?,16.40%
 0-12-0.txt,What was the per capita income for the city in 2010?,"$18,816"
 0-13-0.txt,What is the median income for a household in Pittsburgh?,"$53,799"
 0-13-0.txt,What is the median income for married-couple families in Pittsburgh?,"$93,500"
@@ -224,7 +224,7 @@ Doc_id,Question,Answer
 0-22-0.txt,Who is the youngest mayor in the history of any major American city?,Luke Ravenstahl
 0-22-0.txt,When was Luke Ravenstahl sworn in as mayor?,2006
 0-22-0.txt,Who is the current mayor of Pittsburgh?,Ed Gainey
-0-22-0.txt,When was Ed Gainey elected as mayor?,November 2021
+0-22-0.txt,When was Ed Gainey elected as mayor?,Nov-21
 0-22-0.txt,What is the name of the city's government building?,Pittsburgh City-County Building
 0-22-0.txt,How many districts does the Pittsburgh City Council represent?,9
 0-22-0.txt,What is the name of the river that runs through Pittsburgh?,Allegheny River
@@ -265,7 +265,7 @@ Doc_id,Question,Answer
 0-24-0.txt,What is the name of the Pittsburgh Science and Technology Academy?,Pittsburgh Science and Technology Academy
 0-24-0.txt,What is the name of the Western Pennsylvania School for Blind Children?,Western Pennsylvania School for Blind Children
 0-24-0.txt,What is the name of the Western Pennsylvania School for the Deaf?,Western Pennsylvania School for the Deaf
-0-25-0.txt,"When was KDKA 1020 AM, the world's first commercially licensed radio station, established?","November 2, 1920"
+0-25-0.txt,"When was KDKA 1020 AM, the world's first commercially licensed radio station, established?",2-Nov-20
 0-25-0.txt,"How many major motion pictures have been filmed, in whole or in part, in Pittsburgh?",124
 0-25-0.txt,What is the name of the film festival that celebrates the 50th anniversary of CMU?,Not found
 0-25-0.txt,What is the name of the film festival that celebrates the 50th anniversary of CMU?,Not found
@@ -369,7 +369,7 @@ Doc_id,Question,Answer
 0-30-0.txt,What is the name of the Pittsburgh Business Journal article that mentioned Silicon Valley is dying?,PS Magazine
 0-30-0.txt,In what year did Pittsburgh's employment numbers show better growth than similar cities?,2014
 0-30-0.txt,What is the name of the Pittsburgh Post-Gazette article that mentioned Pittsburgh's smart city survey?,Pittsburgh's smart; survey says so
-0-31-0.txt,"When was the original of ""How to Spell Pittsburgh"" archived?","October 1, 2008"
+0-31-0.txt,"When was the original of ""How to Spell Pittsburgh"" archived?",1-Oct-08
 0-31-0.txt,"Who wrote ""How Pittsburgh Got Its 'H' Back""?",Stacy Conradt
 0-31-0.txt,What is the name of the book by George R. Stewart?,Names on the Land
 0-31-0.txt,"When was the first edition of ""Names on the Land"" published?",1945
@@ -413,7 +413,7 @@ Doc_id,Question,Answer
 0-33-0.txt,"What is the name of the organization that released the ""State of the Air 2011"" report?",American Lung Association
 0-33-0.txt,"What is the name of the city where the ""In Pittsburgh, the 'Paris of the Appalachians,'they're not buying Trump's climate talk"" article was published?",Pittsburgh
 0-33-0.txt,"What is the name of the author of the article ""In Pittsburgh, the 'Paris of the Appalachians,'they're not buying Trump's climate talk""?",Frankel
-0-34-0.txt,"When was the study ""Study: Pittsburgh kids near polluting sites have higher asthma rates"" published?","November 11, 2020"
+0-34-0.txt,"When was the study ""Study: Pittsburgh kids near polluting sites have higher asthma rates"" published?",11-Nov-20
 0-34-0.txt,What is the name of the organization that reports weird smells in Pittsburgh?,Smell PGH
 0-34-0.txt,What is the name of the report that finds industrial pollution flowing illegally into PA rivers?,New Report Finds Industrial Pollution Flowing Illegally into PA Rivers
 0-34-0.txt,What is the name of the organization that provides protection for those with lead service lines?,PWSA
@@ -434,8 +434,8 @@ Doc_id,Question,Answer
 0-35-0.txt,What is the name of the Pew Research Center's study about the religious landscape of the United States?,Religious Landscape Study
 0-35-0.txt,What is the name of the census data that provides information about the demographics of Pittsburgh?,"P004: Hispanic or Latino, and Not Hispanic or Latino by Race"
 0-35-0.txt,What is the name of the town in the Pittsburgh area that is considered one of the wealthiest?,Sewickley
-0-35-0.txt,What is the percentage of people 25 years and over who have completed a bachelor's degree in Pittsburgh?,43.6%
-0-35-0.txt,What is the percentage of people 25 years and over who have completed high school in Pittsburgh?,88.2%
+0-35-0.txt,What is the percentage of people 25 years and over who have completed a bachelor's degree in Pittsburgh?,43.60%
+0-35-0.txt,What is the percentage of people 25 years and over who have completed high school in Pittsburgh?,88.20%
 0-35-0.txt,What is the name of the report that provides information about new Americans in Pittsburgh?,New Americans in Pittsburgh
 0-35-0.txt,What is the name of the neighborhood in Pittsburgh that has been affected by gentrification?,The Hill District
 0-35-0.txt,What is the name of the organization that represents the Pittsburgh technology industry?,Pittsburgh Technology Council
@@ -496,7 +496,7 @@ Doc_id,Question,Answer
 0-39-0.txt,In what year did Pittsburgh homicides hit the lowest in 20 years?,2020
 0-39-0.txt,"Who is the author of ""A Ground-Up Model for Gun Violence Reduction""?",T. Rashad Byrdsong
 0-39-0.txt,In what year was the University of Pittsburgh founded?,1900
-0-4-0.txt,What percentage of the city's population were non-Hispanic whites in 1940?,90.6%
+0-4-0.txt,What percentage of the city's population were non-Hispanic whites in 1940?,90.60%
 0-4-0.txt,What was the name of the African-American Great Migration destination in Pittsburgh?,"None (it's a general term, but it's mentioned as the African-American Great Migration)"
 0-4-0.txt,What percentage of African-American men in Pittsburgh became unskilled steel workers?,95%
 0-4-0.txt,How many tons of steel were produced by area mills during World War II?,95 million tons
@@ -524,7 +524,7 @@ Doc_id,Question,Answer
 0-40-0.txt,What is the name of the public library infrastructure in Greater Pittsburgh?,Circulation of Power
 0-40-0.txt,"Who wrote the book ""Circulation of Power: The Development of Public Library Infrastructure in Greater Pittsburgh, 1924-2016""?",Michael M. Widdersheim
 0-40-0.txt,What is the name of the law school at the University of Pittsburgh?,School of Law
-0-40-0.txt,What is the increase in U.S. television households for the 2006–2007 season?,1.1%
+0-40-0.txt,What is the increase in U.S. television households for the 2006–2007 season?,1.10%
 0-40-0.txt,What is the name of the television station that pioneered educational programming?,WQED
 0-40-0.txt,When was WQED founded?,1954
 0-40-0.txt,What is the name of the first commercial radio station?,KDKA
@@ -966,3 +966,5 @@ Doc_id,Question,Answer
 1-9-0.txt,What was the name of the Housing Act of 1949?,Title One
 1-9-0.txt,What was the year when the Greater Pittsburgh Municipal Airport terminal was opened?,1953
 1-9-0.txt,Who was the governor of Pennsylvania from 1959 to 1963?,David Lawrence
+1-13-1.txt,,
+1-17-1.txt,,
