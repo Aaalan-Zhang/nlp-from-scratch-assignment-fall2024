@@ -152,7 +152,7 @@ def answer_generation(qa_df, output_file, retriever_type, retriever, embedding_m
     # check if the output file 
     if not os.path.exists(output_file):
         with open(output_file, 'w') as f_out:
-            f_out.write(",".join(list(qa_df.columns) + ["Generated Answer"]) + "\n")
+            f_out.write(",".join(list(qa_df.columns) + ["Generated_Answer"]) + "\n")
             start_idx = 0
     else:
         # calculate the number of rows in the output file
