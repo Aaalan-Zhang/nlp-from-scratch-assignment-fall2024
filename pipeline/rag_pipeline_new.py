@@ -121,13 +121,21 @@ if __name__ == "__main__":
     # Step 2: Load the Sentence Transformers model for embeddings
     embedding_model = SentenceTransformer(embedding_model_name, truncate_dim=embedding_dim)
 
-    # Step 3: load the text files for building the index
+    # Step 3: load the text files for building the index and qa evaluation
     print(f"Start loading texts from {text_files_path}")
     docs = load_text_files(path=text_files_path)
-    print(f"End loading texts from {text_files_path}")
+    
+    qa_test_data_path = qes_file_path
+    qa_df = pd.read_csv(qa_test_data_path)
+    # sample 100 rows from the dataframe
+    qa_df = qa_df.sample(100, random_state=221)
+    print(f"End loading texts. Number of documents for retrieval: {len(docs)}. Number of QA pairs: {len(qa_df)}")
+    
     # Step 4: Split the documents into smaller chunks
     # Wrap text strings in Document objects
-    documents = [Document(page_content=text) for text in docs]
+    documents = []
+    for text in tqdm(docs, desc="wrapping text in Document objects"):
+        documents.append(Document(page_content=text))
     del docs
 
     if splitter_type == "recursive":
@@ -149,8 +157,10 @@ if __name__ == "__main__":
     del documents
     print(f"End Spliting texts -- Number of splits: {len(splits)}")
     # Step 5: Create Chroma vectorstore with embeddings from Sentence Transformers
-    print(f"Start Embedding texts")
-    embeddings = [embedding_model.encode(doc.page_content) for doc in splits]
+    # print(f"Start Embedding texts")
+    embeddings = []
+    for doc in tqdm(splits, desc="Embedding texts"):
+        embeddings.append(embedding_model.encode(doc.page_content))
     embedding_wrapper = SentenceTransformerEmbeddings(embedding_model)
     print(f"End Embedding texts")
     # Free GPU cache after generating embeddings
@@ -173,11 +183,14 @@ if __name__ == "__main__":
 
     prompt = chat_prompt_template
 
-    # Step 7: Load the QA test data
-    qa_test_data_path = qes_file_path # TODO: qa_test_data_path to be replaced with the arg passed in
-    qa_df = pd.read_csv(qa_test_data_path)
+    # # Step 7: Load the QA test data
+    # qa_test_data_path = qes_file_path
+    # qa_df = pd.read_csv(qa_test_data_path)
     
-    # Step 8: Generate answers for the questions
+    # # sample 100 rows from the dataframe
+    # qa_df = qa_df.sample(100, random_state=42)
+    
+    # Step 7: Generate answers for the questions
     print("Building the vectorstore...")
     if retriever_type == "CHROMA":
         print("Building the vectorstore Chroma...")
@@ -200,14 +213,4 @@ if __name__ == "__main__":
         qa_df, output_file, retriever_type, retriever, embedding_model, 
         generation_pipe, prompt, k=top_k_search)
     
-    # # save the generated answers together with the questions and reference doc ids and answers
-    # qa_results = pd.DataFrame({
-    #     "Ref Doc id": ref_doc_ids,
-    #     "Question": questions,
-    #     "Ref Answer": ref_answers,
-    #     "Generated Answer": generated_answers,
-    # })
-    
-    # # save the results to a csv file
-    # qa_results.to_csv(output_file, index=False)
     print(f"QA evaluation completed! Results saved to {output_file}")
