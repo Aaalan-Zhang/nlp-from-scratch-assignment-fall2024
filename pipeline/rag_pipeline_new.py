@@ -137,7 +137,7 @@ if __name__ == "__main__":
 
     # Step 2: Load the Sentence Transformers model for embeddings
     # embedding_model = SentenceTransformer(embedding_model_name, truncate_dim=embedding_dim)
-    embedding_model = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
+    embedding_model = HuggingFaceEmbeddings(model_name=embedding_model_name)
 
     # Step 3: load the text files for building the index and qa evaluation
     print(f"Start loading texts from {text_files_path}")
