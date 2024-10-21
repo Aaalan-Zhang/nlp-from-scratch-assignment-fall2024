@@ -5,6 +5,7 @@ the SQuAD paper (https://arxiv.org/pdf/1606.05250).
 """
 
 import re
+import pandas as pd
 import json
 import string
 from collections import Counter
@@ -15,7 +16,7 @@ ARTICLES = set(['the', 'a', 'an'])
 
 
 def clean_answer(answer):
-    answer = answer.lower()
+    answer = str(answer).lower()
     # Replace Unicode non-breaking space with a regular space
     answer = answer.replace(u'\u00a0', ' ')
     while len(answer) > 1 and answer[0] in WHITESPACE_AND_PUNCTUATION:
@@ -102,24 +103,36 @@ if __name__ == "__main__":
     
     # parse arguments
     parser = argparse.ArgumentParser(description='Evaluate the performance of the generated answers.')
+    parser.add_argument('--combined_dir', type=str, help='Path to the directory containing the combined gold and generated answers.')
     parser.add_argument('--gold_answer_dir', type=str, help='Path to the directory containing the gold answers.')
     parser.add_argument('--generated_answer_dir', type=str, help='Path to the directory containing the generated answers.')
     parser.add_argument('--output_dir', type=str, help='Path to the directory to save the evaluation results.')
     
     args = parser.parse_args()
     
-    # read the gold answers, create a list of lists
-    # each sublist contains one or more gold answers
-    gold_answers = []
-    with open(args.gold_answer_dir, 'r') as f:
-        for line in f:
-            gold_answers.append(line.strip().split(';'))
-            
-    # read the generated answers, each line contains one generated answer
-    generated_answers = []
-    with open(args.generated_answer_dir, 'r') as f:
-        for line in f:
-            generated_answers.append(line.strip())
+    if args.combined_dir:
+        # read in as csv file
+        
+        generation_df = pd.read_csv(args.combined_dir)
+        generated_answers = generation_df["Generated_Answer"].tolist()
+        # each row is a list of gold answers
+        # example gold answers: ["William Pitt", "William Pitt the Younger"]
+        gold_answers = generation_df["Reference_Answers"].apply(lambda x: str(x).split("[SEP]")).tolist()
+        print(gold_answers[:5])
+    
+    else:
+        # read the gold answers, create a list of lists
+        # each sublist contains one or more gold answers
+        gold_answers = []
+        with open(args.gold_answer_dir, 'r') as f:
+            for line in f:
+                gold_answers.append(line.strip().split(';'))
+                
+        # read the generated answers, each line contains one generated answer
+        generated_answers = []
+        with open(args.generated_answer_dir, 'r') as f:
+            for line in f:
+                generated_answers.append(line.strip())
     
     # # sample gold and generated answers for testing
     # gold_answers = [
