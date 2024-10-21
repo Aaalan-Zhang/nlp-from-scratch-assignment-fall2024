@@ -14,6 +14,5 @@ langchain
 langchain-community
 langchain-chroma
 langchain-openai
-sentence-transformers
 faiss-cpu
 faiss-gpu
