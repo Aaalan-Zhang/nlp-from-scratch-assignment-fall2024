@@ -19,3 +19,4 @@ faiss-gpu
 scikit-learn
 langchain_experimental
 langchain_openai
+flashrank

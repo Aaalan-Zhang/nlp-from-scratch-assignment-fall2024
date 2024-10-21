@@ -25,59 +25,61 @@ from langchain.prompts import (
     HumanMessagePromptTemplate, 
     PromptTemplate
 )
+from langchain.retrievers import ContextualCompressionRetriever
+from langchain.retrievers.document_compressors import FlashrankRerank
 from sentence_transformers import SentenceTransformer
 
 # ========================================
 # Custom Class for FAISS
 # ========================================
-class FAISSRetriever:
-    """A FAISS retriever to handle vector search and document retrieval."""
-    def __init__(self, embeddings, documents):
-        self.documents = documents  # Store documents separately since FAISS does not handle metadata
-        self.index = self._create_faiss_index(embeddings)
+# class FAISSRetriever:
+#     """A FAISS retriever to handle vector search and document retrieval."""
+#     def __init__(self, embeddings, documents):
+#         self.documents = documents  # Store documents separately since FAISS does not handle metadata
+#         self.index = self._create_faiss_index(embeddings)
 
-    def _create_faiss_index(self, embeddings):
-        """
-        Create a FAISS index from the embeddings.
-        Args:
-        embeddings (list): List of document embeddings.
+#     def _create_faiss_index(self, embeddings):
+#         """
+#         Create a FAISS index from the embeddings.
+#         Args:
+#         embeddings (list): List of document embeddings.
 
-        Returns:
-        faiss.IndexFlatL2: FAISS index built from the embeddings.
-        """
-        d = len(embeddings[0])  # Dimensionality of the embeddings
-        index = faiss.IndexFlatL2(d)  # Using L2 distance for similarity search
-        index.add(embeddings)
-        return index
+#         Returns:
+#         faiss.IndexFlatL2: FAISS index built from the embeddings.
+#         """
+#         d = len(embeddings[0])  # Dimensionality of the embeddings
+#         index = faiss.IndexFlatL2(d)  # Using L2 distance for similarity search
+#         index.add(embeddings)
+#         return index
 
-    def retrieve(self, query_embedding, k=3):
-        """
-        Retrieve the top-k documents closest to the query embedding.
-        Args:
-        query_embedding (ndarray): The embedding of the query.
-        k (int): The number of nearest neighbors to return.
+#     def retrieve(self, query_embedding, k=3):
+#         """
+#         Retrieve the top-k documents closest to the query embedding.
+#         Args:
+#         query_embedding (ndarray): The embedding of the query.
+#         k (int): The number of nearest neighbors to return.
 
-        Returns:
-        list: A list of the top-k documents.
-        """
-        distances, indices = self.index.search(query_embedding, k)
-        return [self.documents[i] for i in indices[0]]  # Return the documents corresponding to the nearest neighbors
+#         Returns:
+#         list: A list of the top-k documents.
+#         """
+#         distances, indices = self.index.search(query_embedding, k)
+#         return [self.documents[i] for i in indices[0]]  # Return the documents corresponding to the nearest neighbors
 
-# ========================================
-# Custom Class for Sentence Transformer Embeddings
-# ========================================
-class SentenceTransformerEmbeddings:
-    """A wrapper class for Sentence Transformers model to provide the same interface as OpenAIEmbeddings."""
-    def __init__(self, model):
-        self.model = model
+# # ========================================
+# # Custom Class for Sentence Transformer Embeddings
+# # ========================================
+# class SentenceTransformerEmbeddings:
+#     """A wrapper class for Sentence Transformers model to provide the same interface as OpenAIEmbeddings."""
+#     def __init__(self, model):
+#         self.model = model
 
-    # Method to generate embeddings for a list of texts (documents)
-    def embed_documents(self, texts):
-        return [self.model.encode(text) for text in texts]
+#     # Method to generate embeddings for a list of texts (documents)
+#     def embed_documents(self, texts):
+#         return [self.model.encode(text) for text in texts]
 
-    # Method to generate embeddings for a single query (optional but useful)
-    def embed_query(self, text):
-        return self.model.encode(text)
+#     # Method to generate embeddings for a single query (optional but useful)
+#     def embed_query(self, text):
+#         return self.model.encode(text)
 
 
 # ========================================
@@ -111,15 +113,15 @@ def load_text_files(path):
 
     return docs
 
-def query_retriever(query, retriever_type, retriever, embedding_model, k=3):
-    # Retrieve context using the retriever
-    if retriever_type == "CHROMA":
-        retrieved_docs = retriever.invoke(query)
-    elif retriever_type == "FAISS":
-        # Chroma's k is set when creating the retriever. Possibly can be changed dynamically with further research.
-        query_embedding = embedding_model.encode(query).reshape(1, -1).astype("float32")
-        retrieved_docs = retriever.retrieve(query_embedding, k=k)
-    return retrieved_docs
+# def query_retriever(query, retriever_type, retriever, embedding_model, k=3):
+#     # Retrieve context using the retriever
+#     if retriever_type == "CHROMA":
+#         retrieved_docs = retriever.invoke(query)
+#     elif retriever_type == "FAISS":
+#         # Chroma's k is set when creating the retriever. Possibly can be changed dynamically with further research.
+#         query_embedding = embedding_model.encode(query).reshape(1, -1).astype("float32")
+#     retrieved_docs = retriever.invoke(query)
+#     return retrieved_docs
 
 def format_retreived_docs(docs):
     """
@@ -133,7 +135,21 @@ def format_retreived_docs(docs):
     return "\n\n".join(f"Context {i + 1}: {doc.page_content}" for i, doc in enumerate(docs))
 
 
-def answer_generation(qa_df, output_file, retriever_type, retriever, embedding_model, generation_pipe, prompt, k=3):
+def rerank_docs(query, retriever, k=3):
+    """
+    Rerank the retrieved documents based on the query using Flashrank.
+    """
+    # DEFAULT_MODEL_NAME = "ms-marco-MultiBERT-L-12"
+    compressor = FlashrankRerank(top_n=k)
+    compression_retriever = ContextualCompressionRetriever(
+        base_compressor=compressor, base_retriever=retriever)
+    
+    compressed_docs = compression_retriever.invoke(query)
+    
+    return compressed_docs
+
+
+def answer_generation(qa_df, output_file, retriever, generation_pipe, prompt, rerank=False, top_k_rerank=3):
     """
     Generate answers for the given questions using the retriever and the generation pipeline.
     
@@ -164,11 +180,18 @@ def answer_generation(qa_df, output_file, retriever_type, retriever, embedding_m
     # iterate over the dataframe
     with open(output_file, 'a') as f_out:
         for idx, row in tqdm(qa_df.iterrows(), total=len(qa_df)):
+            # skip the rows that have been processed
             if idx < start_idx:
                 continue
             question = row["Question"]
+            
             # Retrieve documents based on the question
-            retrieved_docs = query_retriever(question, retriever_type, retriever, embedding_model, k=k)
+            if rerank:
+                print("Reranking documents...")
+                retrieved_docs = rerank_docs(question, retriever, k=top_k_rerank)
+            else:
+                retrieved_docs = retriever.invoke(question)
+            
             # Format the documents
             context = format_retreived_docs(retrieved_docs)
 

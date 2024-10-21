@@ -12,6 +12,7 @@ from huggingface_hub import login
 from transformers import pipeline, AutoModelForCausalLM, AutoTokenizer
 from langchain import hub
 from langchain_chroma import Chroma
+from langchain_community.vectorstores import FAISS
 # from langchain_community.document_loaders import WebBaseLoader
 # from langchain_core.output_parsers import StrOutputParser
 # from langchain_core.runnables import RunnablePassthrough
@@ -22,17 +23,16 @@ from langchain_text_splitters import (
 )
 from langchain_experimental.text_splitter import SemanticChunker
 from langchain_openai.embeddings import OpenAIEmbeddings
+from langchain_huggingface import HuggingFaceEmbeddings
 from langchain.docstore.document import Document
 from langchain.prompts import (
     ChatPromptTemplate, 
     HumanMessagePromptTemplate, 
     PromptTemplate
 )
-from sentence_transformers import SentenceTransformer
+# from sentence_transformers import SentenceTransformer
 
 from utility.rag_utility import (
-    FAISSRetriever, 
-    SentenceTransformerEmbeddings, 
     load_text_files,  
     answer_generation, 
     PROMPT_TEMPLATE
@@ -42,6 +42,15 @@ from utility.rag_utility import (
 # Vars that can be set and read from another var file.
 # ========================================
 
+def str2bool(value):
+    if isinstance(value, bool):
+        return value
+    if value.lower() in ('yes', 'true', 't', 'y', '1'):
+        return True
+    elif value.lower() in ('no', 'false', 'f', 'n', '0'):
+        return False
+    else:
+        raise argparse.ArgumentTypeError('Boolean value expected.')
 
 def parse_args():
     parser = argparse.ArgumentParser(description="Script for running RAG pipeline with FAISS or CHROMA.")
@@ -54,15 +63,17 @@ def parse_args():
     parser.add_argument("--embedding_model_name", type=str, default="sentence-transformers/all-MiniLM-L6-v2",
                         help="Name of the embedding model to use.")
     parser.add_argument("--embedding_dim", type=int, default=384, help="Dimension of the embeddings.")
-    parser.add_argument("--splitter_type", type=str, choices=["recursive", "character", "token", "semantic"], default="Recursive",
+    parser.add_argument("--splitter_type", type=str, choices=["recursive", "character", "token", "semantic"], default="recursive",
                         help="Type of text splitter to use.")
     parser.add_argument("--chunk_size", type=int, default=1000, help="Size of the text chunks.")
     parser.add_argument("--chunk_overlap", type=int, default=200, help="Overlap between text chunks.")
     parser.add_argument("--text_files_path", type=str, default="data/crawled/crawled_text_data",
                         help="Path to the text files directory.")
-    parser.add_argument("--top_k_search", type=int, default=3, help="Top K documents to retrieve.")
     parser.add_argument("--retriever_type", type=str, choices=["FAISS", "CHROMA"], default="FAISS",
                         help="Type of retriever to use (FAISS or CHROMA).")
+    parser.add_argument("--rerank", type=str2bool, default=False, help="Whether to rerank the documents.")
+    parser.add_argument("--top_k_search", type=int, default=3, help="Top K documents to retrieve.")
+    parser.add_argument("--top_k_rerank", type=int, default=3, help="Top K documents to rerank.")
     parser.add_argument("--qes_file_path", type=str, default="data/annotated/QA_pairs_1.csv",
                         help="Path to the QA file.")
     parser.add_argument("--output_file", type=str, required=True, help="Path to the output file.")
@@ -99,7 +110,13 @@ if __name__ == "__main__":
     qes_file_path = args.qes_file_path
     top_k_search = args.top_k_search
     retriever_type = args.retriever_type
+    rerank = args.rerank
+    top_k_rerank = args.top_k_rerank
     output_file = args.output_file
+    
+    # check if rerank is set to True
+    if rerank:
+        print("Reranking is set to True.")
 
     # Step 1: Initialize the Hugging Face model as your LLM
     print("Initializing the Hugging Face model...")
@@ -119,7 +136,8 @@ if __name__ == "__main__":
     print("Model initialized successfully!")
 
     # Step 2: Load the Sentence Transformers model for embeddings
-    embedding_model = SentenceTransformer(embedding_model_name, truncate_dim=embedding_dim)
+    # embedding_model = SentenceTransformer(embedding_model_name, truncate_dim=embedding_dim)
+    embedding_model = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
 
     # Step 3: load the text files for building the index and qa evaluation
     print(f"Start loading texts from {text_files_path}")
@@ -142,9 +160,16 @@ if __name__ == "__main__":
         text_splitter = RecursiveCharacterTextSplitter(
             chunk_size=chunk_size, chunk_overlap=chunk_overlap)
     elif splitter_type == "character":
-        text_splitter = CharacterTextSplitter(chunk_size=chunk_size, chunk_overlap=chunk_overlap)
+        # separator should be the ., !, or ? or " "
+        # separation_pattern = r"\.|\?|\!| $"
+        text_splitter = CharacterTextSplitter(
+            separator=" ",
+            chunk_size=chunk_size, chunk_overlap=chunk_overlap)
     elif splitter_type == "token":
-        text_splitter = TokenTextSplitter(chunk_size=chunk_size, chunk_overlap=chunk_overlap)
+        # note that the chunking is done at the token level
+        text_splitter = TokenTextSplitter(
+            chunk_size=int(chunk_size / 4), 
+            chunk_overlap=int(chunk_overlap / 4))
     elif splitter_type == "semantic":
         text_splitter = SemanticChunker(
             OpenAIEmbeddings(), 
@@ -156,12 +181,10 @@ if __name__ == "__main__":
     splits = text_splitter.split_documents(documents)
     del documents
     print(f"End Spliting texts -- Number of splits: {len(splits)}")
+    
     # Step 5: Create Chroma vectorstore with embeddings from Sentence Transformers
-    # print(f"Start Embedding texts")
-    embeddings = []
-    for doc in tqdm(splits, desc="Embedding texts"):
-        embeddings.append(embedding_model.encode(doc.page_content))
-    embedding_wrapper = SentenceTransformerEmbeddings(embedding_model)
+    embeddings = embedding_model.embed_documents(
+        [doc.page_content for doc in tqdm(splits, desc="Embedding texts")])
     print(f"End Embedding texts")
     # Free GPU cache after generating embeddings
     torch.cuda.empty_cache()
@@ -182,25 +205,18 @@ if __name__ == "__main__":
     )
 
     prompt = chat_prompt_template
-
-    # # Step 7: Load the QA test data
-    # qa_test_data_path = qes_file_path
-    # qa_df = pd.read_csv(qa_test_data_path)
-    
-    # # sample 100 rows from the dataframe
-    # qa_df = qa_df.sample(100, random_state=42)
     
     # Step 7: Generate answers for the questions
     print("Building the vectorstore...")
     if retriever_type == "CHROMA":
         print("Building the vectorstore Chroma...")
-        vectorstore = Chroma.from_documents(documents=splits, embedding=embedding_wrapper, collection_name="collectionChroma")
+        vectorstore = Chroma.from_documents(documents=splits, embedding=embedding_model, collection_name="collectionChroma")
         chroma_retriever = vectorstore.as_retriever(search_kwargs={'k': top_k_search})
         retriever = chroma_retriever
     elif retriever_type == "FAISS":
         print("Building FAISS...")
-        embeddings_np = np.array(embeddings).astype("float32")
-        faiss_retriever = FAISSRetriever(embeddings=embeddings_np, documents=splits)
+        # embeddings_np = np.array(embeddings).astype("float32")
+        faiss_retriever = FAISS.from_documents(splits, embedding_model).as_retriever(search_kwargs={"k": top_k_search})
         retriever = faiss_retriever
     else:
         print("Invalid retriever type. Please choose between FAISS or CHROMA.")
@@ -210,7 +226,7 @@ if __name__ == "__main__":
     del splits
     
     answer_generation(
-        qa_df, output_file, retriever_type, retriever, embedding_model, 
-        generation_pipe, prompt, k=top_k_search)
+        qa_df, output_file, retriever, 
+        generation_pipe, prompt, rerank, top_k_rerank=top_k_rerank)
     
     print(f"QA evaluation completed! Results saved to {output_file}")
