@@ -1,0 +1,7 @@
+{'Exact Match': 31.0, 'F1 Score': 39.0073593073593, 'Answer Recall': 39.54722222222221}     lhj_100_chroma_mpnet-base-v2.json
+
+{'Exact Match': 41.0, 'F1 Score': 50.973001443001436, 'Answer Recall': 53.024603174603165}  lhj_100_chroma_all-MiniLM-L6-v2
+{'Exact Match': 41.0, 'F1 Score': 51.15704295704295, 'Answer Recall': 53.55238095238096}
+
+{'Exact Match': 32.0, 'F1 Score': 37.17888198757764, 'Answer Recall': 37.75}                lhj_100_chrom_all-MiniLM-L12-v2
+
