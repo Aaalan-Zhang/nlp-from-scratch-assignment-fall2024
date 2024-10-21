@@ -16,4 +16,6 @@ langchain-chroma
 langchain-openai
 faiss-cpu
 faiss-gpu
-sklearn
+scikit-learn
+langchain_experimental
+langchain_openai

@@ -19,7 +19,6 @@ from langchain_text_splitters import (
     CharacterTextSplitter, 
     TokenTextSplitter
 )
-# from langchain_experimental.text_splitter import SemanticChunker
 from langchain.docstore.document import Document
 from langchain.prompts import (
     ChatPromptTemplate, 
@@ -112,11 +111,11 @@ def load_text_files(path):
 
     return docs
 
-def query_retriever(query, retriever, embedding_model, k=3):
+def query_retriever(query, retriever_type, retriever, embedding_model, k=3):
     # Retrieve context using the retriever
-    if isinstance(retriever, Chroma):
+    if retriever_type == "CHROMA":
         retrieved_docs = retriever.invoke(query)
-    elif isinstance(retriever, FAISSRetriever):
+    elif retriever_type == "FAISS":
         # Chroma's k is set when creating the retriever. Possibly can be changed dynamically with further research.
         query_embedding = embedding_model.encode(query).reshape(1, -1).astype("float32")
         retrieved_docs = retriever.retrieve(query_embedding, k=k)
@@ -133,35 +132,8 @@ def format_retreived_docs(docs):
     docs = reversed(docs)
     return "\n\n".join(f"Context {i + 1}: {doc.page_content}" for i, doc in enumerate(docs))
 
-def load_qa_test_data(path):
-    """
-    Load the QA test data from the given path.
-    
-    Args:
-    path (str): The path to the QA test data file.
-    
-    Returns:
-    pd.DataFrame: A DataFrame containing the test data.
-    """
-    
-    qa_df = pd.read_csv(path)
 
-    questions = qa_df["Question"].tolist()
-    answers = qa_df["Answer"].tolist()
-    doc_ids = qa_df["Doc_id"].tolist()
-
-    # random sample 10 qa pairs for lightweight testing
-    import random
-    sample_size = 10
-    random.seed(747)
-    sample_indices = random.sample(range(len(questions)), sample_size)
-    questions = [questions[i] for i in sample_indices]
-    answers = [answers[i] for i in sample_indices]
-    doc_ids = [doc_ids[i] for i in sample_indices]
-    
-    return doc_ids, questions, answers
-
-def answer_generation(questions, retriever, embedding_model, generation_pipe, prompt, k=3):
+def answer_generation(qa_df, output_file, retriever_type, retriever, embedding_model, generation_pipe, prompt, k=3):
     """
     Generate answers for the given questions using the retriever and the generation pipeline.
     
@@ -174,30 +146,53 @@ def answer_generation(questions, retriever, embedding_model, generation_pipe, pr
     Returns:
     list: A list of generated answers
     """
-    generations = []
+
     print("Generating answers for the questions...")
+    
+    # check if the output file 
+    if not os.path.exists(output_file):
+        with open(output_file, 'w') as f_out:
+            f_out.write(",".join(list(qa_df.columns) + ["Generated Answer"]) + "\n")
+            start_idx = 0
+    else:
+        # calculate the number of rows in the output file
+        with open(output_file, 'r') as f_out:
+            num_rows = sum(1 for line in f_out)
+            # the iteration will start from the next row
+            start_idx = num_rows - 1
 
-    for question in tqdm(questions):
-        # Retrieve documents based on the question
-        retrieved_docs = query_retriever(question, retriever, embedding_model, k=k)
-        # Format the documents
-        context = format_retreived_docs(retrieved_docs)
+    # iterate over the dataframe
+    with open(output_file, 'a') as f_out:
+        for idx, row in tqdm(qa_df.iterrows(), total=len(qa_df)):
+            if idx < start_idx:
+                continue
+            question = row["Question"]
+            # Retrieve documents based on the question
+            retrieved_docs = query_retriever(question, retriever_type, retriever, embedding_model, k=k)
+            # Format the documents
+            context = format_retreived_docs(retrieved_docs)
 
-        # Create the full prompt using the prompt template
-        prompt_messages = prompt.format_messages(context=context, question=question)
-        full_prompt = "\n".join(message.content for message in prompt_messages)
-        
-        # print(full_prompt)
-        
-        messages = [
-        {"role": "user", "content": full_prompt},
-        ]
-        with torch.no_grad():
-            llm_output = generation_pipe(messages, max_new_tokens=50)
-        
-        generations.append(llm_output[0]["generated_text"][1]['content'])
-        
-    return generations
+            # Create the full prompt using the prompt template
+            prompt_messages = prompt.format_messages(context=context, question=question)
+            full_prompt = "\n".join(message.content for message in prompt_messages)
+            
+            # check the length of the prompt
+            # write the full prompt to a dummy file
+            with open("debug/prompt_21.txt", 'w') as f:
+                f.write(full_prompt)
+            
+            messages = [
+            {"role": "user", "content": full_prompt},
+            ]
+            with torch.no_grad():
+                llm_output = generation_pipe(
+                    messages, max_new_tokens=20, return_full_text=False)[0]["generated_text"]
+            
+            row["Generated_Answer"] = llm_output
+            pd.DataFrame([row]).to_csv(f_out, header=False, index=False)
+            # Clear cache after generation
+            del retrieved_docs, context, prompt_messages, full_prompt, messages, llm_output
+            torch.cuda.empty_cache()
 
 # ========================================
 # Constants and Configuration
