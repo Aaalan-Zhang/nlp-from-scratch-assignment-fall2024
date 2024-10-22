@@ -143,8 +143,8 @@ if __name__ == "__main__":
     # Step 2: Load the Sentence Transformers model for embeddings
     # embedding_model = SentenceTransformer(embedding_model_name, truncate_dim=embedding_dim)
     docs_length = "160"
-    embeddings_file_path = f"data/embeddings/embeddings_{docs_length}_{embedding_model_name}_{splitter_type}_{chunk_size}_{chunk_overlap}.npy"
-    splits_file_path = f"data/embeddings/splits_{docs_length}_{embedding_model_name}_{splitter_type}_{chunk_size}_{chunk_overlap}.pkl"
+    embeddings_file_path = f"data/embeddings/embeddings_{docs_length}_{splitter_type}_{chunk_size}_{chunk_overlap}.npy"
+    splits_file_path = f"data/embeddings/splits_{docs_length}_{splitter_type}_{chunk_size}_{chunk_overlap}.pkl"
     embeddings = None
     splits = None
     if not os.path.exists(embeddings_file_path):
@@ -203,7 +203,6 @@ if __name__ == "__main__":
         # Free GPU cache after generating embeddings
         torch.cuda.empty_cache()
         print(f"Start Saving embeddings and splits")
-        os.makedirs(os.path.dirname(embeddings_file_path), exist_ok=True)
         np.save(embeddings_file_path, embeddings)
         with open(splits_file_path, 'wb') as f:
             pickle.dump(splits, f)
