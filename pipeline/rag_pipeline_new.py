@@ -23,7 +23,7 @@ from langchain_text_splitters import (
 )
 from langchain_experimental.text_splitter import SemanticChunker
 from langchain_openai.embeddings import OpenAIEmbeddings
-from langchain_huggingface import HuggingFaceEmbeddings
+from langchain.embeddings import HuggingFaceEmbeddings
 from langchain.docstore.document import Document
 from langchain.prompts import (
     ChatPromptTemplate, 
@@ -71,7 +71,9 @@ def parse_args():
                         help="Path to the text files directory.")
     parser.add_argument("--retriever_type", type=str, choices=["FAISS", "CHROMA"], default="FAISS",
                         help="Type of retriever to use (FAISS or CHROMA).")
+    parser.add_argument("--retriever_algorithm", type=str, choices=["similarity", "mmr"], default="similarity")
     parser.add_argument("--rerank", type=str2bool, default=False, help="Whether to rerank the documents.")
+    parser.add_argument("--rerank_model_name", type=str, default="ms-marco-MultiBERT-L-12", help="Name of the rerank model to use.")
     parser.add_argument("--top_k_search", type=int, default=3, help="Top K documents to retrieve.")
     parser.add_argument("--top_k_rerank", type=int, default=3, help="Top K documents to rerank.")
     parser.add_argument("--qes_file_path", type=str, default="data/annotated/QA_pairs_1.csv",
@@ -110,8 +112,10 @@ if __name__ == "__main__":
     qes_file_path = args.qes_file_path
     top_k_search = args.top_k_search
     retriever_type = args.retriever_type
+    retriever_algorithm = args.retriever_algorithm
     rerank = args.rerank
     top_k_rerank = args.top_k_rerank
+    rerank_model_name = args.rerank_model_name
     output_file = args.output_file
     
     # check if rerank is set to True
@@ -145,10 +149,13 @@ if __name__ == "__main__":
     
     qa_test_data_path = qes_file_path
     qa_df = pd.read_csv(qa_test_data_path)
-    # sample 100 rows from the dataframe
-    qa_df = qa_df.sample(100, random_state=221)
-    print(f"End loading texts. Number of documents for retrieval: {len(docs)}. Number of QA pairs: {len(qa_df)}")
     
+    # sample 100 rows from the dataframe
+    print(len(qa_df))
+    if len(qa_df) != 574:
+        qa_df = qa_df.sample(100, random_state=221)
+    print(f"End loading texts. Number of documents for retrieval: {len(docs)}. Number of QA pairs: {len(qa_df)}")
+    print(f"Loaded {len(qa_df)} qas")
     # Step 4: Split the documents into smaller chunks
     # Wrap text strings in Document objects
     documents = []
@@ -211,12 +218,12 @@ if __name__ == "__main__":
     if retriever_type == "CHROMA":
         print("Building the vectorstore Chroma...")
         vectorstore = Chroma.from_documents(documents=splits, embedding=embedding_model, collection_name="collectionChroma")
-        chroma_retriever = vectorstore.as_retriever(search_kwargs={'k': top_k_search})
+        chroma_retriever = vectorstore.as_retriever(search_type=retriever_algorithm, search_kwargs={'k': top_k_search})
         retriever = chroma_retriever
     elif retriever_type == "FAISS":
         print("Building FAISS...")
         # embeddings_np = np.array(embeddings).astype("float32")
-        faiss_retriever = FAISS.from_documents(splits, embedding_model).as_retriever(search_kwargs={"k": top_k_search})
+        faiss_retriever = FAISS.from_documents(splits, embedding_model).as_retriever(search_type=retriever_algorithm, search_kwargs={"k": top_k_search})
         retriever = faiss_retriever
     else:
         print("Invalid retriever type. Please choose between FAISS or CHROMA.")
@@ -227,6 +234,6 @@ if __name__ == "__main__":
     
     answer_generation(
         qa_df, output_file, retriever, 
-        generation_pipe, prompt, rerank, top_k_rerank=top_k_rerank)
+        generation_pipe, prompt, rerank, rerank_model_name, top_k_rerank=top_k_rerank)
     
     print(f"QA evaluation completed! Results saved to {output_file}")
