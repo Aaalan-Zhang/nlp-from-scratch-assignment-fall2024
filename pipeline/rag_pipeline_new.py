@@ -71,6 +71,7 @@ def parse_args():
                         help="Path to the text files directory.")
     parser.add_argument("--retriever_type", type=str, choices=["FAISS", "CHROMA"], default="FAISS",
                         help="Type of retriever to use (FAISS or CHROMA).")
+    parser.add_argument("--retriever_algorithm", type=str, choices=["similarity", "mmr"], default="similarity")
     parser.add_argument("--rerank", type=str2bool, default=False, help="Whether to rerank the documents.")
     parser.add_argument("--rerank_model_name", type=str, default="ms-marco-MultiBERT-L-12", help="Name of the rerank model to use.")
     parser.add_argument("--top_k_search", type=int, default=3, help="Top K documents to retrieve.")
@@ -111,6 +112,7 @@ if __name__ == "__main__":
     qes_file_path = args.qes_file_path
     top_k_search = args.top_k_search
     retriever_type = args.retriever_type
+    retriever_algorithm = args.retriever_algorithm
     rerank = args.rerank
     top_k_rerank = args.top_k_rerank
     rerank_model_name = args.rerank_model_name
@@ -216,12 +218,12 @@ if __name__ == "__main__":
     if retriever_type == "CHROMA":
         print("Building the vectorstore Chroma...")
         vectorstore = Chroma.from_documents(documents=splits, embedding=embedding_model, collection_name="collectionChroma")
-        chroma_retriever = vectorstore.as_retriever(search_kwargs={'k': top_k_search})
+        chroma_retriever = vectorstore.as_retriever(search_type=retriever_algorithm, search_kwargs={'k': top_k_search})
         retriever = chroma_retriever
     elif retriever_type == "FAISS":
         print("Building FAISS...")
         # embeddings_np = np.array(embeddings).astype("float32")
-        faiss_retriever = FAISS.from_documents(splits, embedding_model).as_retriever(search_kwargs={"k": top_k_search})
+        faiss_retriever = FAISS.from_documents(splits, embedding_model).as_retriever(search_type=retriever_algorithm, search_kwargs={"k": top_k_search})
         retriever = faiss_retriever
     else:
         print("Invalid retriever type. Please choose between FAISS or CHROMA.")
