@@ -147,8 +147,8 @@ if __name__ == "__main__":
     splits_file_path = f"data/embeddings/splits_{docs_length}_{splitter_type}_{chunk_size}_{chunk_overlap}.pkl"
     embeddings = None
     splits = None
+    embedding_model = HuggingFaceEmbeddings(model_name=embedding_model_name)
     if not os.path.exists(embeddings_file_path):
-        embedding_model = HuggingFaceEmbeddings(model_name=embedding_model_name)
 
         # Step 3: load the text files for building the index and qa evaluation
         print(f"Start loading texts from {text_files_path}")
