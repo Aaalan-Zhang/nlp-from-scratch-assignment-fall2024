@@ -4,4 +4,23 @@
 {'Exact Match': 41.0, 'F1 Score': 51.15704295704295, 'Answer Recall': 53.55238095238096}
 
 {'Exact Match': 32.0, 'F1 Score': 37.17888198757764, 'Answer Recall': 37.75}                lhj_100_chrom_all-MiniLM-L12-v2
+{'Exact Match': 32.48730964467005, 'F1 Score': 38.17818520036573, 'Answer Recall': 39.361252115059216}
 
+
+
+{'Exact Match': 37.0, 'F1 Score': 45.03225744843392, 'Answer Recall': 46.59166666666667}    lhj_100_faiss_all-MiniLM-L12-v2
+
+
+{'Exact Match': 49.0, 'F1 Score': 59.70786435786435, 'Answer Recall': 61.61666666666666}    lhj_100_faiss_all-MiniLM-L6-v2
+
+
+
+{'Exact Match': 44.0, 'F1 Score': 52.700791871000604, 'Answer Recall': 54.344444444444456}  lhj_100_faiss_mmr_all-MiniLM-L6-v2
+
+
+SUBLINK
+{'Exact Match': 37.0, 'F1 Score': 46.582026143790834, 'Answer Recall': 48.11666666666666}   lhj_100_1000sublinkfiles_faiss_similarity_all-MiniLM-L6-v2
+{'Exact Match': 40.0, 'F1 Score': 50.772445887445876, 'Answer Recall': 52.3}                lhj_100_1000sublinkfiles_faiss_mmr_all-MiniLM-L6-v2
+
+{'Exact Match': 32.0, 'F1 Score': 38.45, 'Answer Recall': 39.55}                            lhj_100_1000sublinkfiles_chroma_similarity_all-MiniLM-L6-v2
+{'Exact Match': 36.0, 'F1 Score': 46.338117438117436, 'Answer Recall': 47.61666666666667}   lhj_100_1000sublinkfiles_chroma_mmr_all-MiniLM-L6-v2
