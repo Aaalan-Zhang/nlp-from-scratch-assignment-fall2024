@@ -24,7 +24,11 @@
 # python evaluation/evaluate.py --combined_dir output/llama3_faiss_test_rerank_MiniLM.csv --output_dir results/llama3_faiss_test_rerank_MiniLM.json
 
 # for tuning hypo_doc retrieval
-python evaluation/evaluate.py --combined_dir output/llama3_faiss_test_hypo.csv --output_dir results/llama3_faiss_test_hypo.json
-python evaluation/evaluate.py --combined_dir output/llama3_faiss_test_hypo_promptENG.csv --output_dir results/llama3_faiss_test_hypo_promptENG.json
-python evaluation/evaluate.py --combined_dir output/llama3_faiss_test_hypo_promptENG2.csv --output_dir results/llama3_faiss_test_hypo_promptENG2.json
-python evaluation/evaluate.py --combined_dir output/llama3_faiss_test_hypo_promptENG3.csv --output_dir results/llama3_faiss_test_hypo_promptENG3.json
+# python evaluation/evaluate.py --combined_dir output/llama3_faiss_test_hypo.csv --output_dir results/llama3_faiss_test_hypo.json
+# python evaluation/evaluate.py --combined_dir output/llama3_faiss_test_hypo_promptENG.csv --output_dir results/llama3_faiss_test_hypo_promptENG.json
+# python evaluation/evaluate.py --combined_dir output/llama3_faiss_test_hypo_promptENG2.csv --output_dir results/llama3_faiss_test_hypo_promptENG2.json
+# python evaluation/evaluate.py --combined_dir output/llama3_faiss_test_hypo_promptENG3.csv --output_dir results/llama3_faiss_test_hypo_promptENG3.json
+
+# for running evaluation on the full 3900 test set
+# python evaluation/evaluate.py --combined_dir output/qa3000/llama3_faiss_rerank.csv --output_dir results/qa3000/llama3_faiss_rerank.json
+python evaluation/evaluate.py --combined_dir output/qa3000/llama3_faiss_rerank_sublink.csv --output_dir results/qa3000/llama3_faiss_rerank_sublink.json
