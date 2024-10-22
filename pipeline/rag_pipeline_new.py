@@ -6,7 +6,7 @@ from tqdm import tqdm
 import faiss
 import numpy as np
 import argparse
-import pickle
+import pickle, random
 
 from dotenv import load_dotenv
 from huggingface_hub import login
@@ -70,6 +70,10 @@ def parse_args():
     parser.add_argument("--chunk_overlap", type=int, default=200, help="Overlap between text chunks.")
     parser.add_argument("--text_files_path", type=str, default="data/crawled/crawled_text_data",
                         help="Path to the text files directory.")
+    parser.add_argument("--sublink_files_path", type=str, default="data/crawled/crawled_all",
+                        help="Path to the sublink files directory.")
+    parser.add_argument("--sublink_files_nums", type=int, default=0,
+                        help="number of sublink file to be loaded.")
     parser.add_argument("--retriever_type", type=str, choices=["FAISS", "CHROMA"], default="FAISS",
                         help="Type of retriever to use (FAISS or CHROMA).")
     parser.add_argument("--retriever_algorithm", type=str, choices=["similarity", "mmr"], default="similarity")
@@ -110,6 +114,8 @@ if __name__ == "__main__":
     chunk_size = args.chunk_size
     chunk_overlap = args.chunk_overlap
     text_files_path = args.text_files_path
+    sublink_files_path = args.sublink_files_path
+    sublink_files_nums = args.sublink_files_nums
     qes_file_path = args.qes_file_path
     top_k_search = args.top_k_search
     retriever_type = args.retriever_type
@@ -119,6 +125,8 @@ if __name__ == "__main__":
     rerank_model_name = args.rerank_model_name
     output_file = args.output_file
     
+    random.seed(42)
+
     # check if rerank is set to True
     if rerank:
         print("Reranking is set to True.")
@@ -142,7 +150,7 @@ if __name__ == "__main__":
 
     # Step 2: Load the Sentence Transformers model for embeddings
     # embedding_model = SentenceTransformer(embedding_model_name, truncate_dim=embedding_dim)
-    docs_length = "160"
+    docs_length = f"main160_sublink{sublink_files_nums}"
     embeddings_file_path = f"data/embeddings/embeddings_{docs_length}_{splitter_type}_{chunk_size}_{chunk_overlap}.npy"
     splits_file_path = f"data/embeddings/splits_{docs_length}_{splitter_type}_{chunk_size}_{chunk_overlap}.pkl"
     embeddings = None
@@ -166,6 +174,27 @@ if __name__ == "__main__":
         for text in tqdm(docs, desc="wrapping text in Document objects"):
             documents.append(Document(page_content=text))
         del docs
+
+        if sublink_files_nums != 0:
+            all_sublink_docs = None
+            sublink_file_store_path = "data/embeddings/sublink_docs.pkl"
+            if os.path.exists(sublink_file_store_path):
+                print(f"Start loading sublink files from {sublink_file_store_path}")
+                with open(sublink_file_store_path, "rb") as f:
+                    all_sublink_docs = pickle.load(f)
+            else:
+                print(f"Start reading {sublink_files_nums} sublink files")
+                all_sublink_docs = load_text_files(path=sublink_files_path)
+                print(f"Finish loading sublinks, now store it")
+                with open(sublink_file_store_path, 'wb') as f:
+                    pickle.dump(all_sublink_docs, f)
+                print(f"Store all sublink file in {sublink_file_store_path}")
+
+            sampled_sublink_docs = random.sample(all_sublink_docs, sublink_files_nums)
+            for text in tqdm(sampled_sublink_docs, desc="wrapping text in Document objects"):
+                documents.append(Document(page_content=text))
+            del sampled_sublink_docs
+            del all_sublink_docs
 
         if splitter_type == "recursive":
             text_splitter = RecursiveCharacterTextSplitter(
@@ -214,7 +243,7 @@ if __name__ == "__main__":
             splits = pickle.load(f)
         # Step 2: Load document metadata if needed
         # doc_metadata = np.load("doc_metadata.npy", allow_pickle=True)
-
+        print("end loading")
     # Step 6: Create the RAG prompting pipeline
     prompt_template = PromptTemplate(
         input_variables=['context', 'question'],
