@@ -152,9 +152,12 @@ def get_hypo_doc(query, generation_pipe):
     """
     Generate a hypothesis document for the given query using the language model.
     """
-    template = """Imagine you are an expert writing a detailed explanation on the topic: '{query}'
-    Your response should be comprehensive and include all key points that would be found in the top search result.
-    If you do not know any information about this query, please respond: 'Unavailable: {query}'.
+    template = """Imagine you are an expert providing a detailed and factual explanation in response to the query '{query}'. 
+    Your response should include all key points that would be found in a top search result, without adding any personal opinions, commentary, or experiences. 
+    Do not include any subjective phrases such as 'I think', 'I believe', or 'I am not sure'. Do not apologize, hedge, or express uncertainty. 
+    The response should be structured as an objective, factual explanation only, without any conversational elements or chatting.
+    If you are truly uncertain and cannot provide an accurate answer, simply respond with: 'Unavailable: {query}'.
+    Otherwise, answer confidently with only the relevant information.
     """
     
     messages = [
@@ -162,13 +165,14 @@ def get_hypo_doc(query, generation_pipe):
     ]
     
     with torch.no_grad():
-        hypo_doc = generation_pipe(messages, max_new_tokens=150, return_full_text=False)[0]["generated_text"]
+        hypo_doc = generation_pipe(messages, max_new_tokens=100, return_full_text=False)[0]["generated_text"]
     
     print("Question:", query)
     print("Hypothesis Document:", hypo_doc)
     
     # check if the hypo_doc starts with "Unavailable"
     if hypo_doc.startswith("Unavailable"):
+        print("Using the original query.")
         return query
     else:
         return hypo_doc

@@ -47,3 +47,9 @@ python evaluation/evaluate.py --combined_dir output/lhj_100_1000sublinkfiles_fai
 python evaluation/evaluate.py --combined_dir output/lhj_100_1000sublinkfiles_chroma_similarity_all-MiniLM-L6-v2.csv --output_dir results/lhj_100_1000sublinkfiles_chroma_similarity_all-MiniLM-L6-v2.json
 python evaluation/evaluate.py --combined_dir output/lhj_100_1000sublinkfiles_chroma_mmr_all-MiniLM-L6-v2.csv --output_dir results/lhj_100_1000sublinkfiles_chroma_mmr_all-MiniLM-L6-v2.json
 ```
+
+# for tuning hypo_doc retrieval
+```
+python evaluation/evaluate.py --combined_dir output/llama3_faiss_test_hypo.csv --output_dir results/llama3_faiss_test_hypo.json
+python evaluation/evaluate.py --combined_dir output/llama3_faiss_test_hypo_promptENG3.csv --output_dir results/llama3_faiss_test_hypo_promptENG3.json
+```
