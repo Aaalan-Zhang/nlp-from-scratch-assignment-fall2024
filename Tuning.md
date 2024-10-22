@@ -27,3 +27,23 @@ python evaluation/evaluate.py --combined_dir output/llama3_faiss_test_rerank.csv
 python evaluation/evaluate.py --combined_dir output/llama3_faiss_test_rerank_t5.csv --output_dir results/llama3_faiss_test_rerank_t5.json
 python evaluation/evaluate.py --combined_dir output/llama3_faiss_test_rerank_MiniLM.csv --output_dir results/llama3_faiss_test_rerank_MiniLM.json
 ```
+
+### for hyperparameter tuning on retriever choice (FAISS/Chroma)
+```
+python evaluation/evaluate.py --combined_dir output/lhj_100_chroma_all-MiniLM-L6-v2.csv --output_dir results/lhj_100_chroma_all-MiniLM-L6-v2.json
+python evaluation/evaluate.py --combined_dir output/lhj_100_faiss_all-MiniLM-L6-v2.csv --output_dir results/lhj_100_faiss_all-MiniLM-L6-v2.json
+```
+
+### for hyperparameter tuning on retriever algorithm
+```
+python evaluation/evaluate.py --combined_dir output/lhj_100_faiss_mmr_all-MiniLM-L6-v2.csv --output_dir results/lhj_100_faiss_mmr_all-MiniLM-L6-v2.json
+python evaluation/evaluate.py --combined_dir output/lhj_100_faiss_all-MiniLM-L6-v2.csv --output_dir results/lhj_100_faiss_all-MiniLM-L6-v2.json
+```
+
+### for hyperparameter tuning on retriever algo + choice for sublink files
+```
+python evaluation/evaluate.py --combined_dir output/lhj_100_1000sublinkfiles_faiss_similarity_all-MiniLM-L6-v2.csv --output_dir results/lhj_100_1000sublinkfiles_faiss_similarity_all-MiniLM-L6-v2.json
+python evaluation/evaluate.py --combined_dir output/lhj_100_1000sublinkfiles_faiss_mmr_all-MiniLM-L6-v2.csv --output_dir results/lhj_100_1000sublinkfiles_faiss_mmr_all-MiniLM-L6-v2.json
+python evaluation/evaluate.py --combined_dir output/lhj_100_1000sublinkfiles_chroma_similarity_all-MiniLM-L6-v2.csv --output_dir results/lhj_100_1000sublinkfiles_chroma_similarity_all-MiniLM-L6-v2.json
+python evaluation/evaluate.py --combined_dir output/lhj_100_1000sublinkfiles_chroma_mmr_all-MiniLM-L6-v2.csv --output_dir results/lhj_100_1000sublinkfiles_chroma_mmr_all-MiniLM-L6-v2.json
+```
