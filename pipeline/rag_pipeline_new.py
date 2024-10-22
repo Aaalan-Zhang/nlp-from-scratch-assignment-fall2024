@@ -153,7 +153,7 @@ if __name__ == "__main__":
     # Step 2: Load the Sentence Transformers model for embeddings
     # embedding_model = SentenceTransformer(embedding_model_name, truncate_dim=embedding_dim)
     docs_length = f"main160_sublink{sublink_files_nums}"
-    model_name_str = model_name.split('/')[-1]
+    model_name_str = embedding_model_name.split('/')[-1]
     embeddings_file_path = f"data/embeddings/embeddings_{model_name_str}_{docs_length}_{splitter_type}_{chunk_size}_{chunk_overlap}.npy"
     splits_file_path = f"data/embeddings/splits_{model_name_str}_{docs_length}_{splitter_type}_{chunk_size}_{chunk_overlap}.pkl"
     embeddings = None
