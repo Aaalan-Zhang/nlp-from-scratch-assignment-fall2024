@@ -203,6 +203,7 @@ if __name__ == "__main__":
         # Free GPU cache after generating embeddings
         torch.cuda.empty_cache()
         print(f"Start Saving embeddings and splits")
+        os.makedirs(os.path.dirname(embeddings_file_path), exist_ok=True)
         np.save(embeddings_file_path, embeddings)
         with open(splits_file_path, 'wb') as f:
             pickle.dump(splits, f)
