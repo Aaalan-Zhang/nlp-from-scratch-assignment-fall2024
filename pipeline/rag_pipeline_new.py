@@ -183,9 +183,9 @@ if __name__ == "__main__":
                 with open(sublink_file_store_path, "rb") as f:
                     all_sublink_docs = pickle.load(f)
             else:
-                print(f"Start reading {sublink_files_nums} sublink files")
+                print(f"Start reading all sublink files")
                 all_sublink_docs = load_text_files(path=sublink_files_path)
-                print(f"Finish loading sublinks, now store it")
+                print(f"Finish loading {len(all_sublink_docs)} sublinks, now store it")
                 with open(sublink_file_store_path, 'wb') as f:
                     pickle.dump(all_sublink_docs, f)
                 print(f"Store all sublink file in {sublink_file_store_path}")
