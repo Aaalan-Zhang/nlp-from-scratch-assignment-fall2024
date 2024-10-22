@@ -207,7 +207,7 @@ if __name__ == "__main__":
         with open(splits_file_path, 'wb') as f:
             pickle.dump(splits, f)
         doc_metadata = [doc.metadata for doc in splits]  # Save metadata for documents
-        np.save(f"data/embeddings/metadata_{docs_length}_{embedding_model_name}_{splitter_type}_{chunk_size}_{chunk_overlap}.npy", doc_metadata)
+        np.save(f"data/embeddings/metadata_{docs_length}_{splitter_type}_{chunk_size}_{chunk_overlap}.npy", doc_metadata)
         print(f"embeddings saved in {embeddings_file_path}, splits saved in {splits_file_path}")
     else:
         print("loading embeddings")
