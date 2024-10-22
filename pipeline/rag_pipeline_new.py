@@ -236,7 +236,7 @@ if __name__ == "__main__":
         np.save(f"data/embeddings/metadata_{docs_length}_{splitter_type}_{chunk_size}_{chunk_overlap}.npy", doc_metadata)
         print(f"embeddings saved in {embeddings_file_path}, splits saved in {splits_file_path}")
     else:
-        print("loading embeddings")
+        print("Embeddings already exists! loading embeddings")
         # Step 1: Load embeddings from the saved NumPy file
         embeddings = np.load(embeddings_file_path)
         with open(splits_file_path, 'rb') as f:
