@@ -135,12 +135,12 @@ def format_retreived_docs(docs):
     return "\n\n".join(f"Context {i + 1}: {doc.page_content}" for i, doc in enumerate(docs))
 
 
-def rerank_docs(query, retriever, k=3):
+def rerank_docs(query, retriever, rerank_model_name, k=3):
     """
     Rerank the retrieved documents based on the query using Flashrank.
     """
     # DEFAULT_MODEL_NAME = "ms-marco-MultiBERT-L-12"
-    compressor = FlashrankRerank(top_n=k)
+    compressor = FlashrankRerank(top_n=k, model=rerank_model_name)
     compression_retriever = ContextualCompressionRetriever(
         base_compressor=compressor, base_retriever=retriever)
     
@@ -149,7 +149,7 @@ def rerank_docs(query, retriever, k=3):
     return compressed_docs
 
 
-def answer_generation(qa_df, output_file, retriever, generation_pipe, prompt, rerank=False, top_k_rerank=3):
+def answer_generation(qa_df, output_file, retriever, generation_pipe, prompt, rerank, rerank_model_name, top_k_rerank=3):
     """
     Generate answers for the given questions using the retriever and the generation pipeline.
     
@@ -188,7 +188,7 @@ def answer_generation(qa_df, output_file, retriever, generation_pipe, prompt, re
             # Retrieve documents based on the question
             if rerank:
                 print("Reranking documents...")
-                retrieved_docs = rerank_docs(question, retriever, k=top_k_rerank)
+                retrieved_docs = rerank_docs(question, retriever, rerank_model_name, k=top_k_rerank)
             else:
                 retrieved_docs = retriever.invoke(question)
             
@@ -198,11 +198,6 @@ def answer_generation(qa_df, output_file, retriever, generation_pipe, prompt, re
             # Create the full prompt using the prompt template
             prompt_messages = prompt.format_messages(context=context, question=question)
             full_prompt = "\n".join(message.content for message in prompt_messages)
-            
-            # check the length of the prompt
-            # write the full prompt to a dummy file
-            with open("debug/prompt_21.txt", 'w') as f:
-                f.write(full_prompt)
             
             messages = [
             {"role": "user", "content": full_prompt},

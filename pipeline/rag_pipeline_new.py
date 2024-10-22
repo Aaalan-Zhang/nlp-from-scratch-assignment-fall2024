@@ -72,6 +72,7 @@ def parse_args():
     parser.add_argument("--retriever_type", type=str, choices=["FAISS", "CHROMA"], default="FAISS",
                         help="Type of retriever to use (FAISS or CHROMA).")
     parser.add_argument("--rerank", type=str2bool, default=False, help="Whether to rerank the documents.")
+    parser.add_argument("--rerank_model_name", type=str, default="ms-marco-MultiBERT-L-12", help="Name of the rerank model to use.")
     parser.add_argument("--top_k_search", type=int, default=3, help="Top K documents to retrieve.")
     parser.add_argument("--top_k_rerank", type=int, default=3, help="Top K documents to rerank.")
     parser.add_argument("--qes_file_path", type=str, default="data/annotated/QA_pairs_1.csv",
@@ -112,6 +113,7 @@ if __name__ == "__main__":
     retriever_type = args.retriever_type
     rerank = args.rerank
     top_k_rerank = args.top_k_rerank
+    rerank_model_name = args.rerank_model_name
     output_file = args.output_file
     
     # check if rerank is set to True
@@ -227,6 +229,6 @@ if __name__ == "__main__":
     
     answer_generation(
         qa_df, output_file, retriever, 
-        generation_pipe, prompt, rerank, top_k_rerank=top_k_rerank)
+        generation_pipe, prompt, rerank, rerank_model_name, top_k_rerank=top_k_rerank)
     
     print(f"QA evaluation completed! Results saved to {output_file}")
