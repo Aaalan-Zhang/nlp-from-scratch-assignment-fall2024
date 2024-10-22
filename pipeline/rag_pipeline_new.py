@@ -154,7 +154,7 @@ if __name__ == "__main__":
     print(len(qa_df))
     if len(qa_df) != 574:
         qa_df = qa_df.sample(100, random_state=221)
-    print(f"End loading texts. Number of documents for retrieval: {len(docs)}. Number of QA pairs: {len(qa_df)}")
+    # print(f"End loading texts. Number of documents for retrieval: {len(docs)}. Number of QA pairs: {len(qa_df)}")
     print(f"Loaded {len(qa_df)} qas")
     if not os.path.exists(embeddings_file_path):
         # Step 3: load the text files for building the index and qa evaluation
