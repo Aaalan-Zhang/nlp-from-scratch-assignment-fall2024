@@ -81,6 +81,7 @@ def parse_args():
     parser.add_argument("--rerank_model_name", type=str, default="ms-marco-MultiBERT-L-12", help="Name of the rerank model to use.")
     parser.add_argument("--top_k_search", type=int, default=3, help="Top K documents to retrieve.")
     parser.add_argument("--top_k_rerank", type=int, default=3, help="Top K documents to rerank.")
+    parser.add_argument("--hypo", type=str2bool, default=False, help="Whether to use hypothetical queries.")
     parser.add_argument("--qes_file_path", type=str, default="data/annotated/QA_pairs_1.csv",
                         help="Path to the QA file.")
     parser.add_argument("--output_file", type=str, required=True, help="Path to the output file.")
@@ -123,6 +124,7 @@ if __name__ == "__main__":
     rerank = args.rerank
     top_k_rerank = args.top_k_rerank
     rerank_model_name = args.rerank_model_name
+    hypo = args.hypo
     output_file = args.output_file
     
     random.seed(42)
@@ -282,6 +284,6 @@ if __name__ == "__main__":
     
     answer_generation(
         qa_df, output_file, retriever, 
-        generation_pipe, prompt, rerank, rerank_model_name, top_k_rerank=top_k_rerank)
+        generation_pipe, prompt, rerank, rerank_model_name, hypo, top_k_rerank=top_k_rerank)
     
     print(f"QA evaluation completed! Results saved to {output_file}")
