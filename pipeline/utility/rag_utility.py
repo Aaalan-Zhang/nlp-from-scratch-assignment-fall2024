@@ -148,8 +148,39 @@ def rerank_docs(query, retriever, rerank_model_name, k=3):
     
     return compressed_docs
 
+def get_hypo_doc(query, generation_pipe):
+    """
+    Generate a hypothesis document for the given query using the language model.
+    """
+    template = """Imagine you are an expert providing a detailed and factual explanation in response to the query '{query}'. 
+    Your response should include all key points that would be found in a top search result, without adding any personal opinions, commentary, or experiences. 
+    Do not include any subjective phrases such as 'I think', 'I believe', or 'I am not sure'. Do not apologize, hedge, or express uncertainty. 
+    The response should be structured as an objective, factual explanation only, without any conversational elements or chatting.
+    If you are truly uncertain and cannot provide an accurate answer, simply respond with: 'Unavailable: {query}'.
+    Otherwise, answer confidently with only the relevant information.
+    """
+    
+    messages = [
+        {"role": "user", "content": template.format(query=query)}
+    ]
+    
+    with torch.no_grad():
+        hypo_doc = generation_pipe(messages, max_new_tokens=100, return_full_text=False)[0]["generated_text"]
+    
+    print("Question:", query)
+    print("Hypothesis Document:", hypo_doc)
+    
+    # check if the hypo_doc starts with "Unavailable"
+    if hypo_doc.startswith("Unavailable"):
+        print("Using the original query.")
+        return query
+    else:
+        return hypo_doc
 
-def answer_generation(qa_df, output_file, retriever, generation_pipe, prompt, rerank, rerank_model_name, top_k_rerank=3):
+
+def answer_generation(
+    qa_df, output_file, retriever, generation_pipe, 
+    prompt, rerank, rerank_model_name, hypo, top_k_rerank=3):
     """
     Generate answers for the given questions using the retriever and the generation pipeline.
     
@@ -183,20 +214,23 @@ def answer_generation(qa_df, output_file, retriever, generation_pipe, prompt, re
             # skip the rows that have been processed
             if idx < start_idx:
                 continue
-            question = row["Question"]
+            query = row["Question"]
+            
+            if hypo:
+                query = get_hypo_doc(query, generation_pipe) 
             
             # Retrieve documents based on the question
             if rerank:
                 print("Reranking documents...")
-                retrieved_docs = rerank_docs(question, retriever, rerank_model_name, k=top_k_rerank)
+                retrieved_docs = rerank_docs(query, retriever, rerank_model_name, k=top_k_rerank)
             else:
-                retrieved_docs = retriever.invoke(question)
+                retrieved_docs = retriever.invoke(query)
             
             # Format the documents
             context = format_retreived_docs(retrieved_docs)
 
             # Create the full prompt using the prompt template
-            prompt_messages = prompt.format_messages(context=context, question=question)
+            prompt_messages = prompt.format_messages(context=context, question=row["Question"])
             full_prompt = "\n".join(message.content for message in prompt_messages)
             
             messages = [
