@@ -125,14 +125,11 @@ def load_text_files(path):
 
 def format_retreived_docs(docs):
     """
-    Format the retrieved documents as the following:
-    Context 1: <content of document n>
-    Context 2: <content of document n-1> # in reverse order
-    ...
+    Format the retrieved documents together, separated by newlines.
     """
     # reverse the order of the documents
     docs = reversed(docs)
-    return "\n\n".join(f"Context {i + 1}: {doc.page_content}" for i, doc in enumerate(docs))
+    return "\n\n".join(doc.page_content for doc in docs)
 
 
 def rerank_docs(query, retriever, rerank_model_name, k=3):
@@ -268,7 +265,7 @@ Answer: ICML
 Question: What musical artist is performing at PPG Arena on October 13? 
 Answer: Billie Eilish
 
-Context: \n\n {context} \n\n
+Context: {context} \n\n
 Question: {question} \n\n
 Answer:
 """
