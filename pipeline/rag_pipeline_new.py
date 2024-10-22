@@ -177,9 +177,9 @@ if __name__ == "__main__":
             chunk_overlap=int(chunk_overlap / 4))
     elif splitter_type == "semantic":
         text_splitter = SemanticChunker(
-            OpenAIEmbeddings(), 
-            breakpoint_threshold_type="percentile", 
-            number_of_chunks=chunk_size)
+            embeddings=embedding_model,
+            breakpoint_threshold_type="percentile",
+            breakpoint_threshold_amount=80)
     else:
         print("Invalid splitter type. Please choose between recursive, character, token, or semantic.")
     
