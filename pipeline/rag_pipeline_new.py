@@ -148,21 +148,18 @@ if __name__ == "__main__":
     embeddings = None
     splits = None
     embedding_model = HuggingFaceEmbeddings(model_name=embedding_model_name)
+    print(f"Start loading qa from {qes_file_path}")
+    qa_test_data_path = qes_file_path
+    qa_df = pd.read_csv(qa_test_data_path)
+    print(len(qa_df))
+    if len(qa_df) != 574:
+        qa_df = qa_df.sample(100, random_state=221)
+    print(f"End loading texts. Number of documents for retrieval: {len(docs)}. Number of QA pairs: {len(qa_df)}")
+    print(f"Loaded {len(qa_df)} qas")
     if not os.path.exists(embeddings_file_path):
-
         # Step 3: load the text files for building the index and qa evaluation
         print(f"Start loading texts from {text_files_path}")
         docs = load_text_files(path=text_files_path)
-        
-        qa_test_data_path = qes_file_path
-        qa_df = pd.read_csv(qa_test_data_path)
-        
-        # sample 100 rows from the dataframe
-        print(len(qa_df))
-        if len(qa_df) != 574:
-            qa_df = qa_df.sample(100, random_state=221)
-        print(f"End loading texts. Number of documents for retrieval: {len(docs)}. Number of QA pairs: {len(qa_df)}")
-        print(f"Loaded {len(qa_df)} qas")
         # Step 4: Split the documents into smaller chunks
         # Wrap text strings in Document objects
         documents = []
