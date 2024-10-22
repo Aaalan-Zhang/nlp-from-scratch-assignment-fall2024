@@ -85,7 +85,7 @@ def parse_args():
     parser.add_argument("--qes_file_path", type=str, default="data/annotated/QA_pairs_1.csv",
                         help="Path to the QA file.")
     parser.add_argument("--output_file", type=str, required=True, help="Path to the output file.")
-
+    parser.add_argument("--qa_nums", type=int, default=100)
     return parser.parse_args()
 
 # ========================================
@@ -126,7 +126,7 @@ if __name__ == "__main__":
     rerank_model_name = args.rerank_model_name
     hypo = args.hypo
     output_file = args.output_file
-    
+    qa_nums = args.qa_nums
     random.seed(42)
 
     # check if rerank is set to True
@@ -164,7 +164,7 @@ if __name__ == "__main__":
     qa_df = pd.read_csv(qa_test_data_path)
     print(len(qa_df))
     if len(qa_df) != 574:
-        qa_df = qa_df.sample(100, random_state=221)
+        qa_df = qa_df.sample(qa_nums, random_state=221)
     # print(f"End loading texts. Number of documents for retrieval: {len(docs)}. Number of QA pairs: {len(qa_df)}")
     print(f"Loaded {len(qa_df)} qas")
     if not os.path.exists(embeddings_file_path):
