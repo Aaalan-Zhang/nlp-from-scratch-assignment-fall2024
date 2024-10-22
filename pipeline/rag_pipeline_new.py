@@ -23,7 +23,7 @@ from langchain_text_splitters import (
 )
 from langchain_experimental.text_splitter import SemanticChunker
 from langchain_openai.embeddings import OpenAIEmbeddings
-from langchain_huggingface import HuggingFaceEmbeddings
+from langchain.embeddings import HuggingFaceEmbeddings
 from langchain.docstore.document import Document
 from langchain.prompts import (
     ChatPromptTemplate, 
@@ -147,10 +147,13 @@ if __name__ == "__main__":
     
     qa_test_data_path = qes_file_path
     qa_df = pd.read_csv(qa_test_data_path)
-    # sample 100 rows from the dataframe
-    qa_df = qa_df.sample(100, random_state=221)
-    print(f"End loading texts. Number of documents for retrieval: {len(docs)}. Number of QA pairs: {len(qa_df)}")
     
+    # sample 100 rows from the dataframe
+    print(len(qa_df))
+    if len(qa_df) != 574:
+        qa_df = qa_df.sample(100, random_state=221)
+    print(f"End loading texts. Number of documents for retrieval: {len(docs)}. Number of QA pairs: {len(qa_df)}")
+    print(f"Loaded {len(qa_df)} qas")
     # Step 4: Split the documents into smaller chunks
     # Wrap text strings in Document objects
     documents = []
