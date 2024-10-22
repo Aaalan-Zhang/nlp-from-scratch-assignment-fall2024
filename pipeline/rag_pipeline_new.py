@@ -6,6 +6,7 @@ from tqdm import tqdm
 import faiss
 import numpy as np
 import argparse
+import pickle
 
 from dotenv import load_dotenv
 from huggingface_hub import login
@@ -141,60 +142,81 @@ if __name__ == "__main__":
 
     # Step 2: Load the Sentence Transformers model for embeddings
     # embedding_model = SentenceTransformer(embedding_model_name, truncate_dim=embedding_dim)
-    embedding_model = HuggingFaceEmbeddings(model_name=embedding_model_name)
+    docs_length = "160"
+    embeddings_file_path = f"data/embeddings/embeddings_{docs_length}_{embedding_model_name}_{splitter_type}_{chunk_size}_{chunk_overlap}.npy"
+    splits_file_path = f"data/embeddings/splits_{docs_length}_{embedding_model_name}_{splitter_type}_{chunk_size}_{chunk_overlap}.pkl"
+    embeddings = None
+    splits = None
+    if not os.path.exists(embeddings_file_path):
+        embedding_model = HuggingFaceEmbeddings(model_name=embedding_model_name)
 
-    # Step 3: load the text files for building the index and qa evaluation
-    print(f"Start loading texts from {text_files_path}")
-    docs = load_text_files(path=text_files_path)
-    
-    qa_test_data_path = qes_file_path
-    qa_df = pd.read_csv(qa_test_data_path)
-    
-    # sample 100 rows from the dataframe
-    print(len(qa_df))
-    if len(qa_df) != 574:
-        qa_df = qa_df.sample(100, random_state=221)
-    print(f"End loading texts. Number of documents for retrieval: {len(docs)}. Number of QA pairs: {len(qa_df)}")
-    print(f"Loaded {len(qa_df)} qas")
-    # Step 4: Split the documents into smaller chunks
-    # Wrap text strings in Document objects
-    documents = []
-    for text in tqdm(docs, desc="wrapping text in Document objects"):
-        documents.append(Document(page_content=text))
-    del docs
+        # Step 3: load the text files for building the index and qa evaluation
+        print(f"Start loading texts from {text_files_path}")
+        docs = load_text_files(path=text_files_path)
+        
+        qa_test_data_path = qes_file_path
+        qa_df = pd.read_csv(qa_test_data_path)
+        
+        # sample 100 rows from the dataframe
+        print(len(qa_df))
+        if len(qa_df) != 574:
+            qa_df = qa_df.sample(100, random_state=221)
+        print(f"End loading texts. Number of documents for retrieval: {len(docs)}. Number of QA pairs: {len(qa_df)}")
+        print(f"Loaded {len(qa_df)} qas")
+        # Step 4: Split the documents into smaller chunks
+        # Wrap text strings in Document objects
+        documents = []
+        for text in tqdm(docs, desc="wrapping text in Document objects"):
+            documents.append(Document(page_content=text))
+        del docs
 
-    if splitter_type == "recursive":
-        text_splitter = RecursiveCharacterTextSplitter(
-            chunk_size=chunk_size, chunk_overlap=chunk_overlap)
-    elif splitter_type == "character":
-        # separator should be the ., !, or ? or " "
-        # separation_pattern = r"\.|\?|\!| $"
-        text_splitter = CharacterTextSplitter(
-            separator=" ",
-            chunk_size=chunk_size, chunk_overlap=chunk_overlap)
-    elif splitter_type == "token":
-        # note that the chunking is done at the token level
-        text_splitter = TokenTextSplitter(
-            chunk_size=int(chunk_size / 4), 
-            chunk_overlap=int(chunk_overlap / 4))
-    elif splitter_type == "semantic":
-        text_splitter = SemanticChunker(
-            OpenAIEmbeddings(), 
-            breakpoint_threshold_type="percentile", 
-            number_of_chunks=chunk_size)
+        if splitter_type == "recursive":
+            text_splitter = RecursiveCharacterTextSplitter(
+                chunk_size=chunk_size, chunk_overlap=chunk_overlap)
+        elif splitter_type == "character":
+            # separator should be the ., !, or ? or " "
+            # separation_pattern = r"\.|\?|\!| $"
+            text_splitter = CharacterTextSplitter(
+                separator=" ",
+                chunk_size=chunk_size, chunk_overlap=chunk_overlap)
+        elif splitter_type == "token":
+            # note that the chunking is done at the token level
+            text_splitter = TokenTextSplitter(
+                chunk_size=int(chunk_size / 4), 
+                chunk_overlap=int(chunk_overlap / 4))
+        elif splitter_type == "semantic":
+            text_splitter = SemanticChunker(
+                OpenAIEmbeddings(), 
+                breakpoint_threshold_type="percentile", 
+                number_of_chunks=chunk_size)
+        else:
+            print("Invalid splitter type. Please choose between recursive, character, token, or semantic.")
+        
+        splits = text_splitter.split_documents(documents)
+        del documents
+        print(f"End Spliting texts -- Number of splits: {len(splits)}")
+        
+        # Step 5: Create Chroma vectorstore with embeddings from Sentence Transformers
+        embeddings = embedding_model.embed_documents(
+            [doc.page_content for doc in tqdm(splits, desc="Embedding texts")])
+        print(f"End Embedding texts")
+        # Free GPU cache after generating embeddings
+        torch.cuda.empty_cache()
+        print(f"Start Saving embeddings and splits")
+        np.save(embeddings_file_path, embeddings)
+        with open(splits_file_path, 'wb') as f:
+            pickle.dump(splits, f)
+        doc_metadata = [doc.metadata for doc in splits]  # Save metadata for documents
+        np.save(f"data/embeddings/metadata_{docs_length}_{embedding_model_name}_{splitter_type}_{chunk_size}_{chunk_overlap}.npy", doc_metadata)
+        print(f"embeddings saved in {embeddings_file_path}, splits saved in {splits_file_path}")
     else:
-        print("Invalid splitter type. Please choose between recursive, character, token, or semantic.")
-    
-    splits = text_splitter.split_documents(documents)
-    del documents
-    print(f"End Spliting texts -- Number of splits: {len(splits)}")
-    
-    # Step 5: Create Chroma vectorstore with embeddings from Sentence Transformers
-    embeddings = embedding_model.embed_documents(
-        [doc.page_content for doc in tqdm(splits, desc="Embedding texts")])
-    print(f"End Embedding texts")
-    # Free GPU cache after generating embeddings
-    torch.cuda.empty_cache()
+        print("loading embeddings")
+        # Step 1: Load embeddings from the saved NumPy file
+        embeddings = np.load(embeddings_file_path)
+        with open(splits_file_path, 'rb') as f:
+            splits = pickle.load(f)
+        # Step 2: Load document metadata if needed
+        # doc_metadata = np.load("doc_metadata.npy", allow_pickle=True)
 
     # Step 6: Create the RAG prompting pipeline
     prompt_template = PromptTemplate(
