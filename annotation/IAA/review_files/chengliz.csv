@@ -20,35 +20,35 @@ Doc_id,Question,Answer,question_relevance,answer_correctness
 91-0-0.txt,Where is the Penn State Nittany Lions at Robert Morris Colonials Women's Ice Hockey event held?,Clearview Arena (Formerly RMU Island Sports Center),2,
 124-1-0.txt,What is the address of the Pittsburgh Cultural Trust's administrative offices?,"803 Liberty Avenue Pittsburgh, PA 15222",2,
 26-0-0.txt,Where is Carnegie Mellon University located?,"5000 Forbes Avenue Pittsburgh, PA 15213",2,1
-23255_2024_Operating_Budget-97-0.txt,What is the total projected expenditures of the Special Summer Food Service program in 2024?,"$648,782",,
+23255_2024_Operating_Budget-97-0.txt,What is the total projected expenditures of the Special Summer Food Service program in 2024?,"$648,782",1,1
 127-0-0.txt,Who designed the 25-foot bronze fountain in Agnes R. Katz Plaza?,Louise Bourgeois,2,1
 10-5-0.txt,What is the name of the incline that connects Duquesne Heights and Mount Washington?,Duquesne Incline,2,1
 1-3-0.txt,Who was named after the British Secretary of State William Pitt the Elder?,Fort Pitt,1,1
 1-10-0.txt,How many businesses were in East Liberty in 1979?,98,2,1
 73-0-0.txt,"At what time is the ""December Song Shop"" event?",12:00 PM - 01:00 PM,2,1
-23255_2024_Operating_Budget-66-0.txt,What is the target audience of the Downtown Crisis Response Case Conference?,"Individuals in crisis, experiencing homelessness and extreme poverty, and high engagement with law enforcement and the criminal/legal system.",,
+23255_2024_Operating_Budget-66-0.txt,What is the target audience of the Downtown Crisis Response Case Conference?,"Individuals in crisis, experiencing homelessness and extreme poverty, and high engagement with law enforcement and the criminal/legal system.",2,1
 3-0-0.txt,What is the name of the business district in Pittsburgh where the Allegheny and Monongahela rivers unite?,The Golden Triangle,2,1
-9624_Local_Services_Tax_Regulations-8-0.txt,How long is a refund made within 75 days of a refund request or 75 days after the last day the employer is required to remit the local services tax exempt from interest?,75 days,,
+9624_Local_Services_Tax_Regulations-8-0.txt,How long is a refund made within 75 days of a refund request or 75 days after the last day the employer is required to remit the local services tax exempt from interest?,75 days,2,0
 90-1-0.txt,When is the event featuring the Stanford Cardinal basketball team?,8-Jan-25,0,
 33-6-0.txt,What is the CMU Pantry open for?,2-5 p.m. Weekly (to Dec 20),2,0
-9626_Payroll_Tax_Regulations-9-0.txt,How many days does a person have to appeal the Treasurer's decision to the Court of Common Pleas of Allegheny County?,30,,
-32-2-0.txt,"Who is the director of the opera ""Alcina""?",Seamus Ricci,,
+9626_Payroll_Tax_Regulations-9-0.txt,How many days does a person have to appeal the Treasurer's decision to the Court of Common Pleas of Allegheny County?,30,2,1
+32-2-0.txt,"Who is the director of the opera ""Alcina""?",Seamus Ricci,2,0
 90-1-3.txt,What is the city of Pittsburgh located in?,Pennsylvania,2,1
-109-0-0.txt,Where is the Coop de Ville's all-new chicken biscuit located at PNC Park?,Section 144,,
-1-16-0.txt,What was the name of the redevelopment project in downtown Pittsburgh led by John P. Robin?,Not mentioned,,
-38-1-9.txt,"Who is the presenter of the event ""Speakers Series: Andrew Lloyd Webber"" at Heinz Hall?",Pittsburgh Symphony Orchestra,,
+109-0-0.txt,Where is the Coop de Ville's all-new chicken biscuit located at PNC Park?,Section 144,2,1
+1-16-0.txt,What was the name of the redevelopment project in downtown Pittsburgh led by John P. Robin?,Not mentioned,2,0
+38-1-9.txt,"Who is the presenter of the event ""Speakers Series: Andrew Lloyd Webber"" at Heinz Hall?",Pittsburgh Symphony Orchestra,2,0
 98-0-0.txt,What is the fee for tickets to the Los Angeles Dodgers game at PNC Park?,Prices from $51,0,
-50-1-0.txt,What is the name of the person who is a Grand Finals Winner of Metropolitan Opera’s Laffont Competition?,Emily Richter,,
-85-0.txt,Who is the curator of the Kim Bond exhibition?,Steph Neary & Anastasia James,,
+50-1-0.txt,What is the name of the person who is a Grand Finals Winner of Metropolitan Opera’s Laffont Competition?,Emily Richter,2,1
+85-0.txt,Who is the curator of the Kim Bond exhibition?,Steph Neary & Anastasia James,2,1
 82-6-0.txt,What is the address of Liberty Magic?,"811 Liberty Ave, Pittsburgh Downtown",2,1
-132-0-0.txt,What is the name of the sports and science exhibits opened by Carnegie Science Center in 2001?,Highmark SportsWorks,,
-1-15-0.txt,What was the name of the power firm that turned the lake area into a chemical shore?,Power Firm,,
-0-23-0.txt,In what year was Bill Peduto sworn in as mayor?,2014,,
-9625_Parking_Tax_Regulations-1-0.txt,What is the definition of Valet Parking Services?,A service provided to accommodate patrons of any business establishment,,
-0-35-0.txt,What is the title of the 2017 study about the Greater Pittsburgh Jewish Community?,The 2017 Greater Pittsburgh Jewish Community Study,,
-12-8-0.txt,What is the title of the book by Patterson published in 1932?,Patterson's American Educational Directory,,
-19-22-0.txt,"What is the date of the archived document ""Middle States Accreditation""?",23-Jul-13,,
-111-2-1.txt,What is the name of the Steelers' coach?,Mike Tomlin,,
+132-0-0.txt,What is the name of the sports and science exhibits opened by Carnegie Science Center in 2001?,Highmark SportsWorks,2,1
+1-15-0.txt,What was the name of the power firm that turned the lake area into a chemical shore?,Power Firm,0,
+0-23-0.txt,In what year was Bill Peduto sworn in as mayor?,2014,2,1
+9625_Parking_Tax_Regulations-1-0.txt,What is the definition of Valet Parking Services?,A service provided to accommodate patrons of any business establishment,0,
+0-35-0.txt,What is the title of the 2017 study about the Greater Pittsburgh Jewish Community?,The 2017 Greater Pittsburgh Jewish Community Study,2,1
+12-8-0.txt,What is the title of the book by Patterson published in 1932?,Patterson's American Educational Directory,0,
+19-22-0.txt,"What is the date of the archived document ""Middle States Accreditation""?",23-Jul-13,0,
+111-2-1.txt,What is the name of the Steelers' coach?,Mike Tomlin,2,1
 127-1-0.txt,Who was the first President and CEO of the PCT?,Carol Brown,,
 51-2-0.txt,Who founded Pittsburgh Opera?,Five intrepid women,,
 0-10-0.txt,What percentage of students in Pittsburgh live in areas exceeding the USEPA's 12 micrograms per cubic meter standards?,38%,,
