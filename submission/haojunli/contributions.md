@@ -19,12 +19,14 @@ Haojun Liu (haojunli)
 ### Data Annotation
 
 * Qingyang Liu: Built the QA annotation pipeline, conducted prompt engineering.
-* Chenglin Zhang: Built the question type annotion pipeline based on Qingyang's pipeline, prompt engineering, output the QA set.
+* Chenglin Zhang: Built the question type annotion pipeline, prompt engineering, output the QA set, IAA annotation for 50 QA sets.
+* Haojun Liu: IAA annotation for 50 QA sets.
 
 ### RAG Pipeline
 
 * Qingyang Liu: Implemented the Rerank and Hypocritical Document Generator components. Help implement the dafault RAG pipeline and scripts.
 * Haojun Liu: Implemented the default RAG pipeline and scripts.
+* Chenglin Zhang: Developed draft script for default RAG pipeline.
 
 ### Experiments
 
