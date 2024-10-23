@@ -8,14 +8,14 @@
 
 ### Data Collection
 
-- Chenglin Zhang: Developed scripts for data scraping, initial data processing, cleaned and formatted scraped data, data quality checks.
-- Teammate B: Cleaned and formatted scraped data, implemented data quality checks.
-- Teammate C: Assisted with integrating external data sources into the collection pipeline.
+- Chenglin Zhang: Collected ~50 URLs for scraping, developed scripts for data scraping, initial data processing, cleaned and formatted scraped data, data quality checks.
+- Qingyang Liu: Collected ~50 URLs for scraping, data quality checks.
+- Haojun Liu: Collected ~50 URLs for scraping, data quality checks.
 
 ### Data Annotation
 
-- Teammate A: Annotated instances 1-X.
-- Teammate B: Annotated instances X-Y.
+- Qingyang Liu: Developed the script for
+- Chenglin Zhang: Annotated instances X-Y.
 - Teammate C: Annotated instances Y-Z.
 
 ### Base Retriever and Generation Pipeline
