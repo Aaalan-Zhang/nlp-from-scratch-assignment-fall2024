@@ -13,7 +13,8 @@
 
 {'Exact Match': 49.0, 'F1 Score': 59.70786435786435, 'Answer Recall': 61.61666666666666}    lhj_100_faiss_all-MiniLM-L6-v2
 {'Exact Match': 48.0, 'F1 Score': 57.252344877344875, 'Answer Recall': 59.341666666666654}  171 
-
+{'Exact Match': 43.0, 'F1 Score': 51.77707847707848, 'Answer Recall': 53.12142857142858}    chunksize 2000
+{'Exact Match': 45.0, 'F1 Score': 54.42929292929293, 'Answer Recall': 56.42142857142856}    chunksize 500
 
 {'Exact Match': 44.0, 'F1 Score': 52.700791871000604, 'Answer Recall': 54.344444444444456}  lhj_100_faiss_mmr_all-MiniLM-L6-v2
 
