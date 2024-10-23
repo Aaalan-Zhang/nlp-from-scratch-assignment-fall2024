@@ -44,4 +44,4 @@ Haojun Liu (haojunli)
 
 * Qingyang Liu: Abstract, data annotation, model details (rerank and HyDE part), results.
 * Chenglin Zhang: Overview, data collection, data annotation, model details (hyper-parameter tuning part), results.
-* Haojun Liu: Wrote the analysis section and draft of RAG section.
+* Haojun Liu: Wrote the analysis section and draft of RAG section. Prepared the submission directory.
