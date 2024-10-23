@@ -45,3 +45,5 @@ The subdirectory `./system_outputs` contains three text files:
 The flie `contributions.md` describes the contribution of each team member for this project
 
 The flie `github_url.txt` contains one line which is the url to the entire git repo of this project.
+
+The flie `report.pdf` is the formal report of this project.
