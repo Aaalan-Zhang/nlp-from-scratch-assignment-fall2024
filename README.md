@@ -4,7 +4,7 @@ This is the project repo for 11-711 ANLP Fall 24 Project 2. The specs can be fou
 
 ## How to use
 
-First, it is recommended that you have a machine with GPU with memory > 20GB, CUDA support, and at least 50GB available disk memory. Then, install all the required packages (make sure you are in the root directory of this repo).
+First, it is recommended that you have a machine with GPU with memory > 20GB, CUDA support, and at least 50GB available disk memory. You should also need to have a LangChain API key in hand and a Hugging Face token that can access Llama-3.1 and Llama-3.2. Then, install all the required packages (make sure you are in the root directory of this repo).
 
 ```
 pip install -r requirements
