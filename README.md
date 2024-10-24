@@ -29,7 +29,7 @@ python pipeline/rag_pipeline_new.py \
 --output_file output/baseline_rag.csv
 ```
 
-Please see `.pipeline/rag_pipeline_new.py` for a list of full available argument options.
+Please see `.pipeline/rag_pipeline_new.py` for a full list of available argument options.
 
 To run the evaluation, in the root directory, execute
 
